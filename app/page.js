@@ -1,8 +1,13 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
       <h1>Nordic Health Data <span className="emphasis">Hackathons</span></h1>
-      <img className="banner" src="/health-data-hackathon-banner.png" />
+      <img
+        className="banner"
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH}/health-data-hackathon-banner.png`}
+      />
       <section id="background">
         <a href="#background"><h2>Back&shy;ground</h2></a>
         <p>
@@ -106,7 +111,7 @@ export default function Home() {
           </section>
           <section id="participate-q1-2026-finland">
             <a href="#participate-q1-2026-finland"><h4>Participate</h4></a>
-            <p>See the <a href="./q1-2026-finland">event page</a> for detailed information!</p>
+            <p>See the <Link href="/q1-2026-finland">event page</Link> for detailed information!</p>
           </section>
         </article>
         <article id="q2-2026-sweden">
