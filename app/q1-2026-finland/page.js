@@ -56,25 +56,26 @@ export default function Home() {
       </section>
       <section id="participate-q1-2026-finland">
         <a href="#participate-q1-2026-finland"><h2>Participate</h2></a>
-        <p>Confirmed participants include</p>
+        <p>We will have implementations available at least from</p>
         <ul>
-          <li>Duodecim</li>
-          <li>Epic</li>
-          <li>HippocrAItes</li>
-          <li>IHE Catalyst</li>
-          <li>Gnomon Informatics</li>
-          <li>Sensotrend</li>
+          <li><a href="https://www.duodecim.fi/english/">Duodecim</a></li>
+          <li><a href="https://fhir.epic.com/">Epic</a></li>
+          <li><a href="https://www.gnomon.com.gr/">Gnomon Informatics</a></li>
+          <li><a href="https://hippocraites.fi/">HippocrAItes</a></li>
+          <li><a href="https://ihe-catalyst.net/">IHE Catalyst</a></li>
+          <li><a href="https://www.kanta.fi/en/system-developers">Kela</a></li>
+          <li><a href="https://sensotrend.com/">Sensotrend</a></li>
           {/*
           <li>Apotti</li>
           <li>City of Helsinki</li>
           <li>Evondos</li>
           <li>Forsante</li>
           <li>Google</li>
-          <li>Kela</li>
           <li>Microsoft</li>
           <li>Tietoevry</li>
           */}
         </ul>
+        <p>The list of available implementations is updated up to the start of the event.</p>
         <p>Want to get involved?</p>
         <p>
           Contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
