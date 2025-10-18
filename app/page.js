@@ -154,7 +154,17 @@ export default function Home() {
       <section id="participate">
         <a href="#participate"><h2>Par&shy;tic&shy;i&shy;pate</h2></a>
         <p>All hackathon events are open for all and free to join!</p>
-        <p>See the event pages for additional information.</p>
+        <p>See the event pages for additional information:</p>
+        <ul>
+          <li>
+            <a
+              href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html"
+            >
+              Q4/2025, Norway
+            </a>
+          </li>
+          <li><Link href="/q1-2026-finland">Q1/2026, Finland</Link></li>
+        </ul>
       </section>
     </main>
   );
