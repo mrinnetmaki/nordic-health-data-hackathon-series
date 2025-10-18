@@ -48,10 +48,6 @@ main {
 
 header {
   background: var(--background);
-  container-type: scroll-state; 
-  position: sticky;
-  top: 0;
-  z-index: 10;
   text-align: center;
 }
 
@@ -62,15 +58,26 @@ nav {
 header nav {
   transition: all .3s ease;
   border-bottom: 1px solid var(--color-blue);
-
-  @container scroll-state(stuck: top) {
-    box-shadow: -1px 2px 2px var(--color-blue);
-  }
 }
 
 footer nav {
   border-top: 1px solid var(--color-blue);
 }
+
+header nav li {
+  display: block;
+  margin: auto;
+}
+
+footer nav li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+footer nav li:first-child {
+  margin-left: auto;
+}
+
 
 nav a {
   text-decoration: none;
@@ -134,6 +141,12 @@ section > a:first-child, article > a:first-child {
 }
 
 @media (min-width: 367px) {
+  header {
+    container-type: scroll-state; 
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
   h1 .emphasis {
     display: block;
     font-size: 158.6%;
@@ -143,29 +156,40 @@ section > a:first-child, article > a:first-child {
     padding-bottom: 6px;
     border-bottom: 4.75px solid var(--color-blue);
   }
-  nav li {
+  header nav {
+    @container scroll-state(stuck: top) {
+      box-shadow: -1px 2px 2px var(--color-blue);
+    }
+  }
+  header nav li, footer nav li {
     display: inline-block;
     padding: 0.5em 0;
     margin-right: 1em;
   }
-  nav li:last-child {
+  nav li:last-child, footer nav li {
     margin-right: 0;
   }
 }
 
-/* 16pt x 45em  */
-@media (min-width: 945px) {
+@media (min-width: 525px) {
   header {
     text-align: right;
-  }
-  header nav, footer nav {
-    padding: 0 calc((100vw - 945px) / 2);
   }
   header nav {
     text-align: right;
   }
   header nav .home {
     float: left;
+  }
+  nav li {
+    margin: 0 2em;
+  }
+}
+
+/* 16pt x 45em  */
+@media (min-width: 1000px) {
+  header nav, footer nav {
+    padding: 0 calc((100vw - 945px - 1em) / 2);
   }
   main {
     padding: 0;
@@ -176,9 +200,6 @@ section > a:first-child, article > a:first-child {
   }
   h1 .emphasis {
     font-size: 159%;
-  }
-  nav li {
-    margin: 0 2em;
   }
   nav .home {
     float: left;
