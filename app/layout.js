@@ -1,11 +1,6 @@
 import Link from "next/link";
 import "./globals.css";
 
-export const metadata = {
-  title: "Nordic Health Data Hackathons",
-  description: "A series of health data hackathons in the Nordics",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

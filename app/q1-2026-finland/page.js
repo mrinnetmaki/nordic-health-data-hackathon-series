@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Finnish Health Data Hackathons",
+  description: "The Finnish edition of the Nordic Health Data Hackathon.",
+};
+
 export default function FinnishHealthDataHackathon() {
   return (
     <main>

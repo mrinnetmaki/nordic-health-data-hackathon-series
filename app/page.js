@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Nordic Health Data Hackathons",
+  description: "A series of health data hackathons in the Nordics",
+};
+
 export default function Home() {
   return (
     <main>
@@ -62,57 +67,7 @@ export default function Home() {
             href="https://radicalhealthfestival.messukeskus.com/">Radical Health Festival</a>.
           </p>
           <p>The focus is on patient access to data and on care plans.</p>
-          <p>
-            There will be preparatory webinars in 2025, and the physical event on January 19, 2026.
-          </p>
-          <section id="patient-access-to-data">
-            <a href="#patient-access-to-data"><h4>Patient Access to Data</h4></a>
-            <p>
-              Several initiatives for patient access to health data in Finland and in the EU are
-              present in the hackathon.
-            </p>
-            <p>
-              HL7 Finland has published the <a href="https://hl7.fi/fhir/finnish-smart/">Finnish
-              implementation guide for SMART App Launch</a>. A test environment and support is
-              available for app vendors looking to integrate with for instance Apotti, the Epic
-              installation in Finland.
-            </p>
-            <p>
-              <a href="https://www.kanta.fi/en/professionals/patient-data-repository">Kanta Patient
-              Data Repository</a> is a national service, storing data from primary and secondary
-              care, from both public and private health care providers. Kanta has opened a new <a
-              href="https://www.kanta.fi/en/system-developers/hyvinvointisovellusten-rajapinta">API
-              for patient-facing apps</a>. There is a test environment, and support available for
-              app vendors looking to integrate with the service.
-            </p>
-            <p>
-              The <a href="https://www.kanta.fi/en/system-developers/kanta-phr">Kanta PHR</a
-              > platform is a service for storing and exchanging health and wellness data produced
-              and governed by the individual. There are sandbox and test environments available, as
-              well as support for app vendors looking to integrate with the platform.
-            </p>
-            <p>
-              <a href="https://xshare-project.eu/">xShare</a> is a three-year Horizon Europe
-              project envisioning everyone sharing their health data in European Electronic Health
-              Record Exchange Format (EEHRxF), with a click-of-a-button. See the <a
-              href="https://xshare-project.eu/news/xshare-open-call-2025-call-for-early-adopters-of-the-xshare-yellow-button/"
-              >Open Call 2025</a> for early adopters of the xShare Yellow Button, and information
-              on the <a href="https://xshare-project.eu/xshare-industry-label/">xShare Industry
-              Label</a>.
-            </p>
-          </section>
-          <section id="care-plans">
-            <a href="#care-plans"><h4>Care Plans</h4></a>
-            <p>
-              Several companies are looking to integrate their care plan implementations through
-              FHIR APIs. There are structured care plan definitions, and apps for patients and
-              providers. One connecting theme is diabetes, other areas are being investigated.
-            </p>
-          </section>
-          <section id="participate-q1-2026-finland">
-            <a href="#participate-q1-2026-finland"><h4>Participate</h4></a>
-            <p>See the <Link href="/q1-2026-finland">event page</Link> for detailed information!</p>
-          </section>
+          <p>See the <Link href="/q1-2026-finland">event page</Link> for detailed information!</p>
         </article>
         <article id="q2-2026-sweden">
           <a href="#q2-2026-sweden"><h3>Q2/2026 Sweden, Vitalis</h3></a>
@@ -121,6 +76,7 @@ export default function Home() {
             <a href="https://vitalis.nu/">Vitalis</a> conference.
           </p>
           <p>The focus is on national base profiles and on terminology.</p>
+          {/*
           <section id="base-profiles">
             <a href="#base-profiles"><h4>Base Profiles</h4></a>
             <p>
@@ -138,6 +94,7 @@ export default function Home() {
             <a href="#terminology"><h4>Terminology</h4></a>
             <p>The terminology track will continue from the Norwegian event.</p>
           </section>
+          */}
         </article>
         <article id="q3-2026-denmark">
           <a href="#q3-2026-denmark"><h3>Q3/2026 Denmark</h3></a>
