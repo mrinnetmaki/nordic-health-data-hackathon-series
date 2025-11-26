@@ -38,14 +38,14 @@ export default function Home() {
         <article id="q4-2025-norway">
           <a href="#q4-2025-norway"><h3>Q4/2025 Norway, EHiN</h3></a>
           <p>
-            The first hackathon starts with virtual pre-meetings on <time dateTime="2025-10-27"
+            The first hackathon started with virtual pre-meetings on <time dateTime="2025-10-27"
             >October 27</time> and <time dateTime="2025-11-03">November 3</time> at <time
-            dateTime="09:00+01:00">9-11 CET</time>. The physical meeting takes place as an official
+            dateTime="09:00+01:00">9-11 CET</time>. The physical meeting took place as an official
             side-event of the <a href="https://ehin.no/">EHiN conference</a> in <a
             href="https://xmeetingpoint.no/en/">X Meeting Point</a> in Hellerudsletta, just outside
             Oslo.
           </p>
-          <p>The focus is on:</p>
+          <p>The focus was on:</p>
           <ul>
             <li>
               remote monitoring, observations and vital signs, integration of HL7 FHIR and OpenEHR
@@ -57,16 +57,19 @@ export default function Home() {
           <p>
             See the separate web site for <a
             href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html"
-            >Norwegian FHIR Hackathon</a> 2025 for detailed information!
+            >Norwegian FHIR Hackathon</a> 2025 for detailed information and results!
           </p>
         </article>
-        <article id="q1-2026-finland">
+        <article id="q1-2026-finland" className="highlight">
           <a href="#q1-2026-finland"><h3>Q1/2026 Finland, Radical Health Festival</h3></a>
           <p>
             The second hackathon takes place in Helsinki, Finland, connected to the <a
             href="https://radicalhealthfestival.messukeskus.com/">Radical Health Festival</a>.
           </p>
-          <p>The focus is on patient access to data and on care plans.</p>
+          <p>
+            The focus is on patient access to data and on care plans and computable care
+            guidelines.
+          </p>
           <p>See the <Link href="/q1-2026-finland">event page</Link> for detailed information!</p>
         </article>
         <article id="q2-2026-sweden">
