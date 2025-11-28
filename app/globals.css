@@ -157,9 +157,11 @@ section > a:first-child, article > a:first-child {
     border-bottom: 4.75px solid var(--color-blue);
   }
   header nav {
+    /*
     @container scroll-state(stuck: top) {
       box-shadow: -1px 2px 2px var(--color-blue);
     }
+    */
   }
   header nav li, footer nav li {
     display: inline-block;
