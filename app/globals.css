@@ -78,7 +78,6 @@ footer nav li:first-child {
   margin-left: auto;
 }
 
-
 nav a {
   text-decoration: none;
 }
@@ -101,6 +100,22 @@ h1 {
 h2 {
   padding-bottom: 6px;
   border-bottom: 4.75px solid var(--color-blue);
+  font-size: xx-large;
+}
+
+h3 {
+  margin-top: 1em;
+  font-size: x-large;
+}
+
+h4 {
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+h4 + p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 .banner {
@@ -128,6 +143,10 @@ p + ul {
 
 article, article > section {
   padding-top: 2em;
+}
+
+main > section > section {
+  padding-top: 1.5em;
 }
 
 section > a:first-child, article > a:first-child {

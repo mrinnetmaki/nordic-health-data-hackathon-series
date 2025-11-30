@@ -15,77 +15,175 @@ export default function FinnishHealthDataHackathon() {
       </p>
       <p>The focus is on patient access to data and on care plans.</p>
       <p>
-        There will be preparatory webinars in 2025, and the physical event on January 19, 2026.
+        There will be preparatory webinars in 2025, and the physical event on January 19-21, 2026.
       </p>
-      <section id="patient-access-to-data">
-        <a href="#patient-access-to-data"><h2>Patient Access to Data</h2></a>
+      <section id="tracks">
+        <a href="#tracks"><h2>Tracks</h2></a>
         <p>
-          Several initiatives for patient access to health data in Finland and in the EU are
-          present in the hackathon. There's plenty of opportunities to choose from on this track!
+          There are two planned tracks on the hackathon, one focused on patient access and another
+          focused on care plans.
         </p>
-        <section id="smart">
-          <h3>Finnish SMART</h3>
+        <section id="patient-access">
+          <a href="#patient-access"><h3>Patient Access to Health Data</h3></a>
           <p>
-            HL7 Finland has published the <a href="https://hl7.fi/fhir/finnish-smart/">Finnish
-            implementation guide for SMART App Launch</a>. The affiliate is looking for feedback on
-            the present version of the guide, and ideas for future development.
+            There are several initiatives working on patient access to health data, both in Finland
+            and internationally.
+          </p>
+          <Link href="/track-patient-access-1">See details!</Link>
+        </section>
+        <section id="care-plans">
+          <a href="#care-plans"><h3>Care Plans and Computable Care Guidelines</h3></a>
+          <p>Several participants have an interest to work on structured care plans.</p>
+          <Link href="/track-care-plans-1">See details!</Link>
+        </section>
+        <section id="more-tracks">
+          <a href="#more-tracks"><h3>More Tracks?</h3></a>
+          <p>Do you want to work on something else? Feel free to propose a new track!</p>
+        </section>
+      </section>
+      <section id="webinars">
+        <a href="#webinars"><h2>Webinars</h2></a>
+        <p>
+          There will be preparatory webinars in December, introducing the different tracks and the
+          available technologies.
+        </p>
+        <p>Currently scheduled webinars include:</p>
+        <ul id="schedule">
+          <li>
+            <h4>General intro to the hackathon</h4>
+            <time dateTime="2025-12-10T17:00:00+02:00">
+              Wednesday, December 10, 2025 at 18:00 EET (17:00 CET)
+            </time>
+          </li>
+          <li>
+            <h4>Patient Access track info</h4>
+            <time dateTime="2025-12-15T18:00:00+02:00">
+              Monday, December 15, 2025 at 18:00 EET (17:00 CET)
+            </time>
+          </li>
+          {/*
+
+            <p>
+              <a href="">Teams link</a>
+            </p>
+            <p>
+              <a href="">Calendar event</a>
+            </p>
+
+- General intro to the hackathon:  Wednesday December 10, 17.00 CET
+- Patient Access track: Monday December 15, 17.00 CET
+- Care Plans and Computable Guidelines: Wednesday December 17, 17.00 CET
+
+          <li>Patient Access to Data in Finland - December 10, 2025</li>
+          <li>FHIR Implementation Guide for SMART App Launch in Finland - December 12, 2025</li>
+          <li>Care Plans and Computable Care Guidelines - December 17, 2025</li>
+
+        <p>
+          You can add the <a href="">calendar</a> containing all webinars to your own calendar
+          application.
+        </p>
+
+
+          */}
+        </ul>
+        <p>Participation details will be added soon.</p>
+        <p>There may still be changes to the schedule!</p>
+        <p>
+          The full list of topics, dates and times of the webinars will be announced later. Keep an
+          eye on this page for updates!
+        </p>
+      </section>
+      <section id="practicalities">
+        <a href="#practicalities"><h2>Practicalities</h2></a>
+        <section id="time">
+          <a href="#time"><h3>Time</h3></a>
+          <p>
+            The main event will take place on <time dateTime="2026-01-19">Monday, January 19,
+            2026</time>, starting at <time dateTime="2026-01-19T09:00:00+02:00">9:00 EEST</time>.
+          </p>
+          <p>
+            Some tracks continue on <time dateTime="2026-01-20">Tuesday, January 20, 2026</time>.
+          </p>
+          <p>
+            The results of the hackathon are presented to the audiences of both the <a
+            href="">Radical Health Festival</a> and the <a
+            href="https://laakaripaivat.messukeskus.com/en/">Finnish Medical Convention</a> (<a
+            href="https://laakaripaivat.fi/"><i lang="fi">Lääkäripäivät</i></a>) on <time
+            dateTime="2026-01-21">Wednesday, January 21, 2026</time>.
           </p>
         </section>
-        <section id="apotti">
-          <h3>Apotti</h3>
+        <section id="venue">
+          <a href="#venue"><h3>Venue</h3></a>
+          <h4>Monday, Kuntatalo</h4>
           <p>
-            Apotti is an Epic installation in Finland. You can connect to their rich APIs. See
-            entry-level instructions at Apotti's <a
-            href="https://www.apotti.fi/en/the-apotti-ecosystem/">ecosystem</a> page!
+            On Monday, the venue is <a href="https://kuntasaatio.fi/toiminta/kuntatalo/"
+            >Kuntatalo</a>
+          </p>
+          <address>
+            Toinen linja 14<br />
+            00530 Helsinki<br />
+          </address>
+          <p>
+            See Kuntatalo on <a href="https://maps.app.goo.gl/iqGTG8xRGKxhHCGEA">Google Maps</a>!
+          </p>
+          <h4>Tuesday and Wednesday, Messukeskus</h4>
+          <p>
+            On Tuesday and Wednesday, the venue is <a href="https://www.messukeskus.com/"
+            >Messukeskus</a>
+          </p>
+          <address>
+            Rautatieläisenkatu 3<br />
+            00520 Helsinki<br />
+          </address>
+          <p>
+            See Messukeskus on <a href="https://maps.app.goo.gl/iqGTG8xRGKxhHCGEA">Google Maps</a>!
+          </p>
+          <p>
+            See the <a
+            href="https://radicalhealthfestival.messukeskus.com/en/visit/how-to-get-here/">arrival
+            instructions</a> on Messukeskus website. Use the entrance for meeting guests.
           </p>
         </section>
-        <section id="kanta">
-          <h3>Kanta</h3>
+        <section id="costs">
+          <a href="#costs"><h3>Costs</h3></a>
           <p>
-            HL7 Finland has published the <a href="https://hl7.fi/fhir/finnish-smart/">Finnish
-            implementation guide for SMART App Launch</a>. A test environment and support is
-            available for app vendors looking to integrate with for instance Apotti, the Epic
-            installation in Finland.
+            You don't need to pay any fees to participate to the hackathon. It is free to attend.
           </p>
           <p>
-            <a href="https://www.kanta.fi/en/professionals/patient-data-repository">Kanta Patient
-            Data Repository</a> is a national service, storing data from primary and secondary
-            care, from both public and private health care providers. Kanta has opened a new <a
-            href="https://www.kanta.fi/en/system-developers/hyvinvointisovellusten-rajapinta">API
-            for patient-facing apps</a>. Kanta also has a Personal Health Record part.
-          </p>
-          <p>Read more details on the <Link href="/kanta">Kanta</Link> page!</p>
-        </section>
-        <section id="xshare">
-          <h3>xShare</h3>
-          <p>
-            <a href="https://xshare-project.eu/">xShare</a> is a three-year Horizon Europe project
-            envisioning everyone sharing their health data in European Electronic Health Record
-            Exchange Format (EEHRxF), with a click-of-a-button. See the <a
-            href="https://xshare-project.eu/news/xshare-open-call-2025-call-for-early-adopters-of-the-xshare-yellow-button/"
-            >Open Call 2025</a> for early adopters of the xShare Yellow Button, and information
-            on the <a href="https://xshare-project.eu/xshare-industry-label/">xShare Industry
-            Label</a>.
+            You are not paid any reimbursement for participating to the hackathon. Some tracks may
+            offer prizes for the best implementations, but this depends on the track organizers.
           </p>
         </section>
       </section>
-      <section id="care-plans">
-        <a href="#care-plans"><h2>Care Plans</h2></a>
+
+      <section id="results">
+        <a href="#results"><h2>Results</h2></a>
         <p>
-          Several companies are looking to integrate their care plan implementations through
-          FHIR APIs. There are structured care plan definitions, and apps for patients and
-          providers. One connecting theme is diabetes, other areas are being investigated.
+          What happens in the hackathon, stays in the hackathon - if you so wish. The hackathon is
+          meant for experimenting and learning, and you can choose whether you want to share your
+          results with others or not.
         </p>
         <p>
-          The track will also explore the potential of clinical decision support and computable
-          care guidelines.
+          While each participant is free to choose what to share, each track is expected to produce
+          some reportable results by the end of the hackathon. This can be code, documentation,
+          blog posts, videos, or anything else that demonstrates what has been done during the
+          hackathon.
+        </p>
+        <p>
+          The results are presented to the audiences of both the <a
+          href="">Radical Health Festival</a> and the <a
+          href="https://laakaripaivat.messukeskus.com/en/">Finnish Medical Convention</a> (<a
+          href="https://laakaripaivat.fi/"><i lang="fi">Lääkäripäivät</i></a>) on <time
+          dateTime="2026-01-21">Wednesday, January 21, 2026</time>.
         </p>
       </section>
-      <section id="participate-q1-2026-finland">
-        <a href="#participate-q1-2026-finland"><h2>Participate</h2></a>
+
+      <section id="participate">
+        <a href="#participate"><h2>Participate</h2></a>
         <p>We will have implementations available at least from</p>
         <ul>
-          <li><a href="https://www.duodecim.fi/english/">Duodecim</a></li>
+          <li><a href="https://www.apotti.fi/en/the-apotti-ecosystem/">Apotti</a></li>
+          <li><a href="https://www.hel.fi/en">City of Helsinki</a></li>
           <li><a href="https://www.duodecim.fi/english/">Duodecim</a></li>
           <li><a href="https://fhir.epic.com/">Epic</a></li>
           <li><a href="https://www.gnomon.com.gr/">Gnomon Informatics</a></li>
@@ -95,8 +193,6 @@ export default function FinnishHealthDataHackathon() {
           <li><a href="https://otos.health/">Otos Health</a></li>
           <li><a href="https://sensotrend.com/">Sensotrend</a></li>
           {/*
-          <li>Apotti</li>
-          <li>City of Helsinki</li>
           <li>Evondos</li>
           <li>Forsante</li>
           <li>Google</li>
@@ -105,10 +201,11 @@ export default function FinnishHealthDataHackathon() {
           */}
         </ul>
         <p>The list of available implementations is updated up to the start of the event.</p>
-        <p>Want to get involved?</p>
+        <p>We're working on getting a registration system in place.</p>
         <p>
-          Contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
-          href="mailto:heidi.hakala@productivityleap.com">heidi.hakala@productivityleap.com</a>
+          In the mean time, if you want to get listed on this page, or if you want to propose an
+          additional track, please contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
+          href="mailto:heidi.hakala@productivityleap.com">heidi.hakala@productivityleap.com</a>!
         </p>
       </section>
     </main>
