@@ -11,7 +11,7 @@ export default function PatientAccessTrack() {
       <h1>Patient Access Track</h1>
       <p>
         Several initiatives for patient access to health data in Finland and in the EU are
-        present in the hackathon. There's plenty of opportunities to choose from on this track!
+        present in the hackathon. There are plenty of opportunities to choose from on this track!
       </p>
       <section id="smart">
         <h3>Finnish SMART</h3>
@@ -25,7 +25,7 @@ export default function PatientAccessTrack() {
         <h3>Apotti</h3>
         <p>
           Apotti is an Epic installation in Finland. You can connect to their rich APIs. See
-          entry-level instructions at Apotti's <a
+          entry-level instructions at Apotti&apos;s <a
           href="https://www.apotti.fi/en/the-apotti-ecosystem/">ecosystem</a> page!
         </p>
       </section>

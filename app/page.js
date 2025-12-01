@@ -9,10 +9,13 @@ export default function Home() {
   return (
     <main>
       <h1>Nordic Health Data <span className="emphasis">Hackathons</span></h1>
-      <img
-        className="banner"
-        src={`${process.env.NEXT_PUBLIC_BASE_PATH}/health-data-hackathon-banner.png`}
-      />
+      <picture>
+        <img
+          className="banner"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/health-data-hackathon-banner.png`}
+          alt=""
+        />
+      </picture>
       <section id="background">
         <a href="#background"><h2>Back&shy;ground</h2></a>
         <p>

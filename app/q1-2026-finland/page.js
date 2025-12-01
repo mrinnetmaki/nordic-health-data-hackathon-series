@@ -161,7 +161,7 @@ export default function FinnishHealthDataHackathon() {
             There are no participation costs associated to the hackathon.
           </p>
           <p>
-            You don't need to pay any fees to participate to the hackathon. It is free to attend.
+            You don&apos;t need to pay any fees to participate to the hackathon. It is free to attend.
           </p>
           <p>
             You are not paid any reimbursement for participating to the hackathon.
@@ -218,7 +218,7 @@ export default function FinnishHealthDataHackathon() {
           */}
         </ul>
         <p>The list of available implementations is updated up to the start of the event.</p>
-        <p>We're working on getting a registration system in place.</p>
+        <p>We&apos;re working on getting a registration system in place.</p>
         <p>
           In the mean time, if you want to get listed on this page, or if you want to propose an
           additional track, please contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
