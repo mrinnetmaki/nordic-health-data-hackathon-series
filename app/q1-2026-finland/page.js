@@ -54,6 +54,20 @@ export default function FinnishHealthDataHackathon() {
             <time dateTime="2025-12-10T17:00:00+02:00">
               Wednesday, December 10, 2025 at 18:00 EET (17:00 CET)
             </time>
+            <p>
+              <a
+              href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZmZhOGQ0MTItMDc3ZS00YTUyLWE5MWEtZDk2ZDM2YjI1ZGY5%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522ca4ef9a8-6017-4d6f-b345-ed904be37123%2522%252c%2522Oid%2522%253a%25225f7c049e-16dc-4481-bfb3-ff79b4f28d4e%2522%257d%26launchAgent%3DGSuiteAddOn%26correlationId%3D48e52054-4c9e-4f0d-9344-bc9c3a0fce94%26anon%3Dtrue&type=meetup-join&deeplinkId=72488453-2a36-498c-8611-72b238cbbbed&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true"
+              >Teams link</a>
+            </p>
+            <p>
+              Calendar event: <a target="_blank"
+              href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NTJ2czBjMmpnMWpoY2N0Zjk4bGxhczlpNzggYjYyOTgxZWQ1YWJmYzk0ZmUxNTllZTY4NTIyYTc3N2ZjYjEzMmFlMDU5NDI4MjA5YTgwMWUzYTliMTlmMDUyYkBn&amp;tmsrc=b62981ed5abfc94fe159ee68522a777fcb132ae059428209a801e3a9b19f052b%40group.calendar.google.com"
+              ><img border="0"
+              src="https://calendar.google.com/calendar/images/ext/gc_button1_fi.gif"
+              alt="Google Calendar" /></a>
+
+            </p>
+
           </li>
           <li>
             <h4>Patient Access track info</h4>
@@ -63,12 +77,6 @@ export default function FinnishHealthDataHackathon() {
           </li>
           {/*
 
-            <p>
-              <a href="">Teams link</a>
-            </p>
-            <p>
-              <a href="">Calendar event</a>
-            </p>
 
 - General intro to the hackathon:  Wednesday December 10, 17.00 CET
 - Patient Access track: Monday December 15, 17.00 CET
@@ -78,10 +86,6 @@ export default function FinnishHealthDataHackathon() {
           <li>FHIR Implementation Guide for SMART App Launch in Finland - December 12, 2025</li>
           <li>Care Plans and Computable Care Guidelines - December 17, 2025</li>
 
-        <p>
-          You can add the <a href="">calendar</a> containing all webinars to your own calendar
-          application.
-        </p>
 
 
           */}
@@ -92,6 +96,13 @@ export default function FinnishHealthDataHackathon() {
           The full list of topics, dates and times of the webinars will be announced later. Keep an
           eye on this page for updates!
         </p>
+        <p>
+          You can add the <a
+          href="https://calendar.google.com/calendar/u/0?cid=YjYyOTgxZWQ1YWJmYzk0ZmUxNTllZTY4NTIyYTc3N2ZjYjEzMmFlMDU5NDI4MjA5YTgwMWUzYTliMTlmMDUyYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+          >calendar</a> containing all webinars and hackathon events to your own calendar
+          application.
+        </p>
+
       </section>
       <section id="practicalities">
         <a href="#practicalities"><h2>Practicalities</h2></a>
@@ -147,11 +158,17 @@ export default function FinnishHealthDataHackathon() {
         <section id="costs">
           <a href="#costs"><h3>Costs</h3></a>
           <p>
+            There are no participation costs associated to the hackathon.
+          </p>
+          <p>
             You don't need to pay any fees to participate to the hackathon. It is free to attend.
           </p>
           <p>
-            You are not paid any reimbursement for participating to the hackathon. Some tracks may
-            offer prizes for the best implementations, but this depends on the track organizers.
+            You are not paid any reimbursement for participating to the hackathon.
+          </p>
+          <p>
+            Some tracks may offer prizes for the best implementations, but this depends on the
+            track organizers.
           </p>
         </section>
       </section>
