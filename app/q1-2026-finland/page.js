@@ -193,8 +193,14 @@ export default function FinnishHealthDataHackathon() {
           href="https://laakaripaivat.fi/"><i lang="fi">Lääkäripäivät</i></a>) on <time
           dateTime="2026-01-21">Wednesday, January 21, 2026</time>.
         </p>
+        <p>
+          There is also an excellent opportunity for hackathon participants to demonstrate their
+          products and projecta at the <a
+          href="https://radicalhealthfestival.messukeskus.com/programme/networking/innovation-village/"
+          >Innovation Village</a> of the Radical Health Festival, also open for attendees of both
+          the Festival and the Finnish Medical Convention.
+        </p>
       </section>
-
       <section id="participate">
         <a href="#participate"><h2>Participate</h2></a>
         <p>We will have implementations available at least from</p>
@@ -203,12 +209,16 @@ export default function FinnishHealthDataHackathon() {
           <li><a href="https://www.hel.fi/en">City of Helsinki</a></li>
           <li><a href="https://www.duodecim.fi/english/">Duodecim</a></li>
           <li><a href="https://fhir.epic.com/">Epic</a></li>
+          <li><a href="https://findynet.fi/en/">Findynet</a></li>
+          <li><a href="https://forsante.com/en/">Forsante</a></li>
           <li><a href="https://www.gnomon.com.gr/">Gnomon Informatics</a></li>
           <li><a href="https://hippocraites.fi/">HippocrAItes</a></li>
           <li><a href="https://ihe-catalyst.net/">IHE Catalyst</a></li>
           <li><a href="https://www.kanta.fi/en/system-developers">Kela</a></li>
+          <li><a href="https://myhealthmyhands.eu/">MyHealth@MyHands</a></li>
           <li><a href="https://otos.health/">Otos Health</a></li>
           <li><a href="https://sensotrend.com/">Sensotrend</a></li>
+          <li><a href="https://www.scytales.com/">Scytáles</a></li>
           {/*
           <li>Evondos</li>
           <li>Forsante</li>

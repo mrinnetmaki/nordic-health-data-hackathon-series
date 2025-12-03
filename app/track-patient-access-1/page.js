@@ -14,7 +14,7 @@ export default function PatientAccessTrack() {
         present in the hackathon. There are plenty of opportunities to choose from on this track!
       </p>
       <section id="smart">
-        <h3>Finnish SMART</h3>
+        <h3>Finnish SMART App Launch</h3>
         <p>
           HL7 Finland has published the <a href="https://hl7.fi/fhir/finnish-smart/">Finnish
           implementation guide for SMART App Launch</a>. The affiliate is looking for feedback on
@@ -22,23 +22,74 @@ export default function PatientAccessTrack() {
         </p>
       </section>
       <section id="apotti">
-        <h3>Apotti</h3>
+        <h3>City of Helsinki / Apotti / Epic</h3>
+        <p>
+          The <a href="https://www.hel.fi/en">City of Helsinki</a> is looking for ideas on how to
+          improve patient access to data in Apotti, especially through the <a
+          href="https://www.maisa.fi/">Maisa</a> patient portal.
+        </p>
         <p>
           Apotti is an Epic installation in Finland. You can connect to their rich APIs. See
           entry-level instructions at Apotti&apos;s <a
           href="https://www.apotti.fi/en/the-apotti-ecosystem/">ecosystem</a> page!
+        </p>
+        <p>
+          The EHR vendor <a href="https://www.epic.com/">Epic</a> is a strong supporter of the HL7®
+          FHIR® standard as the future of REST-based interoperability. They support over 500 FHIR
+          APIs across 57 resources in accordance with the HL7 FHIR standard. This spans the DSTU2,
+          STU3, and R4 versions of the FHIR specification. They continue to regularly grow their
+          number of supported FHIR APIs. Organizations can grant access to these resources via the
+          search and read/write RESTful APIs that are defined by FHIR. Epic deployments in Denmark,
+          Finland, and Norway make use of Epic's integration capabilities - FHIR and beyond - every
+          day. You can find out more at <a href="https://open.epic.com/CountrySpecific/"
+          >https://open.epic.com/CountrySpecific/</a>.
+        </p>
+        <p>
+          The track leads share the vision where Apotti is an excellent springboard to global
+          markets for Finnish health tech companies. The companies can integrate their products
+          with healthcare system workflows and get initial validation through Apotti, and then
+          scale global through Epic's customer base, and beyond.
         </p>
       </section>
       <section id="kanta">
         <h3>Kanta</h3>
         <p>
           <a href="https://www.kanta.fi/en/professionals/patient-data-repository">Kanta Patient
-          Data Repository</a> is a national service, storing data from primary and secondary
-          care, from both public and private health care providers. Kanta has opened a new <a
+          Data Repository</a> is a Finnish national service, storing data from primary and
+          secondary care, from both public and private health care providers. Kanta has opened a
+          new <a
           href="https://www.kanta.fi/en/system-developers/hyvinvointisovellusten-rajapinta">API
-          for patient-facing apps</a>. Kanta also has a Personal Health Record part.
+          for patient-facing apps</a>. There is a test environment and support available for app
+          developers looking to integrate with the service.
         </p>
-        <p>Read more details on the <Link href="/kanta">Kanta</Link> page!</p>
+        <p>
+          To get concrete implementation results during the hackathon, it is adviced to get started
+          well in advance. Access to the test environment requires some bureaucracy and contracts,
+          and a specific SSL client certificate issued by DVV.
+        </p>
+        <p>
+          However, you can also use the track to learn about Kanta APIs, discuss with Kela, and to
+          plan future integration work.
+        </p>
+        <p>
+          Another Kanta service, the <a href="https://www.kanta.fi/en/system-developers/kanta-phr"
+          >Kanta PHR</a> is a platform for storing and exchanging health and wellness data produced
+          and governed by the individual.
+        </p>
+        <p>
+          Developer support for Kanta PHR is being ramped down, as the feature will be undergoing
+          major changes in the future, to be aligned with the new <a
+          href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202500327#art_5"
+          >Right of natural persons to insert information in their own EHR</a> set by the European
+          Health Data Space (EHDS) regulation.
+        </p>
+        <p>
+          However, the documentation and the <a
+          href="https://simplifier.net/guide/finnishphrimplementationguidestu5/finnishphrimplementationguidehomepage?version=current"
+          >implementation guides</a> are available, and it is possible to learn from them, discuss
+          them, and even set up a development server to validate your implementation against the
+          profiles.
+        </p>
       </section>
       <section id="xshare">
         <h3>xShare</h3>
@@ -51,6 +102,37 @@ export default function PatientAccessTrack() {
           on the <a href="https://xshare-project.eu/xshare-industry-label/">xShare Industry
           Label</a>.
         </p>
+      </section>
+      <section id="wallets">
+        <h3>Health Data and Identity Wallets</h3>
+        <p>
+          The EU project <a href="https://myhealthmyhands.eu/">MyHealth@MyHands</a> aims to ensure
+          that all EU citizens have secure online access to their medical records. The project
+          focuses on the role of identity wallets in enabling this access.
+        </p>
+        <p>
+          At the hackathon, the project will demonstrate a concept of the data chain involving <a
+          href="https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/694487738/EU+Digital+Identity+Wallet+Home"
+          >EUDI Wallets</a>, eHealth apps, national contact point infrastructure <a
+          href="https://code.europa.eu/ehdsi/ehealth">EU MyHealth@EU OpenNCP</a>, and more -
+          purpose-built for exploration and demonstrations.
+        </p>
+        <p>
+          <a href="https://mydata.org">MyData Global</a>, funded by the <a
+          href="https://www.nkk.org/en/">Nordic Culture Point</a> coordinates an Infrastructure
+          Pilot for Wallets and AI focused on identity wallets and the <a
+          href="https://international-patient-summary.net/">International Patient Summary</a> (IPS)
+          specification. The pilot explores:
+        </p>
+        <ul>
+          <li>
+            how a patient summary document can be generated, with the help of artificial
+            intelligence, out of health data from different sources
+          </li>
+          <li>
+            how digital wallets can facilitate storing and sharing patient summary documents.
+          </li>
+        </ul>
       </section>
     </main >
   );
