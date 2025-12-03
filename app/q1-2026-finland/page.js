@@ -197,7 +197,7 @@ export default function FinnishHealthDataHackathon() {
         </p>
         <p>
           There is also an excellent opportunity for hackathon participants to demonstrate their
-          products and projecta at the <a
+          products and projects at the <a
           href="https://radicalhealthfestival.messukeskus.com/programme/networking/innovation-village/"
           >Innovation Village</a> of the Radical Health Festival, also open for attendees of both
           the Festival and the Finnish Medical Convention.
