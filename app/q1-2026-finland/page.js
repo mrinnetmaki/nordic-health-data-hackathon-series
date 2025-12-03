@@ -10,12 +10,14 @@ export default function FinnishHealthDataHackathon() {
     <main>
       <h1>Finnish Health Data Hackathon</h1>
       <p>
-        This hackathon takes place in Helsinki, Finland, connected to the <a
-        href="https://radicalhealthfestival.messukeskus.com/">Radical Health Festival</a>.
+        This hackathon takes place in Helsinki, Finland, connected to both the <a
+        href="https://radicalhealthfestival.messukeskus.com/">Radical Health Festival</a> and the <a
+        href="https://www.hl7.fi/kokoukset-ja-tapahtumat/hl7-finland-30th-anniversary-symposium/"
+        >30th Anniversary Symposium of HL7 Finland</a>.
       </p>
-      <p>The focus is on patient access to data and on care plans.</p>
+      <p>The focus of the hackathon is on patient access to data and on care plans.</p>
       <p>
-        There will be preparatory webinars in 2025, and the physical event on January 19-21, 2026.
+        There are preparatory webinars in 2025, and the physical event on January 19-21, 2026.
       </p>
       <section id="tracks">
         <a href="#tracks"><h2>Tracks</h2></a>
