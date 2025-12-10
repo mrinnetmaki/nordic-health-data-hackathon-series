@@ -40,15 +40,15 @@ export default function PatientAccessTrack() {
           STU3, and R4 versions of the FHIR specification. They continue to regularly grow their
           number of supported FHIR APIs. Organizations can grant access to these resources via the
           search and read/write RESTful APIs that are defined by FHIR. Epic deployments in Denmark,
-          Finland, and Norway make use of Epic's integration capabilities - FHIR and beyond - every
-          day. You can find out more at <a href="https://open.epic.com/CountrySpecific/"
+          Finland, and Norway make use of Epic&apos;s integration capabilities - FHIR and beyond -
+          every day. You can find out more at <a href="https://open.epic.com/CountrySpecific/"
           >https://open.epic.com/CountrySpecific/</a>.
         </p>
         <p>
           The track leads share the vision where Apotti is an excellent springboard to global
           markets for Finnish health tech companies. The companies can integrate their products
           with healthcare system workflows and get initial validation through Apotti, and then
-          scale global through Epic's customer base, and beyond.
+          scale global through Epic&apos;s customer base, and beyond.
         </p>
       </section>
       <section id="kanta">
