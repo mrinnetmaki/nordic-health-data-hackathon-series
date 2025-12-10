@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import "./finland.css";
+
 export const metadata = {
   title: "Finnish Health Data Hackathons",
   description: "The Finnish edition of the Nordic Health Data Hackathon.",
@@ -7,15 +9,73 @@ export const metadata = {
 
 export default function FinnishHealthDataHackathon() {
   return (
-    <main>
+    <main id="fi">
       <h1>Finnish Health Data Hackathon</h1>
+      <section className="ingress">
+        <p>
+          <span>
+            Organized by{' '}
+          </span>
+          <a href="">
+            <picture className="large">
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
+            </picture>
+          </a>
+          <span>
+            in collaboration with{' '}
+          </span>
+          <a href="">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-denmark.png`} alt="HL7 Denmark" />
+            </picture>
+          </a>,{' '}
+          <a href="https://www.hl7.no/">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-norway.png`} alt="HL7 Norway" />
+            </picture>
+          </a>, and{' '}
+          <a href="">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-sweden.png`} alt="HL7 Sweden" />
+            </picture>
+          </a>,{' '}
+          <span>
+            supported by{' '}
+          </span>
+          <a href="">
+            <picture>
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/helsinki.svg`}
+                alt="City of Helsinki"
+              />
+            </picture>
+          </a>,{' '}
+          <a href="">
+            <picture>
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/ihe-catalyst.svg`}
+                alt="IHE Catalyst"
+              />
+            </picture>
+          </a>, and{' '}
+          <a href="">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/sensotrend.svg`} alt="Sensotrend" />
+            </picture>
+          </a>,{' '}
+          <span>
+          and made possible by dozens of volunteers!
+          </span>
+        </p>
+      </section>
       <p>
         This hackathon takes place in Helsinki, Finland, connected to the <a
         href="https://radicalhealthfestival.messukeskus.com/">Radical Health Festival</a>.
       </p>
       <p>The focus is on patient access to data and on care plans.</p>
       <p>
-        There will be preparatory webinars in 2025, and the physical event on January 19-21, 2026.
+        Preparatory webinars are organized in December 2025, and the physical event takes place on
+        January 19-21, 2026.
       </p>
       <section id="tracks">
         <a href="#tracks"><h2>Tracks</h2></a>
@@ -225,6 +285,9 @@ export default function FinnishHealthDataHackathon() {
           href="mailto:heidi.hakala@productivityleap.com">heidi.hakala@productivityleap.com</a>!
         </p>
       </section>
+      <picture>
+        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
+      </picture>      
     </main>
   );
 }

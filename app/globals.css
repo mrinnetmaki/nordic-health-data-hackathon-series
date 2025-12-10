@@ -2,6 +2,7 @@
   --background: #FFF9F5;
   --foreground: #171717;
   --color-blue: #04416D;
+  --background-fi: #F5F9FF;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -141,12 +142,35 @@ p + ul {
   margin-top: -1em;
 }
 
+section.ingress {
+  text-align: center;
+}
+
+section.ingress picture img {
+  height: 3em;
+}
+
+section.ingress picture.large img {
+  height: auto;
+  width: 100%;
+}
+
 article, article > section {
   padding-top: 2em;
 }
 
+section.ingress span {
+  display: block;
+  margin: 2em 0 1em;
+}
+
+
 main > section > section {
   padding-top: 1.5em;
+}
+
+main > picture img {
+  margin: 2em 0 4em;
 }
 
 article.highlight {
