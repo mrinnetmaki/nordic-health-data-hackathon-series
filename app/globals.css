@@ -148,6 +148,7 @@ section.ingress {
 
 section.ingress picture img {
   height: 3em;
+  margin: 0.5em 1em 0;
 }
 
 section.ingress picture.large img {

@@ -13,6 +13,7 @@ export default function FinnishHealthDataHackathon() {
       <h1>Finnish Health Data Hackathon</h1>
       <section className="ingress">
         <p>
+          {/*
           <span>
             Organized by{' '}
           </span>
@@ -53,7 +54,7 @@ export default function FinnishHealthDataHackathon() {
           <a href="">
             <picture>
               <img
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/ihe-catalyst.svg`}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/ihe-catalyst.jpg`}
                 alt="IHE Catalyst"
               />
             </picture>
@@ -63,6 +64,60 @@ export default function FinnishHealthDataHackathon() {
               <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/sensotrend.svg`} alt="Sensotrend" />
             </picture>
           </a>,{' '}
+          <span>
+          and made possible by dozens of volunteers!
+          </span>
+          */}
+          <span>
+            Organized by
+          </span>
+          <a href="https://www.hl7.fi/">
+            <picture className="large">
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
+            </picture>
+          </a>
+          <span>
+            in collaboration with
+          </span>
+          <a href="https://hl7.dk/">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-denmark.png`} alt="HL7 Denmark" />
+            </picture>
+          </a>
+          <a href="https://www.hl7.no/">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-norway.png`} alt="HL7 Norway" />
+            </picture>
+          </a>
+          <a href="https://hl7.se/">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-sweden.png`} alt="HL7 Sweden" />
+            </picture>
+          </a>
+          <span>
+            supported by
+          </span>
+          <a href="https://www.hel.fi/">
+            <picture>
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/helsinki.svg`}
+                alt="City of Helsinki"
+              />
+            </picture>
+          </a>
+          <a href="https://ihe-catalyst.net/">
+            <picture>
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/ihe-catalyst.jpg`}
+                alt="IHE Catalyst"
+              />
+            </picture>
+          </a>
+          <a href="https://sensotrend.com/">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/sensotrend.svg`} alt="Sensotrend" />
+            </picture>
+          </a>
           <span>
           and made possible by dozens of volunteers!
           </span>
@@ -117,6 +172,7 @@ export default function FinnishHealthDataHackathon() {
               Wednesday, December 10, 2025 at 18:00 EET (17:00 CET)
             </time>
             <p>
+              {/*
               <a
               href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZmZhOGQ0MTItMDc3ZS00YTUyLWE5MWEtZDk2ZDM2YjI1ZGY5%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522ca4ef9a8-6017-4d6f-b345-ed904be37123%2522%252c%2522Oid%2522%253a%25225f7c049e-16dc-4481-bfb3-ff79b4f28d4e%2522%257d%26launchAgent%3DGSuiteAddOn%26correlationId%3D48e52054-4c9e-4f0d-9344-bc9c3a0fce94%26anon%3Dtrue&type=meetup-join&deeplinkId=72488453-2a36-498c-8611-72b238cbbbed&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true"
               >Teams link</a>
@@ -127,9 +183,16 @@ export default function FinnishHealthDataHackathon() {
               ><img border="0"
               src="https://calendar.google.com/calendar/images/ext/gc_button1_fi.gif"
               alt="Google Calendar" /></a>
-
+              */}
+              <a
+              href="https://www.youtube.com/watch?v=QCvmpQgxcMo"
+              >Webinar recording</a>
             </p>
-
+            <p>
+              <a
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/FinnishHealthDataHackathonIntro.pptx`}
+              >Presentation</a>
+            </p>
           </li>
           <li>
             <h4>Patient Access track info</h4>
@@ -139,15 +202,13 @@ export default function FinnishHealthDataHackathon() {
           </li>
           {/*
 
-
-- General intro to the hackathon:  Wednesday December 10, 17.00 CET
-- Patient Access track: Monday December 15, 17.00 CET
-- Care Plans and Computable Guidelines: Wednesday December 17, 17.00 CET
+          - General intro to the hackathon:  Wednesday December 10, 17.00 CET
+          - Patient Access track: Monday December 15, 17.00 CET
+          - Care Plans and Computable Guidelines: Wednesday December 17, 17.00 CET
 
           <li>Patient Access to Data in Finland - December 10, 2025</li>
           <li>FHIR Implementation Guide for SMART App Launch in Finland - December 12, 2025</li>
           <li>Care Plans and Computable Care Guidelines - December 17, 2025</li>
-
 
 
           */}
