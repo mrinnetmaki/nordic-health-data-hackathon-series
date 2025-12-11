@@ -127,27 +127,6 @@ function FinnishHealthDataHackathon() {
               href={`${process.env.NEXT_PUBLIC_BASE_PATH}/FinnishHealthDataHackathonIntro.pdf`}
               >PDF</a>).
             </p>
-
-              {/*
-              <a
-              href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZmZhOGQ0MTItMDc3ZS00YTUyLWE5MWEtZDk2ZDM2YjI1ZGY5%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522ca4ef9a8-6017-4d6f-b345-ed904be37123%2522%252c%2522Oid%2522%253a%25225f7c049e-16dc-4481-bfb3-ff79b4f28d4e%2522%257d%26launchAgent%3DGSuiteAddOn%26correlationId%3D48e52054-4c9e-4f0d-9344-bc9c3a0fce94%26anon%3Dtrue&type=meetup-join&deeplinkId=72488453-2a36-498c-8611-72b238cbbbed&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true"
-              >Teams link</a>
-            </p>
-            <p>
-              Calendar event: <a target="_blank"
-              href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NTJ2czBjMmpnMWpoY2N0Zjk4bGxhczlpNzggYjYyOTgxZWQ1YWJmYzk0ZmUxNTllZTY4NTIyYTc3N2ZjYjEzMmFlMDU5NDI4MjA5YTgwMWUzYTliMTlmMDUyYkBn&amp;tmsrc=b62981ed5abfc94fe159ee68522a777fcb132ae059428209a801e3a9b19f052b%40group.calendar.google.com"
-              ><img border="0"
-              src="https://calendar.google.com/calendar/images/ext/gc_button1_fi.gif"
-              alt="Google Calendar" /></a>
-
-              <a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/FinnishHealthDataHackathonIntro.pptx`}
-              >Presentation</a>
-
-              */}
-              
-            <p>
-            </p>
           </li>
           <li>
             <h4>Patient Access track info</h4>
@@ -166,23 +145,21 @@ function FinnishHealthDataHackathon() {
           </li>
           <li>
             <h4>Helsinki / Apotti / Epic sub-track info</h4>
-            <time dateTime="2025-12-16T15:00:00+02:00">
-              Tuesday, December 16, 2025 at 15:00 EET (14:00 CET)
+            <time dateTime="2025-12-16T14:00:00+02:00">
+              Tuesday, December 16, 2025 at 14:00 EET (13:00 CET)
             </time>
-            {/*
             <p>
               <a
-              href=""
+              href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDQ4MTk2NGYtYjRhMS00Y2ZiLTg0NDUtMzAxMDZmZGExODNm%40thread.v2/0?context=%7b%22Tid%22%3a%22d8d598e0-2fb2-4605-8514-1967b50e2bd6%22%2c%22Oid%22%3a%225119d5bc-4e00-49ba-b2d6-15444c21f073%22%7d"
               >Teams link</a>, Calendar event: <a target="_blank"
-              href=""
+              href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2MG8zNGRwaDY0cGowZzlwNnAwazhncGc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnODRvazRjMjE2OTIzMGNoajZjcmpjZ2hrODhzNDRnOW04OTFqZ2UyNDhrcms2aDFnODRwZyBtaWthZWxAc2Vuc290cmVuZC5jb20&amp;tmsrc=mikael%40sensotrend.com"
               ><picture><img border="0"
               src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif"
               alt="Google Calendar" /></picture></a>
             </p>
-            */}
           </li>
           <li>
-            <h4>Care Plan track info</h4>
+            <h4>Care Plans and Clinical Reasoning track info</h4>
             <time dateTime="2025-12-18T15:00:00+02:00">
               Thursday, December 18, 2025 at 15:00 EET (14:00 CET)
             </time>
@@ -211,19 +188,6 @@ function FinnishHealthDataHackathon() {
               alt="Google Calendar" /></picture></a>
             </p>
           </li>
-
-          {/*
-
-          - General intro to the hackathon:  Wednesday December 10, 17.00 CET
-          - Patient Access track: Monday December 15, 17.00 CET
-          - Care Plans and Computable Guidelines: Wednesday December 17, 17.00 CET
-
-          <li>Patient Access to Data in Finland - December 10, 2025</li>
-          <li>FHIR Implementation Guide for SMART App Launch in Finland - December 12, 2025</li>
-          <li>Care Plans and Computable Care Guidelines - December 17, 2025</li>
-
-
-          */}
         </ul>
         <p>There may still be changes to the schedule!</p>
         <p>
@@ -236,7 +200,6 @@ function FinnishHealthDataHackathon() {
           >calendar</a> containing all webinars and hackathon events to your own calendar
           application.
         </p>
-
       </section>
       <section id="practicalities">
         <a href="#practicalities"><h2>Practicalities</h2></a>
@@ -360,7 +323,6 @@ function FinnishHealthDataHackathon() {
           <li><a href="https://www.scytales.com/">Scytáles</a></li>
           {/*
           <li>Evondos</li>
-          <li>Forsante</li>
           <li>Google</li>
           <li>Microsoft</li>
           <li>Tietoevry</li>
