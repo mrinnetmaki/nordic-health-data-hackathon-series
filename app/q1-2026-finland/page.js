@@ -149,8 +149,11 @@ export default function FinnishHealthDataHackathon() {
           <Link href="/track-patient-access-1">See details!</Link>
         </section>
         <section id="care-plans">
-          <a href="#care-plans"><h3>Care Plans and Computable Care Guidelines</h3></a>
-          <p>Several participants have an interest to work on structured care plans.</p>
+          <a href="#care-plans"><h3>Care Plans and Clinical Reasoning</h3></a>
+          <p>
+            Several participants have an interest to work on structured care plans, clinical
+            decision support, computable care guidelines, and related terminologies.
+          </p>
           <Link href="/track-care-plans-1">See details!</Link>
         </section>
         <section id="more-tracks">
@@ -326,6 +329,10 @@ export default function FinnishHealthDataHackathon() {
       </section>
       <section id="participate">
         <a href="#participate"><h2>Participate</h2></a>
+        <p>
+          Fill in the <a href="https://forms.clickup.com/4728722/f/4g9wj-10552/3L9IGGC81CX3Z1PAG4"
+          >registration link</a>!
+        </p>
         <p>We will have implementations available at least from</p>
         <ul>
           <li><a href="https://www.apotti.fi/en/the-apotti-ecosystem/">Apotti</a></li>
@@ -351,10 +358,9 @@ export default function FinnishHealthDataHackathon() {
           */}
         </ul>
         <p>The list of available implementations is updated up to the start of the event.</p>
-        <p>We&apos;re working on getting a registration system in place.</p>
         <p>
-          In the mean time, if you want to get listed on this page, or if you want to propose an
-          additional track, please contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
+          If you want to get listed on this page, or if you want to propose an additional track,
+          please contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
           href="mailto:heidi.hakala@productivityleap.com">heidi.hakala@productivityleap.com</a>!
         </p>
       </section>

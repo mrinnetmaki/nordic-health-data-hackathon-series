@@ -14,7 +14,7 @@ export default function PatientAccessTrack() {
         present in the hackathon. There are plenty of opportunities to choose from on this track!
       </p>
       <section id="smart">
-        <h3>Finnish SMART App Launch</h3>
+        <h2>Finnish SMART App Launch</h2>
         <p>
           HL7 Finland has published the <a href="https://hl7.fi/fhir/finnish-smart/">Finnish
           implementation guide for SMART App Launch</a>. The affiliate is looking for feedback on
@@ -22,7 +22,7 @@ export default function PatientAccessTrack() {
         </p>
       </section>
       <section id="apotti">
-        <h3>City of Helsinki / Apotti / Epic</h3>
+        <h2>City of Helsinki / Apotti / Epic</h2>
         <p>
           The <a href="https://www.hel.fi/en">City of Helsinki</a> is looking for ideas on how to
           improve patient access to data in Apotti, especially through the <a
@@ -52,7 +52,7 @@ export default function PatientAccessTrack() {
         </p>
       </section>
       <section id="kanta">
-        <h3>Kanta</h3>
+        <h2>Kanta</h2>
         <p>
           <a href="https://www.kanta.fi/en/professionals/patient-data-repository">Kanta Patient
           Data Repository</a> is a Finnish national service, storing data from primary and
@@ -92,7 +92,7 @@ export default function PatientAccessTrack() {
         </p>
       </section>
       <section id="xshare">
-        <h3>xShare</h3>
+        <h2>xShare</h2>
         <p>
           <a href="https://xshare-project.eu/">xShare</a> is a three-year Horizon Europe project
           envisioning everyone sharing their health data in European Electronic Health Record
@@ -104,7 +104,7 @@ export default function PatientAccessTrack() {
         </p>
       </section>
       <section id="wallets">
-        <h3>Health Data and Identity Wallets</h3>
+        <h2>Health Data and Identity Wallets</h2>
         <p>
           The EU project <a href="https://myhealthmyhands.eu/">MyHealth@MyHands</a> aims to ensure
           that all EU citizens have secure online access to their medical records. The project
