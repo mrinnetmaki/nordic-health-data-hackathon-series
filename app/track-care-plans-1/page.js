@@ -255,7 +255,20 @@ function CarePlanTrack() {
         </li>
         <li><em>Are there other ways of integrating clinical knowledge?</em></li>
       </ul>
-      <p />
+      <section id="track-leads">
+        <h2>Track Leads</h2>
+        <p>The track leads are:</p>
+        <ul>
+          <li>
+            Joonatan Vuorinen, Duodecim, <a href="mailto:joonatan.vuorinen@duodecim.fi"
+            >joonatan.vuorinen@duodecim.fi</a>.
+          </li>
+          <li>
+            Ádám Z. Kövér, Felleskatalogen, <a href="mailto:adam.kover@felleskatalogen.no"
+            >adam.kover@felleskatalogen.no</a>.
+          </li>
+        </ul>
+      </section>
     </main>
   );
 }
