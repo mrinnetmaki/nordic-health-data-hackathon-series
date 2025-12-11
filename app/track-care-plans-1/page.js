@@ -49,7 +49,7 @@ export default function CarePlanTrack() {
         href="https://digital.ahrq.gov/health-it-tools-and-resources/clinical-decision-support-cds"
         target="_blank" rel="noopener noreferrer"
         title="https://digital.ahrq.gov/health-it-tools-and-resources/clinical-decision-support-cds"
-        >CDS Connect</a> project, a European counterpart doesn't yet exist.
+        >CDS Connect</a> project, a European counterpart doesn&apos;t yet exist.
       </p>
       <ul>
         <li>
@@ -66,7 +66,7 @@ export default function CarePlanTrack() {
         Terminology is a central part of most clinical knowledge. Definitions often have to be
         shared across both the local and the global ecosystem, where the same thing might be
         represented in many ways. This is not only true for individual codes and code systems, but
-        also for more complex expressions, such as <em>"long-acting nitrates"</em>.
+        also for more complex expressions, such as <em>&quot;long-acting nitrates&quot;</em>.
       </p>
       <p>
         There have been various approaches to modelling clinical concepts through terminology. To
@@ -96,12 +96,12 @@ export default function CarePlanTrack() {
         concepts even within FHIR. Consider a concept like <a
         href="https://build.fhir.org/ig/HL7/ebm/Group-7749.json.html" target="_blank"
         rel="noopener noreferrer" title="https://build.fhir.org/ig/HL7/ebm/Group-7749.json.html"
-        >*"Patients who are hospitalized for COVID-19 and who are not critically ill"*</a>, for
-        example. A computable guideline (within the CPG IG) would contain a CaseFeatureDefinition
-        as CQL code, whereas the underlying evidence (within the EBM IG) is communicated through a
-        CohortDefinition as a Group resource. A Structured Data Capture (SDC) Questionnaire might
-        define an equvivalent item, too. Not to mention non-FHIR models like openEHR archetypes or
-        OMOP CDM.
+        >*&quot;Patients who are hospitalized for COVID-19 and who are not critically
+        ill&quot;*</a>, for example. A computable guideline (within the CPG IG) would contain a
+        CaseFeatureDefinition as CQL code, whereas the underlying evidence (within the EBM IG) is
+        communicated through a CohortDefinition as a Group resource. A Structured Data Capture
+        (SDC) Questionnaire might define an equvivalent item, too. Not to mention non-FHIR models
+        like openEHR archetypes or OMOP CDM.
       </p>
       <ul>
         <li>
@@ -116,7 +116,7 @@ export default function CarePlanTrack() {
         </li>
         <li>
           <em>
-            What should be done through terminology and what should we reach for when it isn't
+            What should be done through terminology and what should we reach for when it isn&apos;t
             expressive enough?
           </em>
         </li>
@@ -215,9 +215,9 @@ export default function CarePlanTrack() {
         </li>
         <li>
           <strong>Reasoning-as-a-Service</strong>, i.e, as <em>CDS Hooks services</em>. An
-          integration doesn't necessarily even need a FHIR server, as long as the data defined in
-          the prefetch can be provided. Some systems, such as Apotti (Epic), have the capability to
-          integrate with CDS Hooks services on specific hooks.
+          integration doesn&apos;t necessarily even need a FHIR server, as long as the data defined
+          in the prefetch can be provided. Some systems, such as Apotti (Epic), have the capability
+          to integrate with CDS Hooks services on specific hooks.
         </li>
         <li>
           <strong>As an Application</strong>, i.e., as <em>SMART apps</em>. There is a dedicated
