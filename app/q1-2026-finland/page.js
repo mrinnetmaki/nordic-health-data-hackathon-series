@@ -1,15 +1,15 @@
 import Link from "next/link";
 
-import "./finland.css";
+import FinnishHealthDataHackathonHeader from "./header";
 
 export const metadata = {
   title: "Finnish Health Data Hackathons",
   description: "The Finnish edition of the Nordic Health Data Hackathon.",
 };
 
-export default function FinnishHealthDataHackathon() {
+function FinnishHealthDataHackathon() {
   return (
-    <main id="fi">
+    <main id="fi" className="finland">
       <h1>Finnish Health Data Hackathon</h1>
       <section className="ingress">
         <p>
@@ -330,8 +330,9 @@ export default function FinnishHealthDataHackathon() {
       <section id="participate">
         <a href="#participate"><h2>Participate</h2></a>
         <p>
-          Fill in the <a href="https://forms.clickup.com/4728722/f/4g9wj-10552/3L9IGGC81CX3Z1PAG4"
-          >registration link</a>!
+          To take part in the hackathon, please fill in the <a
+          href="https://forms.clickup.com/4728722/f/4g9wj-10552/3L9IGGC81CX3Z1PAG4">registration
+          link</a>!
         </p>
         <p>We will have implementations available at least from</p>
         <ul>
@@ -368,5 +369,14 @@ export default function FinnishHealthDataHackathon() {
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
       </picture>      
     </main>
+  );
+}
+
+export default function FinnishHealthDataHackathonPage() {
+  return (
+    <>
+      <FinnishHealthDataHackathonHeader />
+      <FinnishHealthDataHackathon />
+    </>
   );
 }

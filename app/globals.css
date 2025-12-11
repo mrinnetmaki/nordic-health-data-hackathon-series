@@ -5,6 +5,20 @@
   --background-fi: #F5F9FF;
 }
 
+/*
+.finland {
+  --background: #F5F9FF;
+  --foreground: #171717;
+  --color-blue: #04416D;
+}
+
+.nordics {
+  --background: #FFF9F5;
+  --foreground: #171717;
+  --color-blue: #04416D;
+}
+  */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -45,6 +59,10 @@ main {
   max-width: 45em;
   margin: auto;
   padding: 1em;
+}
+
+.finland {
+  background: var(--background-fi);
 }
 
 header {
@@ -251,7 +269,7 @@ section > a:first-child, article > a:first-child {
   }
   h1 {
     font-size: 86px;
-    margin: 160px 0 120px;
+    padding: 160px 0 120px;
   }
   h1 .emphasis {
     font-size: 159%;

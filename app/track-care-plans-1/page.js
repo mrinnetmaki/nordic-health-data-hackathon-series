@@ -1,13 +1,13 @@
-import Link from "next/link";
+import FinnishHealthDataHackathonHeader from "../q1-2026-finland/header";
 
 export const metadata = {
   title: "Finnish Health Data Hackathons",
   description: "The Finnish edition of the Nordic Health Data Hackathon.",
 };
 
-export default function CarePlanTrack() {
+function CarePlanTrack() {
   return (
-    <main>
+    <main className="finland">
       <h1>Care Plans and Clinical Reasoning</h1>
       <p>The general scope of this track is:</p>
       <ul>
@@ -257,5 +257,14 @@ export default function CarePlanTrack() {
       </ul>
       <p />
     </main>
+  );
+}
+
+export default function CarePlanTrackPage() {
+  return (
+    <>
+      <FinnishHealthDataHackathonHeader />
+      <CarePlanTrack />
+    </>
   );
 }

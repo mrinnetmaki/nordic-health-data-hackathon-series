@@ -1,21 +1,20 @@
-import Link from "next/link";
-import "./globals.css";
+'use client'
+
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
+
+import './globals.css';
 
 export default function RootLayout({ children }) {
+  const pathname = usePathname();
+  console.log({ pathname });
   return (
     <html lang="en">
-      <body>
-        <header>
-          <nav>
-            <li className="home"><Link href="/">Home</Link></li>
-            <li><Link href="/#background">Background</Link></li>
-            <li><Link href="/#schedule">Schedule</Link></li>
-            <li><Link href="/#participate">Participate</Link></li>
-          </nav>
-        </header>
+      <body className={pathname === '/' ?'' : 'finland' }>
         {children}
         <footer>
           <nav>
+            <li className="home"><Link href="/">Nordic Health Data Hackathons</Link></li>
             <li>&copy; 2025+ <a href="https://hl7.fi/">HL7 Finland</a></li>
             <li>
               <a href="https://github.com/mrinnetmaki/nordic-health-data-hackathon-series"
