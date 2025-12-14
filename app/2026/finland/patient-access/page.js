@@ -15,15 +15,15 @@ function PatientAccessTrack() {
         present in the hackathon. There are plenty of opportunities to choose from on this track!
       </p>
       <section id="smart">
-        <h2>Finnish SMART App Launch</h2>
+        <a href="#smart"><h2>Finnish SMART App Launch</h2></a>
         <p>
           HL7 Finland has published the <a href="https://hl7.fi/fhir/finnish-smart/">Finnish
           implementation guide for SMART App Launch</a>. The affiliate is looking for feedback on
           the present version of the guide, and ideas for future development.
         </p>
       </section>
-      <section id="apotti">
-        <h2>City of Helsinki / Apotti / Epic</h2>
+      <section id="helsinki">
+        <a href="#helsinki"><h2>City of Helsinki / Apotti / Epic</h2></a>
         <p>
           The <a href="https://www.hel.fi/en">City of Helsinki</a> is looking for ideas on how to
           improve patient access to data in Apotti, especially through the <a
@@ -53,7 +53,7 @@ function PatientAccessTrack() {
         </p>
       </section>
       <section id="kanta">
-        <h2>Kanta</h2>
+        <a href="#kanta"><h2>Kanta</h2></a>
         <p>
           <a href="https://www.kanta.fi/en/professionals/patient-data-repository">Kanta Patient
           Data Repository</a> is a Finnish national service, storing data from primary and
@@ -93,7 +93,7 @@ function PatientAccessTrack() {
         </p>
       </section>
       <section id="xshare">
-        <h2>xShare</h2>
+        <a href="#xshare"><h2>xShare</h2></a>
         <p>
           <a href="https://xshare-project.eu/">xShare</a> is a three-year Horizon Europe project
           envisioning everyone sharing their health data in European Electronic Health Record
@@ -105,7 +105,7 @@ function PatientAccessTrack() {
         </p>
       </section>
       <section id="wallets">
-        <h2>Health Data and Identity Wallets</h2>
+        <a href="#wallets"><h2>Health Data and Identity Wallets</h2></a>
         <p>
           The EU project <a href="https://myhealthmyhands.eu/">MyHealth@MyHands</a> aims to ensure
           that all EU citizens have secure online access to their medical records. The project
@@ -136,7 +136,7 @@ function PatientAccessTrack() {
         </ul>
       </section>
       <section id="participants">
-        <h2>Participants, Presentations, and Ideas</h2>
+        <a href="#participants"><h2>Participants, Presentations, and Ideas</h2></a>
         <p>
           The Google Sheet embedded below tracks:
         </p>
