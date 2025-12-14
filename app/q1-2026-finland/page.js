@@ -222,6 +222,15 @@ function FinnishHealthDataHackathon() {
         </section>
         <section id="venue">
           <a href="#venue"><h3>Venue</h3></a>
+          <p>
+            The current plan is to have the first day of the hackathon in Kuntatalo, together with
+            the 30 years symporium of HL7 Finland, and the remainder of the hackathon in
+            Messukeskus, together with the Radical Health Festival.
+          </p>
+          <p className="warning">
+            NOTE! The venues have not been confirmed yet, and this information may still change!
+          </p>
+          <p>The venue will in any case be either one of these locations, or both.</p>
           <h4>Monday, Kuntatalo</h4>
           <p>
             On Monday, the venue is <a href="https://kuntasaatio.fi/toiminta/kuntatalo/"
@@ -249,13 +258,13 @@ function FinnishHealthDataHackathon() {
           <p>
             See the <a
             href="https://radicalhealthfestival.messukeskus.com/en/visit/how-to-get-here/">arrival
-            instructions</a> on Messukeskus website. Use the entrance for meeting guests.
+            instructions</a> on Messukeskus website. Use the <em>entrance for meeting guests</em>.
           </p>
         </section>
         <section id="costs">
           <a href="#costs"><h3>Costs</h3></a>
           <p>
-            There are no participation costs associated to the hackathon.
+            <strong>There are no participation costs associated to the hackathon.</strong>
           </p>
           <p>
             You don&apos;t need to pay any fees to participate to the hackathon. It is free to attend.
@@ -300,10 +309,10 @@ function FinnishHealthDataHackathon() {
       </section>
       <section id="participate">
         <a href="#participate"><h2>Participate</h2></a>
-        <p>
-          To take part in the hackathon, please fill in the <a
+        <p className="highlight">
+          To take part in the hackathon, please fill in and submit the <a
           href="https://forms.clickup.com/4728722/f/4g9wj-10552/3L9IGGC81CX3Z1PAG4">registration
-          link</a>!
+          form</a>!
         </p>
         <p>We will have implementations available at least from</p>
         <ul>
