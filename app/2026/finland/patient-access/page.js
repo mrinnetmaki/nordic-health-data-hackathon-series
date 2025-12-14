@@ -1,5 +1,5 @@
 import Link from "next/link";
-import FinnishHealthDataHackathonHeader from "../q1-2026-finland/header";
+import FinnishHealthDataHackathonHeader from "../header";
 
 export const metadata = {
   title: "Patient Access Track of the Finnish Health Data Hackathons",
@@ -161,8 +161,7 @@ function PatientAccessTrack() {
         </p>
         <p><strong>Please be careful not to edit information entered by others.</strong></p>
         <p>
-          Note that you also need to <Link
-          href="https://fhir.fi/hackathon/q1-2026-finland#participate">register to the
+          Note that you also need to <Link href="/2026/finland#participate">register to the
           hackathon</Link> separately.
         </p>
       </section>

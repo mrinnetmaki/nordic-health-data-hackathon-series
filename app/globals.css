@@ -235,6 +235,26 @@ section > a:first-child, article > a:first-child {
   margin-top: 0;
 }
 
+#organizers ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#organizers li {
+  display: inline-block;
+  margin: 0 2.1em 0 0;
+  padding: 0;
+}
+
+#organizers li:last-of-type {
+  margin-right: 0;
+}
+
+#organizers img {
+  height: 3em;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {

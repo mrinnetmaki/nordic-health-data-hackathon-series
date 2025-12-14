@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   console.log({ pathname });
   return (
     <html lang="en">
-      <body className={pathname === '/' ?'' : 'finland' }>
+      <body className={pathname === '/2026' ?'' : 'finland' }>
         {children}
         <footer>
           <nav>
