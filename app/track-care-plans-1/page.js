@@ -269,6 +269,9 @@ function CarePlanTrack() {
           </li>
         </ul>
       </section>
+      <picture>
+        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
+      </picture>      
     </main>
   );
 }
