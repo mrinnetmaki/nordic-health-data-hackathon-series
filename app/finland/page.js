@@ -91,7 +91,7 @@ function FinnishHealthDataHackathon() {
             There are several initiatives working on patient access to health data, both in Finland
             and internationally.
           </p>
-          <Link href="/track-patient-access-1">See details!</Link>
+          <Link href="/finland-track-patient-access">See details!</Link>
         </section>
         <section id="care-plans">
           <a href="#care-plans"><h3>Care Plans and Clinical Reasoning</h3></a>
@@ -99,7 +99,7 @@ function FinnishHealthDataHackathon() {
             Several participants have an interest to work on structured care plans, clinical
             decision support, computable care guidelines, and related terminologies.
           </p>
-          <Link href="/track-care-plans-1">See details!</Link>
+          <Link href="/finland-track-care-plans">See details!</Link>
         </section>
         <section id="more-tracks">
           <a href="#more-tracks"><h3>More Tracks?</h3></a>

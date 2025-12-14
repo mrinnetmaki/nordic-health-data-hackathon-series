@@ -11,8 +11,8 @@ function HomeHeader() {
       <nav>
         <li className="home"><Link href="/">Home</Link></li>
         <li><Link href="/#background">Background</Link></li>
-        <li><Link href="/#schedule">Schedule</Link></li>
-        <li><Link href="/#participate">Participate</Link></li>
+        <li><Link href="/#events">Events</Link></li>
+        <li><Link href="/#organizers">Organizers</Link></li>
       </nav>
     </header>
   );
@@ -49,50 +49,30 @@ function Home() {
           connection with relevant industry events.
         </p>
       </section>
-      <section id="schedule">
-        <a href="#schedule"><h2>Sched&shy;ule</h2></a>
-        <article id="q4-2025-norway">
-          <a href="#q4-2025-norway"><h3>Q4/2025 Norway, EHiN</h3></a>
+      <section id="events">
+        <a href="#events"><h2>Sched&shy;ule</h2></a>
+        <article id="finland" className="highlight">
+          <a href="#finland"><h3>Finland, Radical Health Festival</h3></a>
           <p>
-            The first hackathon started with virtual pre-meetings on <time dateTime="2025-10-27"
-            >October 27</time> and <time dateTime="2025-11-03">November 3</time> at <time
-            dateTime="09:00+01:00">9-11 CET</time>. The physical meeting took place as an official
-            side-event of the <a href="https://ehin.no/">EHiN conference</a> in <a
-            href="https://xmeetingpoint.no/en/">X Meeting Point</a> in Hellerudsletta, just outside
-            Oslo.
-          </p>
-          <p>The focus was on:</p>
-          <ul>
-            <li>
-              remote monitoring, observations and vital signs, integration of HL7 FHIR and OpenEHR
-            </li>
-            <li>terminology and the use of the Nordic FHIR terminology server</li>
-            <li>use of HL7 FHIR and converting existing APIs into FHIR</li>
-            <li>authoring and publishing FHIR implementation guides.</li>
-          </ul>
-          <p>
-            See the separate web site for <a
-            href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html"
-            >Norwegian FHIR Hackathon</a> 2025 for detailed information and results!
-          </p>
-        </article>
-        <article id="q1-2026-finland" className="highlight">
-          <a href="#q1-2026-finland"><h3>Q1/2026 Finland, Radical Health Festival</h3></a>
-          <p>
-            The second hackathon takes place in Helsinki, Finland, connected to the <a
-            href="https://radicalhealthfestival.messukeskus.com/">Radical Health Festival</a>.
+            The hackathon on the first quarter takes place in Helsinki, Finland, connected to both
+            the <a href="https://radicalhealthfestival.messukeskus.com/">Radical Health
+            Festival</a> and the <a href="https://laakaripaivat.messukeskus.com/en/">Finnish
+            Medical Convention</a> (<a href="https://laakaripaivat.fi/"><i lang="fi"
+            >Lääkäripäivät</i></a>), and synchronized with the <a
+            href="https://www.hl7.fi/kokoukset-ja-tapahtumat/hl7-finland-30th-anniversary-symposium/"
+            >30th Anniversary Symposium of HL7 Finland</a>.
           </p>
           <p>
             The focus is on patient access to data and on care plans and computable care
             guidelines.
           </p>
-          <p>See the <Link href="/q1-2026-finland">event page</Link> for detailed information!</p>
+          <p>See the <Link href="/finland">event page</Link> for detailed information!</p>
         </article>
-        <article id="q2-2026-sweden">
-          <a href="#q2-2026-sweden"><h3>Q2/2026 Sweden, Vitalis</h3></a>
+        <article id="sweden">
+          <a href="#sweden"><h3>Sweden, Vitalis</h3></a>
           <p>
-            The third hackathon takes place in Gothenburg, Sweden, connected to the
-            <a href="https://vitalis.nu/">Vitalis</a> conference.
+            On second quarter the hackathon takes place in Gothenburg, Sweden, connected to the <a
+            href="https://vitalis.nu/">Vitalis</a> conference.
           </p>
           <p>The focus is on national base profiles and on terminology.</p>
           {/*
@@ -115,9 +95,12 @@ function Home() {
           </section>
           */}
         </article>
-        <article id="q3-2026-denmark">
-          <a href="#q3-2026-denmark"><h3>Q3/2026 Denmark</h3></a>
-          <p>The details of the fourth hackathon are still to be determined.</p>
+        <article id="denmark">
+          <a href="#denmark"><h3>Denmark</h3></a>
+          <p>
+            On the third quarter we go to Denmark. The details of the hackathon are still to be
+            determined.
+          </p>
           <p>
             Proposed focus areas are patient summaries, and perhaps other EHDS priority categories.
           </p>
@@ -126,21 +109,57 @@ function Home() {
             href="https://2025.e-sundhedsobservatoriet.dk/">Danish E-Health Observatory</a> event.
           </p>
         </article>
+        <article id="norway">
+          <a href="#norway"><h3>Norway, EHiN</h3></a>
+          <p>
+            On fourth quarter we return to Norway, where the hackathon will be organised as a side
+            event of the <a href="https://ehin.no/">EHiN conference</a>.
+          </p>
+          <p>
+            See also the details and results of the first ever event of the hackathon series that
+            took place as an official side event of the <a href="https://ehin.no/2025/">EHiN
+            conference 2025</a> on the separate web site for <a
+            href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html"
+            >Norwegian FHIR Hackathon 2025</a>!
+          </p>
+        </article>
       </section>
-      <section id="participate">
-        <a href="#participate"><h2>Par&shy;tic&shy;i&shy;pate</h2></a>
-        <p>All hackathon events are open for all and free to join!</p>
-        <p>See the event pages for additional information:</p>
+      <section id="organizers">
+        <a href="#organizers"><h2>Organizers</h2></a>
+        <p>The Nordic Health Data Hackathon series is organized by:</p>
         <ul>
           <li>
-            <a
-              href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html"
-            >
-              Q4/2025, Norway
+            <a href="https://hl7.dk/">
+              <picture>
+                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-denmark.png`} alt="HL7 Denmark" />
+              </picture>
             </a>
           </li>
-          <li><Link href="/q1-2026-finland">Q1/2026, Finland</Link></li>
+          <li>
+            <a href="https://www.hl7.fi/">
+            <picture className="large">
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
+            </picture>
+          </a>
+          </li>
+          <li>
+            <a href="https://www.hl7.no/">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-norway.png`} alt="HL7 Norway" />
+            </picture>
+          </a>
+          </li>
+          <li>
+            <a href="https://hl7.se/">
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-sweden.png`} alt="HL7 Sweden" />
+            </picture>
+          </a>
+          </li>
         </ul>
+        <p>
+          and made possible by dozens of volunteers!
+        </p>        
       </section>
     </main>
   );
