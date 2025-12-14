@@ -1,73 +1,18 @@
 import Link from "next/link";
 
-import "./finland.css";
+import FinnishHealthDataHackathonHeader from "./header";
 
 export const metadata = {
   title: "Finnish Health Data Hackathons",
   description: "The Finnish edition of the Nordic Health Data Hackathon.",
 };
 
-export default function FinnishHealthDataHackathon() {
+function FinnishHealthDataHackathon() {
   return (
-    <main id="fi">
+    <main id="fi" className="finland">
       <h1>Finnish Health Data Hackathon</h1>
       <section className="ingress">
         <p>
-          {/*
-          <span>
-            Organized by{' '}
-          </span>
-          <a href="">
-            <picture className="large">
-              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
-            </picture>
-          </a>
-          <span>
-            in collaboration with{' '}
-          </span>
-          <a href="">
-            <picture>
-              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-denmark.png`} alt="HL7 Denmark" />
-            </picture>
-          </a>,{' '}
-          <a href="https://www.hl7.no/">
-            <picture>
-              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-norway.png`} alt="HL7 Norway" />
-            </picture>
-          </a>, and{' '}
-          <a href="">
-            <picture>
-              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-sweden.png`} alt="HL7 Sweden" />
-            </picture>
-          </a>,{' '}
-          <span>
-            supported by{' '}
-          </span>
-          <a href="">
-            <picture>
-              <img
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/helsinki.svg`}
-                alt="City of Helsinki"
-              />
-            </picture>
-          </a>,{' '}
-          <a href="">
-            <picture>
-              <img
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/ihe-catalyst.jpg`}
-                alt="IHE Catalyst"
-              />
-            </picture>
-          </a>, and{' '}
-          <a href="">
-            <picture>
-              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/sensotrend.svg`} alt="Sensotrend" />
-            </picture>
-          </a>,{' '}
-          <span>
-          and made possible by dozens of volunteers!
-          </span>
-          */}
           <span>
             Organized by
           </span>
@@ -175,26 +120,12 @@ export default function FinnishHealthDataHackathon() {
               Wednesday, December 10, 2025 at 18:00 EET (17:00 CET)
             </time>
             <p>
-              {/*
-              <a
-              href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_ZmZhOGQ0MTItMDc3ZS00YTUyLWE5MWEtZDk2ZDM2YjI1ZGY5%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522ca4ef9a8-6017-4d6f-b345-ed904be37123%2522%252c%2522Oid%2522%253a%25225f7c049e-16dc-4481-bfb3-ff79b4f28d4e%2522%257d%26launchAgent%3DGSuiteAddOn%26correlationId%3D48e52054-4c9e-4f0d-9344-bc9c3a0fce94%26anon%3Dtrue&type=meetup-join&deeplinkId=72488453-2a36-498c-8611-72b238cbbbed&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true"
-              >Teams link</a>
-            </p>
-            <p>
-              Calendar event: <a target="_blank"
-              href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NTJ2czBjMmpnMWpoY2N0Zjk4bGxhczlpNzggYjYyOTgxZWQ1YWJmYzk0ZmUxNTllZTY4NTIyYTc3N2ZjYjEzMmFlMDU5NDI4MjA5YTgwMWUzYTliMTlmMDUyYkBn&amp;tmsrc=b62981ed5abfc94fe159ee68522a777fcb132ae059428209a801e3a9b19f052b%40group.calendar.google.com"
-              ><img border="0"
-              src="https://calendar.google.com/calendar/images/ext/gc_button1_fi.gif"
-              alt="Google Calendar" /></a>
-              */}
-              <a
-              href="https://www.youtube.com/watch?v=QCvmpQgxcMo"
-              >Webinar recording</a>
-            </p>
-            <p>
-              <a
+              View the <a href="https://www.youtube.com/watch?v=QCvmpQgxcMo">Webinar
+              recording</a>, download the presentation (<a
               href={`${process.env.NEXT_PUBLIC_BASE_PATH}/FinnishHealthDataHackathonIntro.pptx`}
-              >Presentation</a>
+              >PowerPoint</a>, <a
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/FinnishHealthDataHackathonIntro.pdf`}
+              >PDF</a>).
             </p>
           </li>
           <li>
@@ -202,21 +133,62 @@ export default function FinnishHealthDataHackathon() {
             <time dateTime="2025-12-15T18:00:00+02:00">
               Monday, December 15, 2025 at 18:00 EET (17:00 CET)
             </time>
+            <p>
+              <a
+              href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MWI2MDA0NWItODIyNC00NTM1LTgzYzQtMmRhNjQ3NTFmYjZk%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522ca4ef9a8-6017-4d6f-b345-ed904be37123%2522%252c%2522Oid%2522%253a%25225f7c049e-16dc-4481-bfb3-ff79b4f28d4e%2522%257d%26launchAgent%3DGSuiteAddOn%26correlationId%3Da5dbf744-9c2e-4899-8aa8-dd1c4d811f0d%26anon%3Dtrue&type=meetup-join&deeplinkId=5b3de799-31a4-455f-b2e9-75e462f5b335&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true"
+              >Teams link</a>, Calendar event: <a target="_blank"
+              href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Nm1udDVrYmNpcmJ0NWMwMG5oYW5lM3M3amYgbWlrYWVsQHNlbnNvdHJlbmQuY29t&amp;tmsrc=mikael%40sensotrend.com"
+              ><picture><img border="0"
+              src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif"
+              alt="Google Calendar" /></picture></a>
+            </p>
           </li>
-          {/*
-
-          - General intro to the hackathon:  Wednesday December 10, 17.00 CET
-          - Patient Access track: Monday December 15, 17.00 CET
-          - Care Plans and Computable Guidelines: Wednesday December 17, 17.00 CET
-
-          <li>Patient Access to Data in Finland - December 10, 2025</li>
-          <li>FHIR Implementation Guide for SMART App Launch in Finland - December 12, 2025</li>
-          <li>Care Plans and Computable Care Guidelines - December 17, 2025</li>
-
-
-          */}
+          <li>
+            <h4>Helsinki / Apotti / Epic sub-track info</h4>
+            <time dateTime="2025-12-16T14:00:00+02:00">
+              Tuesday, December 16, 2025 at 14:00 EET (13:00 CET)
+            </time>
+            <p>
+              <a
+              href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDQ4MTk2NGYtYjRhMS00Y2ZiLTg0NDUtMzAxMDZmZGExODNm%40thread.v2/0?context=%7b%22Tid%22%3a%22d8d598e0-2fb2-4605-8514-1967b50e2bd6%22%2c%22Oid%22%3a%225119d5bc-4e00-49ba-b2d6-15444c21f073%22%7d"
+              >Teams link</a>, Calendar event: <a target="_blank"
+              href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2MG8zNGRwaDY0cGowZzlwNnAwazhncGc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnODRvazRjMjE2OTIzMGNoajZjcmpjZ2hrODhzNDRnOW04OTFqZ2UyNDhrcms2aDFnODRwZyBtaWthZWxAc2Vuc290cmVuZC5jb20&amp;tmsrc=mikael%40sensotrend.com"
+              ><picture><img border="0"
+              src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif"
+              alt="Google Calendar" /></picture></a>
+            </p>
+          </li>
+          <li>
+            <h4>Care Plans and Clinical Reasoning track info</h4>
+            <time dateTime="2025-12-18T15:00:00+02:00">
+              Thursday, December 18, 2025 at 15:00 EET (14:00 CET)
+            </time>
+            <p>
+              <a
+              href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzY0ZmNmMmUtOTRhOC00YmYzLTk1MzctZWZjNzM3YzllNjQ3%40thread.v2/0?context=%7b%22Tid%22%3a%2297484b32-3459-40a6-9af6-9639138422e9%22%2c%22Oid%22%3a%22b08853bb-4f5a-41ea-97cc-195a0d0241e0%22%7d"
+              >Teams link</a>, Calendar event: <a target="_blank"
+              href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc4bDFqY2gxbzZwMmowZzlqNnAwazhncGc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnODkxM2djMjI2a3NqaWhhNTY4cWs2ZDlrNjEwa2NkaGk2ZDIzZWgyNTYwbzNhaDlnODhzMCBtaWthZWxAc2Vuc290cmVuZC5jb20&amp;tmsrc=mikael%40sensotrend.com"
+              ><picture><img border="0"
+              src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif"
+              alt="Google Calendar" /></picture></a>
+            </p>
+          </li>
+          <li>
+            <h4>Identity Wallets and NCP sub-track info</h4>
+            <time dateTime="2025-12-19T12:00:00+02:00">
+              Friday, December 19, 2025 at 12:00 EET (11:00 CET)
+            </time>
+            <p>
+              <a
+              href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_NTRlYzc4ZjYtOWJiOC00MjBjLThlY2MtYjZkMDJjZDcyYzIy%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522ca4ef9a8-6017-4d6f-b345-ed904be37123%2522%252c%2522Oid%2522%253a%25225f7c049e-16dc-4481-bfb3-ff79b4f28d4e%2522%257d%26launchAgent%3DGSuiteAddOn%26correlationId%3Dd12c0e80-6351-49b3-8998-56c83594f727%26anon%3Dtrue&type=meetup-join&deeplinkId=e255fc57-720d-4f4b-992d-4629b2b35f39&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true"
+              >Teams link</a>, Calendar event: <a target="_blank"
+              href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NnZhZjFuMG5tYWQ4bjdhbWYwcDlybm4yZmggbWlrYWVsQHNlbnNvdHJlbmQuY29t&amp;tmsrc=mikael%40sensotrend.com"
+              ><picture><img border="0"
+              src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif"
+              alt="Google Calendar" /></picture></a>
+            </p>
+          </li>
         </ul>
-        <p>Participation details will be added soon.</p>
         <p>There may still be changes to the schedule!</p>
         <p>
           The full list of topics, dates and times of the webinars will be announced later. Keep an
@@ -228,7 +200,6 @@ export default function FinnishHealthDataHackathon() {
           >calendar</a> containing all webinars and hackathon events to your own calendar
           application.
         </p>
-
       </section>
       <section id="practicalities">
         <a href="#practicalities"><h2>Practicalities</h2></a>
@@ -330,8 +301,9 @@ export default function FinnishHealthDataHackathon() {
       <section id="participate">
         <a href="#participate"><h2>Participate</h2></a>
         <p>
-          Fill in the <a href="https://forms.clickup.com/4728722/f/4g9wj-10552/3L9IGGC81CX3Z1PAG4"
-          >registration link</a>!
+          To take part in the hackathon, please fill in the <a
+          href="https://forms.clickup.com/4728722/f/4g9wj-10552/3L9IGGC81CX3Z1PAG4">registration
+          link</a>!
         </p>
         <p>We will have implementations available at least from</p>
         <ul>
@@ -351,7 +323,6 @@ export default function FinnishHealthDataHackathon() {
           <li><a href="https://www.scytales.com/">Scytáles</a></li>
           {/*
           <li>Evondos</li>
-          <li>Forsante</li>
           <li>Google</li>
           <li>Microsoft</li>
           <li>Tietoevry</li>
@@ -368,5 +339,14 @@ export default function FinnishHealthDataHackathon() {
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
       </picture>      
     </main>
+  );
+}
+
+export default function FinnishHealthDataHackathonPage() {
+  return (
+    <>
+      <FinnishHealthDataHackathonHeader />
+      <FinnishHealthDataHackathon />
+    </>
   );
 }

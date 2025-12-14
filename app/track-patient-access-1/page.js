@@ -1,13 +1,13 @@
-import Link from "next/link";
+import FinnishHealthDataHackathonHeader from "../q1-2026-finland/header";
 
 export const metadata = {
   title: "Patient Access Track of the Finnish Health Data Hackathons",
   description: "The description of the track focused on patient access, at the Finnish edition of the Nordic Health Data Hackathon.",
 };
 
-export default function PatientAccessTrack() {
+function PatientAccessTrack() {
   return (
-    <main>
+    <main className="finland">
       <h1>Patient Access Track</h1>
       <p>
         Several initiatives for patient access to health data in Finland and in the EU are
@@ -135,5 +135,14 @@ export default function PatientAccessTrack() {
         </ul>
       </section>
     </main >
+  );
+}
+
+export default function PatientAccessTrackPage() {
+  return (
+    <>
+      <FinnishHealthDataHackathonHeader />
+      <PatientAccessTrack />
+    </>
   );
 }

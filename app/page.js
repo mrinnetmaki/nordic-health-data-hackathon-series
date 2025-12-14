@@ -5,9 +5,22 @@ export const metadata = {
   description: "A series of health data hackathons in the Nordics",
 };
 
-export default function Home() {
+function HomeHeader() {
   return (
-    <main>
+    <header className="nordics">
+      <nav>
+        <li className="home"><Link href="/">Home</Link></li>
+        <li><Link href="/#background">Background</Link></li>
+        <li><Link href="/#schedule">Schedule</Link></li>
+        <li><Link href="/#participate">Participate</Link></li>
+      </nav>
+    </header>
+  );
+}
+
+function Home() {
+  return (
+    <main className="nordics">
       <h1>Nordic Health Data <span className="emphasis">Hackathons</span></h1>
       <picture>
         <img
@@ -130,5 +143,14 @@ export default function Home() {
         </ul>
       </section>
     </main>
+  );
+}
+
+export default function HomePage() {
+  return (
+    <>
+      <HomeHeader />
+      <Home />
+    </>
   );
 }

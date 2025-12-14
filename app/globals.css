@@ -5,10 +5,31 @@
   --background-fi: #F5F9FF;
 }
 
+/*
+.finland {
+  --background: #F5F9FF;
+  --foreground: #171717;
+  --color-blue: #04416D;
+}
+
+.nordics {
+  --background: #FFF9F5;
+  --foreground: #171717;
+  --color-blue: #04416D;
+}
+  */
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #1a0a0a;
     --foreground: #ededed;
+    --color-blue: #a4a5fd;
+    --background-fi: #0a0a2a;
+  }
+  section.ingress picture:not(.large) img {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
   }
 }
 
@@ -47,9 +68,18 @@ main {
   padding: 1em;
 }
 
+.finland {
+  background: var(--background-fi);
+}
+
 header {
   background: var(--background);
   text-align: center;
+}
+
+footer {
+  border-top: 1px solid var(--color-blue);
+  padding: 1em 0;
 }
 
 nav {
@@ -62,7 +92,6 @@ header nav {
 }
 
 footer nav {
-  border-top: 1px solid var(--color-blue);
 }
 
 header nav li {
@@ -71,12 +100,7 @@ header nav li {
 }
 
 footer nav li {
-  display: inline-block;
-  margin-left: 1em;
-}
-
-footer nav li:first-child {
-  margin-left: auto;
+  display: block;
 }
 
 nav a {
@@ -146,13 +170,12 @@ section.ingress {
   text-align: center;
 }
 
-section.ingress picture img {
+section.ingress picture:not(.large) img {
   height: 3em;
   margin: 0.5em 1em 0;
 }
 
 section.ingress picture.large img {
-  height: auto;
   width: 100%;
 }
 
@@ -187,6 +210,15 @@ section > a:first-child, article > a:first-child {
   text-decoration: none;
 }
 
+#webinars > ul {
+  margin-top: 1em;
+}
+
+#webinars li > p {
+  margin-top: 0;
+}
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -209,19 +241,12 @@ section > a:first-child, article > a:first-child {
     padding-bottom: 6px;
     border-bottom: 4.75px solid var(--color-blue);
   }
-  header nav {
-    /*
-    @container scroll-state(stuck: top) {
-      box-shadow: -1px 2px 2px var(--color-blue);
-    }
-    */
-  }
-  header nav li, footer nav li {
+  header nav li {
     display: inline-block;
     padding: 0.5em 0;
     margin-right: 1em;
   }
-  nav li:last-child, footer nav li {
+  header nav li:last-child {
     margin-right: 0;
   }
 }
@@ -240,6 +265,14 @@ section > a:first-child, article > a:first-child {
     margin: 0 2em;
   }
 }
+@media (min-width: 650px) {
+  footer nav li {
+    display: inline-block;
+  }
+  footer nav li.home {
+    margin-left: 0;
+  }
+}
 
 /* 16pt x 45em  */
 @media (min-width: 1000px) {
@@ -251,7 +284,7 @@ section > a:first-child, article > a:first-child {
   }
   h1 {
     font-size: 86px;
-    margin: 160px 0 120px;
+    padding: 160px 0 120px;
   }
   h1 .emphasis {
     font-size: 159%;
