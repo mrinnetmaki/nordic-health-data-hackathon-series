@@ -1,4 +1,4 @@
-import FinnishHealthDataHackathonHeader from "../finland/header";
+import FinnishHealthDataHackathonHeader from "../header";
 
 export const metadata = {
   title: "Finnish Health Data Hackathons",
