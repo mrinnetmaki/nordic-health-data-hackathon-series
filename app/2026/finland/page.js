@@ -143,7 +143,7 @@ function FinnishHealthDataHackathon() {
               alt="Google Calendar" /></picture></a>
             </p>
             <p>
-              View the presentation (<a
+              Download the presentation (<a
               href={`${process.env.NEXT_PUBLIC_BASE_PATH}/PatientAccessTrack-FinnishHealthDataHackathon.pptx`}
               >PowerPoint</a>, <a
               href={`${process.env.NEXT_PUBLIC_BASE_PATH}/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}
