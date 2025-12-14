@@ -1,3 +1,4 @@
+import Link from "next/link";
 import FinnishHealthDataHackathonHeader from "../q1-2026-finland/header";
 
 export const metadata = {
@@ -134,6 +135,40 @@ function PatientAccessTrack() {
           </li>
         </ul>
       </section>
+      <section id="participants">
+        <h2>Participants, Presentations, and Ideas</h2>
+        <p>
+          The Google Sheet embedded below tracks:
+        </p>
+        <ul>
+          <li>
+            Information of partners who wish to make their participation on the track public
+          </li>
+          <li>
+            Information of presentations and educational sessions organized during the hackathon
+          </li>
+          <li>
+            Any ideas participants may have for work before, during, and after the hackathon
+          </li>
+        </ul>
+        <iframe
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRMOOS8G7J-JDGWLAx33I8svDgPJfx9sjgrOE69dnFU3GE0kXfa-lZ9VqYXj6C4ihawXb08A1qVGfIH/pubhtml?gid=151909352&amp;single=false&amp;widget=true&amp;headers=false"
+        />
+        <p>
+          Please feel free to add your own information to the <a
+          href="https://docs.google.com/spreadsheets/d/1MF02GaMasV3UJtPeZZYTaZ753NqimmJOCHDsZHcktOI/edit?usp=sharing"
+          >sheet</a>!
+        </p>
+        <p><strong>Please be careful not to edit information entered by others.</strong></p>
+        <p>
+          Note that you also need to <Link
+          href="https://fhir.fi/hackathon/q1-2026-finland#participate">register to the
+          hackathon</Link> separately.
+        </p>
+      </section>
+      <picture>
+        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
+      </picture>      
     </main >
   );
 }
