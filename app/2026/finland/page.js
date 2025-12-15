@@ -351,6 +351,11 @@ function FinnishHealthDataHackathon() {
           please contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
           href="mailto:heidi.hakala@productivityleap.com">heidi.hakala@productivityleap.com</a>!
         </p>
+        <p>Also, the discussion is open at the <a
+        href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Finnish.20Health.20Data.20Hackathon/with/563748443"
+        >Finnish Health Data Hackathon</a> topic on the <strong>#nordics</strong> channel at the
+        <code>chat.fhir.org</code> FHIR chat!
+        </p>
       </section>
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
