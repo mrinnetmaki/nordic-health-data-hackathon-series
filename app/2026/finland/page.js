@@ -338,6 +338,7 @@ function FinnishHealthDataHackathon() {
           <li><a href="https://otos.health/">Otos Health</a></li>
           <li><a href="https://sensotrend.com/">Sensotrend</a></li>
           <li><a href="https://www.scytales.com/">Scytáles</a></li>
+          <li><a href="https://www.wellmo.com/">Wellmo</a></li>
           {/*
           <li>Evondos</li>
           <li>Google</li>
@@ -353,8 +354,8 @@ function FinnishHealthDataHackathon() {
         </p>
         <p>Also, the discussion is open at the <a
         href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Finnish.20Health.20Data.20Hackathon/with/563748443"
-        >Finnish Health Data Hackathon</a> topic on the <strong>#nordics</strong> channel at the
-        <code>chat.fhir.org</code> FHIR chat!
+        >Finnish Health Data Hackathon</a> topic on the <strong>#nordics</strong> channel at
+        the <code>chat.fhir.org</code> FHIR chat!
         </p>
       </section>
       <picture>
