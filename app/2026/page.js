@@ -9,10 +9,10 @@ function HomeHeader() {
   return (
     <header className="nordics">
       <nav>
-        <li className="home"><Link href="/">Home</Link></li>
-        <li><Link href="/#background">Background</Link></li>
-        <li><Link href="/#events">Events</Link></li>
-        <li><Link href="/#organizers">Organizers</Link></li>
+        <li className="home"><Link href="/2026">Home</Link></li>
+        <li><Link href="/2026#background">Background</Link></li>
+        <li><Link href="/2026#events">Events</Link></li>
+        <li><Link href="/2026#organizers">Organizers</Link></li>
       </nav>
     </header>
   );
