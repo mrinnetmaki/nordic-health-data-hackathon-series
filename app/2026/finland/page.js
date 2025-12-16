@@ -334,8 +334,9 @@ function FinnishHealthDataHackathon() {
         </p>
         <p>Also, the discussion is open at the <a
         href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Finnish.20Health.20Data.20Hackathon/with/563748443"
-        >Finnish Health Data Hackathon</a> topic on the <strong>#nordics</strong> channel at
-        the <code>chat.fhir.org</code> FHIR chat!
+        >Finnish Health Data Hackathon topic</a> on the <a
+        href="https://chat.fhir.org/#narrow/channel/194447-nordics/">#nordics</a> channel at the <a
+        href="https://chat.fhir.org/">chat.fhir.org</a> FHIR chat!
         </p>
       </section>
       <picture>
