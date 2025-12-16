@@ -232,29 +232,7 @@ function FinnishHealthDataHackathon() {
         <section id="venue">
           <a href="#venue"><h3>Venue</h3></a>
           <p>
-            The current plan is to have the first day of the hackathon in Kuntatalo, together with
-            the 30 years symporium of HL7 Finland, and the remainder of the hackathon in
-            Messukeskus, together with the Radical Health Festival.
-          </p>
-          <p className="warning">
-            NOTE! The venues have not been confirmed yet, and this information may still change!
-          </p>
-          <p>The venue will in any case be either one of these locations, or both.</p>
-          <h4>Monday, Kuntatalo</h4>
-          <p>
-            On Monday, the venue is <a href="https://kuntasaatio.fi/toiminta/kuntatalo/"
-            >Kuntatalo</a>
-          </p>
-          <address>
-            Toinen linja 14<br />
-            00530 Helsinki<br />
-          </address>
-          <p>
-            See Kuntatalo on <a href="https://maps.app.goo.gl/iqGTG8xRGKxhHCGEA">Google Maps</a>!
-          </p>
-          <h4>Tuesday and Wednesday, Messukeskus</h4>
-          <p>
-            On Tuesday and Wednesday, the venue is <a href="https://www.messukeskus.com/"
+            The event will take place in <a href="https://www.messukeskus.com/"
             >Messukeskus</a>
           </p>
           <address>
@@ -269,6 +247,7 @@ function FinnishHealthDataHackathon() {
             href="https://radicalhealthfestival.messukeskus.com/en/visit/how-to-get-here/">arrival
             instructions</a> on Messukeskus website. Use the <em>entrance for meeting guests</em>.
           </p>
+          <p>The main space for the hackathon is Room 203 A.</p>
         </section>
         <section id="costs">
           <a href="#costs"><h3>Costs</h3></a>
