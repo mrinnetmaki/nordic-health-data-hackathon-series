@@ -143,7 +143,8 @@ function FinnishHealthDataHackathon() {
               alt="Google Calendar" /></picture></a>
             </p>
             <p>
-              Download the presentation (<a
+              View the <a href="https://www.youtube.com/watch?v=ePGVvzYA9tk">Webinar
+              recording</a>, download the presentation (<a
               href={`${process.env.NEXT_PUBLIC_BASE_PATH}/PatientAccessTrack-FinnishHealthDataHackathon.pptx`}
               >PowerPoint</a>, <a
               href={`${process.env.NEXT_PUBLIC_BASE_PATH}/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}
