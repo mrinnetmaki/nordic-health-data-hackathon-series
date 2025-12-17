@@ -150,7 +150,6 @@ function FinnishHealthDataHackathon() {
               href={`${process.env.NEXT_PUBLIC_BASE_PATH}/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}
               >PDF</a>).
             </p>
-
           </li>
           <li>
             <h4>Helsinki / Apotti / Epic sub-track info</h4>
@@ -166,6 +165,12 @@ function FinnishHealthDataHackathon() {
               src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif"
               alt="Google Calendar" /></picture></a>
             </p>
+            <p>
+              Download the presentation (<a
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/GettingStartedWithEpicIntegrations.pdf`}
+              >PDF</a>).
+            </p>
+
           </li>
           <li>
             <h4>Care Plans and Clinical Reasoning track info</h4>
