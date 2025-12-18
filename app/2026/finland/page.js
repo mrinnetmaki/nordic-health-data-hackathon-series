@@ -218,12 +218,11 @@ function FinnishHealthDataHackathon() {
         <section id="venue">
           <a href="#venue"><h3>Venue</h3></a>
           <p>
-            The event will take place in <a href="https://www.messukeskus.com/"
-            >Messukeskus</a>
+            The event will take place in:
           </p>
           <address>
-            Rautatieläisenkatu 3<br />
-            00520 Helsinki<br />
+            <a href="https://www.messukeskus.com/">Messukeskus</a>, Rautatieläisenkatu 3, 00520
+            Helsinki
           </address>
           <p>
             See Messukeskus on <a href="https://maps.app.goo.gl/iqGTG8xRGKxhHCGEA">Google Maps</a>!

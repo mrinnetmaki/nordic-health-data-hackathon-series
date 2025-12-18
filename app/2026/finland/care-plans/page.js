@@ -1,3 +1,4 @@
+import Link from "next/link";
 import FinnishHealthDataHackathonHeader from "../header";
 
 export const metadata = {
