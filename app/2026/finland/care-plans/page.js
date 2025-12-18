@@ -282,6 +282,36 @@ function CarePlanTrack() {
           </li>
         </ul>
       </section>
+      <section id="participants">
+        <a href="#participants"><h2>Participants, Presentations, and Ideas</h2></a>
+        <p>
+          The Google Sheet embedded below tracks:
+        </p>
+        <ul>
+          <li>
+            Information of partners who wish to make their participation on the track public
+          </li>
+          <li>
+            Information of presentations and educational sessions organized during the hackathon
+          </li>
+          <li>
+            Any ideas participants may have for work before, during, and after the hackathon
+          </li>
+        </ul>
+        <iframe
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSkaFw0_Qpqs49NW3QE-9PXDjROZRw_ycN5faZYnVY7K5dZ0VVeAY1cgTGnN6ZWaPU2xFpjOdPxE2xh/pubhtml?widget=true&amp;headers=false"
+        />
+        <p>
+          Please feel free to add your own information to the <a
+          href="https://docs.google.com/spreadsheets/d/1X6WD6GPxNvwwpRAb0gsIti_5LBTuGT5nnwUk535piCQ"
+          >sheet</a>!
+        </p>
+        <p><strong>Please be careful not to edit information entered by others.</strong></p>
+        <p>
+          Note that you also need to <Link href="/2026/finland#participate">register to the
+          hackathon</Link> separately.
+        </p>
+      </section>      
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
       </picture>      
