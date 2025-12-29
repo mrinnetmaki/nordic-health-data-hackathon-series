@@ -148,7 +148,7 @@ function FinnishHealthDataHackathon() {
               Tuesday, December 16, 2025 at 14:00 EET (13:00 CET)
             </time>
             <p>
-              View the <a href="https://www.youtube.com/watch?v=ePGVvzYA9tk">Webinar
+              View the <a href="https://www.youtube.com/watch?v=3GZRHARVwoQ">Webinar
               recording</a>, download the presentation (<a
               href={`${process.env.NEXT_PUBLIC_BASE_PATH}/GettingStartedWithEpicIntegrations.pdf`}
               >PDF</a>).
@@ -174,13 +174,12 @@ function FinnishHealthDataHackathon() {
               Friday, December 19, 2025 at 12:00 EET (11:00 CET)
             </time>
             <p>
-              <a
-              href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_NTRlYzc4ZjYtOWJiOC00MjBjLThlY2MtYjZkMDJjZDcyYzIy%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522ca4ef9a8-6017-4d6f-b345-ed904be37123%2522%252c%2522Oid%2522%253a%25225f7c049e-16dc-4481-bfb3-ff79b4f28d4e%2522%257d%26launchAgent%3DGSuiteAddOn%26correlationId%3Dd12c0e80-6351-49b3-8998-56c83594f727%26anon%3Dtrue&type=meetup-join&deeplinkId=e255fc57-720d-4f4b-992d-4629b2b35f39&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true"
-              >Teams link</a>, Calendar event: <a target="_blank"
-              href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NnZhZjFuMG5tYWQ4bjdhbWYwcDlybm4yZmggbWlrYWVsQHNlbnNvdHJlbmQuY29t&amp;tmsrc=mikael%40sensotrend.com"
-              ><picture><img border="0"
-              src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif"
-              alt="Google Calendar" /></picture></a>
+              View the <a href="https://www.youtube.com/watch?v=NoZW1nK0yAk">Webinar
+              recording</a>, download the presentation (<a
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pptx`}
+              >PowerPoint</a>, <a
+              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pdf`}
+              >PDF</a>).
             </p>
           </li>
         </ul>
