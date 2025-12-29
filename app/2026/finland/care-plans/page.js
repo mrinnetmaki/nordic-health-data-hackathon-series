@@ -2,8 +2,8 @@ import Link from "next/link";
 import FinnishHealthDataHackathonHeader from "../header";
 
 export const metadata = {
-  title: "Finnish Health Data Hackathons",
-  description: "The Finnish edition of the Nordic Health Data Hackathon.",
+  title: "Care Plans and Clinical Reasoning track of the Finnish Health Data Hackathon",
+  description: "The description of the track focused on care plans and clinical reasoning at the Finnish edition of the Nordic Health Data Hackathon.",
 };
 
 function CarePlanTrack() {

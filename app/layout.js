@@ -1,13 +1,14 @@
-'use client'
-
-import { usePathname } from 'next/navigation';
-import Link from 'next/link';
-
+import Body from './body';
 import './globals.css';
 
+export const metadata = {
+  metadataBase: new URL('https://fhir.fi'),
+  title: {
+    default: 'Nordic Health Data Hackathons',
+  },
+}
+
 export default function RootLayout({ children }) {
-  const pathname = usePathname();
-  console.log({ pathname });
   return (
     <html lang="en">
       <head>
@@ -17,19 +18,7 @@ export default function RootLayout({ children }) {
         <meta name="apple-mobile-web-app-title" content="Hackathon" />
         <link rel="manifest" href="/hackathon/site.webmanifest" />
       </head>
-      <body className={pathname === '/2026' ?'' : 'finland' }>
-        {children}
-        <footer>
-          <nav>
-            <li className="home"><Link href="/">Nordic Health Data Hackathons</Link></li>
-            <li>&copy; 2025+ <a href="https://hl7.fi/">HL7 Finland</a></li>
-            <li>
-              <a href="https://github.com/mrinnetmaki/nordic-health-data-hackathon-series"
-              >Source</a>
-            </li>
-          </nav>
-        </footer>
-      </body>
+      <Body>{children}</Body>
     </html>
   );
 }

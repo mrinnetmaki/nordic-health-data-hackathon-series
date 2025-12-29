@@ -1,5 +1,12 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: {
+    default: 'Finnish Health Data Hackathons',
+  },
+  description: 'The Finnish edition of the Nordic Health Data Hackathon.',
+};
+
 export default function FinnishHealthDataHackathonHeader() {
   return (
     <header className="finland">

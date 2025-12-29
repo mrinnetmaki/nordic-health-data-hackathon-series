@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Nordic Health Data Hackathons",
+  title: 'Nordic Health Data Hackathons',
   description: "A series of health data hackathons in the Nordics",
 };
 

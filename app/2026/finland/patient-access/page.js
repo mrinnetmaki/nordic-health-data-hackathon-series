@@ -2,8 +2,8 @@ import Link from "next/link";
 import FinnishHealthDataHackathonHeader from "../header";
 
 export const metadata = {
-  title: "Patient Access Track of the Finnish Health Data Hackathons",
-  description: "The description of the track focused on patient access, at the Finnish edition of the Nordic Health Data Hackathon.",
+  title: "Patient Access track of the Finnish Health Data Hackathon",
+  description: "The description of the track focused on patient access to data at the Finnish edition of the Nordic Health Data Hackathon.",
 };
 
 function PatientAccessTrack() {

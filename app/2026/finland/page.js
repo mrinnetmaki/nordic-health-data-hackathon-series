@@ -2,11 +2,6 @@ import Link from "next/link";
 
 import FinnishHealthDataHackathonHeader from "./header";
 
-export const metadata = {
-  title: "Finnish Health Data Hackathons",
-  description: "The Finnish edition of the Nordic Health Data Hackathon.",
-};
-
 function FinnishHealthDataHackathon() {
   return (
     <main id="fi" className="finland">
