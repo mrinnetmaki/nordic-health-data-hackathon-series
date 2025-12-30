@@ -312,7 +312,19 @@ function CarePlanTrack() {
           Note that you also need to <Link href="/2026/finland#participate">register to the
           hackathon</Link> separately.
         </p>
-      </section>      
+      </section>
+      <section id="webinar">
+        <a href="#webinar"><h2>Further info</h2></a>
+        <p>
+          View the <a href="https://www.youtube.com/watch?v=HiZ2c-b39eA">webinar recording</a>,
+          download the presentation (<a href={
+          `${process.env.NEXT_PUBLIC_BASE_PATH}/CarePlanTrackOrientation-FinnishHealthDataHackathon.pptx`
+          }>PowerPoint</a>, <a href={
+          `${process.env.NEXT_PUBLIC_BASE_PATH}/CarePlanTrackOrientation-FinnishHealthDataHackathon.pdf`
+          }>PDF</a>).
+        </p>
+        <p>See also <Link href="/2026/finland#webinars">all the informative webinars</Link>!</p>
+      </section>
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
       </picture>      

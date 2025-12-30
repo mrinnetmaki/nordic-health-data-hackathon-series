@@ -14,6 +14,15 @@ function PatientAccessTrack() {
         Several initiatives for patient access to health data in Finland and in the EU are
         present in the hackathon. There are plenty of opportunities to choose from on this track!
       </p>
+      <p>
+        View the <a href="https://www.youtube.com/watch?v=ePGVvzYA9tk">recording</a> or download
+        the presentation (<a href={`${
+          process.env.NEXT_PUBLIC_BASE_PATH
+        }/PatientAccessTrack-FinnishHealthDataHackathon.pptx`}>PowerPoint</a>, <a href={`${
+          process.env.NEXT_PUBLIC_BASE_PATH
+        }/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar inrocuding
+        this track!
+      </p>      
       <section id="smart">
         <a href="#smart"><h2>Finnish SMART App Launch</h2></a>
         <p>
@@ -50,6 +59,12 @@ function PatientAccessTrack() {
           markets for Finnish health tech companies. The companies can integrate their products
           with healthcare system workflows and get initial validation through Apotti, and then
           scale global through Epic&apos;s customer base, and beyond.
+        </p>
+        <p>
+          View the <a href="https://www.youtube.com/watch?v=3GZRHARVwoQ">recording</a> and download
+          the presentation (<a href={`${
+            process.env.NEXT_PUBLIC_BASE_PATH
+          }/GettingStartedWithEpicIntegrations.pdf`}>PDF</a>) of the webinar focusing this topic!
         </p>
       </section>
       <section id="kanta">
@@ -134,6 +149,16 @@ function PatientAccessTrack() {
             how digital wallets can facilitate storing and sharing patient summary documents.
           </li>
         </ul>
+        <p>
+          View the <a href="https://www.youtube.com/watch?v=NoZW1nK0yAk">recording</a> and download
+          the presentation (<a href={`${
+            process.env.NEXT_PUBLIC_BASE_PATH
+          }/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pptx`}>PowerPoint</a>, <a href={
+          `${
+            process.env.NEXT_PUBLIC_BASE_PATH
+          }/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar
+          focusing this topic!
+        </p>
       </section>
       <section id="participants">
         <a href="#participants"><h2>Participants, Presentations, and Ideas</h2></a>
