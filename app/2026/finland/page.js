@@ -281,34 +281,17 @@ function FinnishHealthDataHackathon() {
           href="https://forms.clickup.com/4728722/f/4g9wj-10552/3L9IGGC81CX3Z1PAG4">registration
           form</a>!
         </p>
-        <p>We will have implementations available at least from</p>
-        <ul>
-          <li><a href="https://www.apotti.fi/en/the-apotti-ecosystem/">Apotti</a></li>
-          <li><a href="https://www.hel.fi/en">City of Helsinki</a></li>
-          <li><a href="https://www.duodecim.fi/english/">Duodecim</a></li>
-          <li><a href="https://fhir.epic.com/">Epic</a></li>
-          <li><a href="https://findynet.fi/en/">Findynet</a></li>
-          <li><a href="https://forsante.com/en/">Forsante</a></li>
-          <li><a href="https://www.gnomon.com.gr/">Gnomon Informatics</a></li>
-          <li><a href="https://hippocraites.fi/">HippocrAItes</a></li>
-          <li><a href="https://ihe-catalyst.net/">IHE Catalyst</a></li>
-          <li><a href="https://www.kanta.fi/en/system-developers">Kela</a></li>
-          <li><a href="https://myhealthmyhands.eu/">MyHealth@MyHands</a></li>
-          <li><a href="https://otos.health/">Otos Health</a></li>
-          <li><a href="https://sensotrend.com/">Sensotrend</a></li>
-          <li><a href="https://www.scytales.com/">Scytáles</a></li>
-          <li><a href="https://www.wellmo.com/">Wellmo</a></li>
-          {/*
-          <li>Evondos</li>
-          <li>Google</li>
-          <li>Microsoft</li>
-          <li>Tietoevry</li>
-          */}
-        </ul>
-        <p>The list of available implementations is updated up to the start of the event.</p>
         <p>
-          If you want to get listed on this page, or if you want to propose an additional track,
-          please contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
+          You can see some of the registered participants on the sign-up sheets for the tracks.
+        </p>
+        <p>See:</p>
+        <ul>
+          <li><Link href="/2026/finland/patient-access#participants">Participant list for the Patient Access track</Link></li>
+          <li><Link href="/2026/finland/care-plans#participants">Participant list for the Care Plans and Clinical Reasoning track</Link></li>
+        </ul>
+        <h3>Questions?</h3>
+        <p>
+          Please don't hesitate to contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
           href="mailto:heidi.hakala@productivityleap.com">heidi.hakala@productivityleap.com</a>!
         </p>
         <p>Also, the discussion is open at the <a
