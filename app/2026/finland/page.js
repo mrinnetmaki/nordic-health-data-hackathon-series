@@ -289,7 +289,36 @@ function FinnishHealthDataHackathon() {
           <li><Link href="/2026/finland/patient-access#participants">Participant list for the Patient Access track</Link></li>
           <li><Link href="/2026/finland/care-plans#participants">Participant list for the Care Plans and Clinical Reasoning track</Link></li>
         </ul>
-        <h3>Questions?</h3>
+        <p>Please enter your own information there too!</p>
+        <section className="promo">
+          <picture>
+            <img
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/radical_logo_2026_black-768x127.webp`}
+              alt="Radical Health Festival Helsinki 2026"
+            />
+          </picture>      
+          <h3>Attend the Radical Health Festival!</h3>
+          <p>
+            Registered participants of the hackathon are also entitled to a discount for the
+            tickets to the Radical Health Festival:
+          </p>
+          <ul>
+            <li>
+              <span title="Small and medium-sized enterprices">SMEs</span>: 65&nbsp;% discount with
+              the code <strong>RHFH2665</strong> (from 595&nbsp;€ to 208,25&nbsp;€)
+            </li>
+            <li>
+              Larger commercial companies: 60&nbsp;% discount with the
+              code <strong>RHFH2660</strong> (from 1295&nbsp;€ to 518&nbsp;€)
+            </li>
+          </ul>
+          <p>
+            Get your festival tickets at <a
+            href="https://radicalhealthfestival.messukeskus.com/tickets/">Radical Health Festival's
+            ticket store</a>
+          </p>
+        </section>
+        <h3>Any Questions?</h3>
         <p>
           Please don't hesitate to contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
           href="mailto:heidi.hakala@productivityleap.com">heidi.hakala@productivityleap.com</a>!

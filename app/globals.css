@@ -255,10 +255,22 @@ section > a:first-child, article > a:first-child {
   height: 3em;
 }
 
+section.promo {
+  margin: 4em 0 5em;
+}
+
+.promo img {
+  box-sizing: content-box;
+  height: 3em;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+  .promo img {
+    background-color: white;
+    padding: 1em;
   }
 }
 
