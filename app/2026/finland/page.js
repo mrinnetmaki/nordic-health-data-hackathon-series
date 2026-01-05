@@ -13,7 +13,9 @@ function FinnishHealthDataHackathon() {
           </span>
           <a href="https://www.hl7.fi/">
             <picture className="large">
-              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland"
+              />
             </picture>
           </a>
           <span>
@@ -21,7 +23,9 @@ function FinnishHealthDataHackathon() {
           </span>
           <a href="https://hl7.dk/">
             <picture>
-              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-denmark.png`} alt="HL7 Denmark" />
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-denmark.png`} alt="HL7 Denmark"
+              />
             </picture>
           </a>
           <a href="https://www.hl7.no/">
@@ -65,7 +69,8 @@ function FinnishHealthDataHackathon() {
       </section>
       <p>
         This hackathon takes place in Helsinki, Finland, connected to both the <a
-        href="https://radicalhealthfestival.messukeskus.com/">Radical Health Festival</a> and the <a
+        href="https://radicalhealthfestival.messukeskus.com/">Radical Health Festival</a> and
+        the <a
         href="https://www.hl7.fi/kokoukset-ja-tapahtumat/hl7-finland-30th-anniversary-symposium/"
         >30th Anniversary Symposium of HL7 Finland</a>.
       </p>
@@ -117,9 +122,13 @@ function FinnishHealthDataHackathon() {
             <p>
               View the <a href="https://www.youtube.com/watch?v=QCvmpQgxcMo">Webinar
               recording</a>, download the presentation (<a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/FinnishHealthDataHackathonIntro.pptx`}
+              href={`${
+                process.env.NEXT_PUBLIC_BASE_PATH
+              }/FinnishHealthDataHackathonIntro.pptx`}
               >PowerPoint</a>, <a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/FinnishHealthDataHackathonIntro.pdf`}
+              href={`${
+                process.env.NEXT_PUBLIC_BASE_PATH
+              }/FinnishHealthDataHackathonIntro.pdf`}
               >PDF</a>).
             </p>
           </li>
@@ -131,9 +140,13 @@ function FinnishHealthDataHackathon() {
             <p>
               View the <a href="https://www.youtube.com/watch?v=ePGVvzYA9tk">Webinar
               recording</a>, download the presentation (<a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/PatientAccessTrack-FinnishHealthDataHackathon.pptx`}
+              href={`${
+                process.env.NEXT_PUBLIC_BASE_PATH
+              }/PatientAccessTrack-FinnishHealthDataHackathon.pptx`}
               >PowerPoint</a>, <a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}
+              href={`${
+                process.env.NEXT_PUBLIC_BASE_PATH
+              }/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}
               >PDF</a>).
             </p>
           </li>
@@ -145,7 +158,9 @@ function FinnishHealthDataHackathon() {
             <p>
               View the <a href="https://www.youtube.com/watch?v=3GZRHARVwoQ">Webinar
               recording</a>, download the presentation (<a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/GettingStartedWithEpicIntegrations.pdf`}
+              href={`${
+                process.env.NEXT_PUBLIC_BASE_PATH
+              }/GettingStartedWithEpicIntegrations.pdf`}
               >PDF</a>).
             </p>
           </li>
@@ -157,9 +172,13 @@ function FinnishHealthDataHackathon() {
             <p>
               View the <a href="https://www.youtube.com/watch?v=HiZ2c-b39eA">Webinar
               recording</a>, download the presentation (<a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/CarePlanTrackOrientation-FinnishHealthDataHackathon.pptx`}
+              href={`${
+                process.env.NEXT_PUBLIC_BASE_PATH
+              }/CarePlanTrackOrientation-FinnishHealthDataHackathon.pptx`}
               >PowerPoint</a>, <a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/CarePlanTrackOrientation-FinnishHealthDataHackathon.pdf`}
+              href={`${
+                process.env.NEXT_PUBLIC_BASE_PATH
+              }/CarePlanTrackOrientation-FinnishHealthDataHackathon.pdf`}
               >PDF</a>).
             </p>
           </li>
@@ -171,9 +190,13 @@ function FinnishHealthDataHackathon() {
             <p>
               View the <a href="https://www.youtube.com/watch?v=NoZW1nK0yAk">Webinar
               recording</a>, download the presentation (<a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pptx`}
+              href={`${
+                process.env.NEXT_PUBLIC_BASE_PATH
+              }/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pptx`}
               >PowerPoint</a>, <a
-              href={`${process.env.NEXT_PUBLIC_BASE_PATH}/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pdf`}
+              href={`${
+                process.env.NEXT_PUBLIC_BASE_PATH
+              }/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pdf`}
               >PDF</a>).
             </p>
           </li>
@@ -234,7 +257,8 @@ function FinnishHealthDataHackathon() {
             <strong>There are no participation costs associated to the hackathon.</strong>
           </p>
           <p>
-            You don&apos;t need to pay any fees to participate to the hackathon. It is free to attend.
+            You don&apos;t need to pay any fees to participate to the hackathon. It is free to
+            attend.
           </p>
           <p>
             You are not paid any reimbursement for participating to the hackathon.
@@ -245,7 +269,6 @@ function FinnishHealthDataHackathon() {
           </p>
         </section>
       </section>
-
       <section id="results">
         <a href="#results"><h2>Results</h2></a>
         <p>
@@ -273,6 +296,10 @@ function FinnishHealthDataHackathon() {
           >Innovation Village</a> of the Radical Health Festival, also open for attendees of both
           the Festival and the Finnish Medical Convention.
         </p>
+        <p>
+          The results will be collected and published gradually on this website. See the <Link
+          href="./finland/results">Results</Link> page.
+        </p>
       </section>
       <section id="participate">
         <a href="#participate"><h2>Participate</h2></a>
@@ -286,8 +313,14 @@ function FinnishHealthDataHackathon() {
         </p>
         <p>See:</p>
         <ul>
-          <li><Link href="/2026/finland/patient-access#participants">Participant list for the Patient Access track</Link></li>
-          <li><Link href="/2026/finland/care-plans#participants">Participant list for the Care Plans and Clinical Reasoning track</Link></li>
+          <li>
+            <Link href="/2026/finland/patient-access#participants">Participant list for the
+            Patient Access track</Link>
+          </li>
+          <li>
+            <Link href="/2026/finland/care-plans#participants">Participant list for the Care Plans
+            and Clinical Reasoning track</Link>
+          </li>
         </ul>
         <p>Please enter your own information there too!</p>
         <section className="promo">
@@ -315,7 +348,7 @@ function FinnishHealthDataHackathon() {
           <p>
             Get your festival tickets at <a
             href="https://radicalhealthfestival.messukeskus.com/tickets/">Radical Health Festival's
-            ticket store</a>
+            ticket store!</a>
           </p>
         </section>
         <h3>Any Questions?</h3>
