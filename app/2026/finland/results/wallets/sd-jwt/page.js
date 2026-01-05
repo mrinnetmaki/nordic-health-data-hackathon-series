@@ -222,6 +222,7 @@ But there are other mechanisms too. IS wallet a winning one?
             We shall see. At least we have tried it out. We have some code and some learnings ready if there will be a use case.
           </p>
           <p>
+            Perhaps digital identity wallets have a more important role in verifying the identity of an individual?
           </p>
         </section>
       </section>
