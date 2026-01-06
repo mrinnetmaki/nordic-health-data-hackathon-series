@@ -101,16 +101,20 @@ function PatientAccessResults() {
             >client-js-examples</a>, forked from the examples of the <a
             href="https://docs.smarthealthit.org/client-js/">SMART on FHIR JavaScript Library</a>.
           </li>
+          <li>
+            Live <a href="https://www.healthintersections.com.au/passport.html">Patient Document
+            Generator</a>, a tool introduced by Grahame Grieve in the <strong>Patient Authored
+            Documents using IPS</strong> presentation listed above.
+          </li>
         </ul>
       </section>
-      {/*
       <section id="wallets">
         <a href=""><h2>Wallets</h2></a>
         <p>
-          See the <Link href="../wallets">results of the wallets topic</Link> on a separate page.
+          See also the <Link href="./wallets">results of the wallets topic</Link> on a separate
+          page.
         </p>
       </section>
-      */}
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
       </picture>      

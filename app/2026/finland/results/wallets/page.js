@@ -12,10 +12,8 @@ function WalletResults() {
       <h1>Results</h1>
       <section>
         <p>
+          See the <Link href="./wallets/sd-jwt">page specific to SD-JWT</Link>.
         </p>
-        <ul>
-          
-        </ul>
       </section>
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
