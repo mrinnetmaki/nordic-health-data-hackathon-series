@@ -258,7 +258,7 @@ function FinnishHealthDataHackathon() {
           </picture>
           <p>
             Room 203 is on the second floor or the Conference Centre of Messukeskus. Enter to the
-            lobby of the Holiday Inn hotel, take the rotating stairst to the second floor, walk to
+            lobby of the Holiday Inn hotel, take the rotating stairs to the second floor, walk to
             your left, and follow the hallway to the end.
           </p>
         </section>
