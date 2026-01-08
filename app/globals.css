@@ -110,7 +110,7 @@ nav a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: var(--color-blue);
   margin: 1em 0 0.25em;
 }
@@ -137,7 +137,8 @@ h3 {
 }
 
 h4 {
-  margin-top: 1em;
+  font-size: large;
+  margin-top: 2em;
   font-size: 1em;
 }
 
@@ -169,8 +170,20 @@ p + ul {
   margin-top: -1em;
 }
 
+h4 + p + ul {
+  margin-top: 0;
+}
+
 section.ingress {
   text-align: center;
+}
+
+picture.large img {
+  width: 100%;
+}
+
+section.ingress picture.large img {
+  width: 100%;
 }
 
 section.ingress picture:not(.large) img {
@@ -178,9 +191,38 @@ section.ingress picture:not(.large) img {
   margin: 0.5em 1em 0;
 }
 
-section.ingress picture.large img {
-  width: 100%;
+picture.center {
+  display: block;
+  text-align: center;
 }
+
+picture.center img {
+  display: block;
+  margin: auto;
+}
+
+picture.right img {
+  display: block;
+  float: right;
+  margin-right: -2.75em;
+}
+
+picture.icon img {
+  display: block;
+  margin-top: 3em;
+  height: 4em;
+  margin-bottom: 2em;
+}
+
+picture.icon.large img {
+  display: block;
+  margin-top: 3em;
+  height: auto;
+  width: 100%;
+  max-width: 25em;
+  margin-bottom: 2em;
+}
+
 
 article, article > section {
   padding-top: 2em;
@@ -191,6 +233,14 @@ section.ingress span {
   margin: 2em 0 1em;
 }
 
+p.ingress {
+  /*
+  font-style: italic;
+  */
+  margin: 2em 0;
+  font-size: 120%;
+  color: var(--color-blue);
+}
 
 main > section > section {
   padding-top: 1.5em;
@@ -204,6 +254,14 @@ main > picture img {
   border: 10px dotted;
   border-radius: 30px;
   font-weight: bolder;
+}
+
+.highlight.light {
+  font-weight: normal;
+}
+
+.highlight.light h3 {
+  font-size: 1.25em;
 }
 
 .highlight {
@@ -264,6 +322,15 @@ section.promo {
   height: 3em;
 }
 
+dl {
+  font-weight: normal;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -298,6 +365,12 @@ section.promo {
   header nav li:last-child {
     margin-right: 0;
   }
+  .highlight.light h3 {
+    font-size: 2em;
+  }
+  picture.icon img {
+    height: 5em;
+  }
 }
 
 @media (min-width: 525px) {
@@ -313,13 +386,23 @@ section.promo {
   nav li {
     margin: 0 2em;
   }
+  picture.icon img {
+    height: 6em;
+  }
 }
+
 @media (min-width: 650px) {
   footer nav li {
     display: inline-block;
   }
   footer nav li.home {
     margin-left: 0;
+  }
+  .highlight.light h3 {
+    font-size: 3em;
+  }
+  picture.icon img {
+    height: 7em;
   }
 }
 
@@ -340,5 +423,8 @@ section.promo {
   }
   nav .home {
     float: left;
+  }
+  picture.icon img {
+    height: 10em;
   }
 }

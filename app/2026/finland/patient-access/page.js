@@ -52,7 +52,7 @@ function PatientAccessTrack() {
           search and read/write RESTful APIs that are defined by FHIR. Epic deployments in Denmark,
           Finland, and Norway make use of Epic&apos;s integration capabilities - FHIR and beyond -
           every day. You can find out more at <a href="https://open.epic.com/CountrySpecific/"
-          >https://open.epic.com/CountrySpecific/</a>.
+          >open.epic.com/CountrySpecific/</a>.
         </p>
         <p>
           The track leads share the vision where Apotti is an excellent springboard to global
@@ -66,6 +66,78 @@ function PatientAccessTrack() {
             process.env.NEXT_PUBLIC_BASE_PATH
           }/GettingStartedWithEpicIntegrations.pdf`}>PDF</a>) of the webinar focusing this topic!
         </p>
+        <section id="helsinki-challenge" className="highlight light">
+          <a href="#helsinki-challenge"><h3>Hackathon Challenge by the City of Helsinki</h3></a>
+          <picture className="center icon">
+            <img
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/helsinki.svg`}
+              alt="City of Helsinki"
+            />
+          </picture>
+          <p>City of Helsinki presents a challenge to hackathon participants.</p>
+          <p className="ingress">
+            <strong>Using Your Own Health Data</strong> - Using structured health information shared through
+            Maisa/MyChart in an application that processes health data independently
+          </p>
+          <p>
+            The main aim of the challenge is to find examples of apps that would integrate with the
+            Maisa patient app and benefit from the data in Apotti.
+          </p>
+          <h4>Evaluation Criteria</h4>
+          <dl>
+            <dt>Benefits</dt>
+            <dd>
+              The application uses the health data that can be shared through Maisa / MyChart
+              independently. The application is impactful and provides benefits to public
+              healthcare, for example through cost-effectiveness, social impact, or by advantages
+              for the individual and/or healthcare professionals.
+            </dd>
+            <dt>Implementability</dt>
+            <dd>
+              The implementation of the application is straightforward. The data available to the
+              application is not restricted from Maisa / MyChart side. The application can also use
+              other health applications to support the customer&apos;s overall care. The
+              application does not write any information back to Maisa/MyChart.
+            </dd>
+            <dt>Ease of use</dt>
+            <dd>
+              The application is easy to use. Usability means, e.g., technical simplicity, suitability
+              for the purpose, and clear language in the application. The customer does not need
+              healthcare professional's support to use the application.
+            </dd>
+            <dt>Engagement</dt>
+            <dd>
+              The application encourages the customer to use it regularly and in a meaningful way.
+              Suitable gamification elements are used to support engagement.
+            </dd>
+          </dl>
+          {/*
+          <h4>Jury</h4>
+          <p>
+            The entries are evaluated by three judges:
+          </p>
+          <ul>
+            <li>
+              <strong>Leena Turpeinen</strong>, Director of Health and Substance Abuse Services,
+              City of Helsinki
+            </li>
+            <li>
+              <strong>Mika Perttu</strong>, Chief Digital Physician, City of Helsinki
+            </li>
+            <li>
+              <strong>Petri Otranen</strong>, Chief Information Officer, City of Helsinki
+            </li>
+          </ul>
+          */}
+          <picture className="right icon">
+            <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/award.svg`} alt="" />
+          </picture>
+          <h4>Prizes</h4>
+          <p>
+            The top three participants in the Helsinki track will be awarded. The prizes are €2500,
+            €1500 and €1000.
+          </p>
+        </section>
       </section>
       <section id="kanta">
         <a href="#kanta"><h2>Kanta</h2></a>

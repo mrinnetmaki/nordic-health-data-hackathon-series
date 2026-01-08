@@ -109,10 +109,10 @@ function FinnishHealthDataHackathon() {
       <section id="webinars">
         <a href="#webinars"><h2>Webinars</h2></a>
         <p>
-          There will be preparatory webinars in December, introducing the different tracks and the
+          Preparatory webinars were arranged in December, introducing the different tracks and the
           available technologies.
         </p>
-        <p>Currently scheduled webinars include:</p>
+        <p>The recordings and presentations of the webinars are listed below.</p>
         <ul id="schedule">
           <li>
             <h4>General intro to the hackathon</h4>
@@ -201,13 +201,12 @@ function FinnishHealthDataHackathon() {
             </p>
           </li>
         </ul>
-        <p>There may still be changes to the schedule!</p>
         <p>
-          The full list of topics, dates and times of the webinars will be announced later. Keep an
-          eye on this page for updates!
+          There may still be some last minute webinars announced! Keep an eye on this page for
+          updates!
         </p>
         <p>
-          You can add the <a
+          You can also add the <a
           href="https://calendar.google.com/calendar/u/0?cid=YjYyOTgxZWQ1YWJmYzk0ZmUxNTllZTY4NTIyYTc3N2ZjYjEzMmFlMDU5NDI4MjA5YTgwMWUzYTliMTlmMDUyYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
           >calendar</a> containing all webinars and hackathon events to your own calendar
           application.
@@ -249,7 +248,19 @@ function FinnishHealthDataHackathon() {
             href="https://radicalhealthfestival.messukeskus.com/en/visit/how-to-get-here/">arrival
             instructions</a> on Messukeskus website. Use the <em>entrance for meeting guests</em>.
           </p>
-          <p>The main space for the hackathon is Room 203 A.</p>
+          <p>
+            The main space for the hackathon is <a
+            href="https://messukeskus.visualizer360.com/en/virtual?p=89654&h=0&v=0&f=0.67">Room 203
+            A</a>.
+          </p>
+          <picture className="large">
+            <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/Room203.png`} alt="" />
+          </picture>
+          <p>
+            Room 203 is on the second floor or the Conference Centre of Messukeskus. Enter to the
+            lobby of the Holiday Inn hotel, take the rotating stairst to the second floor, walk to
+            your left, and follow the hallway to the end.
+          </p>
         </section>
         <section id="costs">
           <a href="#costs"><h3>Costs</h3></a>
