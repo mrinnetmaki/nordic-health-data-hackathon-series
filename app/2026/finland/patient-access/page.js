@@ -111,7 +111,6 @@ function PatientAccessTrack() {
               Suitable gamification elements are used to support engagement.
             </dd>
           </dl>
-          {/*
           <h4>Jury</h4>
           <p>
             The entries are evaluated by three judges:
@@ -128,7 +127,6 @@ function PatientAccessTrack() {
               <strong>Petri Otranen</strong>, Chief Information Officer, City of Helsinki
             </li>
           </ul>
-          */}
           <picture className="right icon">
             <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/award.svg`} alt="" />
           </picture>
