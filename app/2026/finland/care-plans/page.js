@@ -69,12 +69,17 @@ function CarePlanTrack() {
       <section id="schedule">
         <a href="#schedule"><h2>Schedule for Room 203 B</h2></a>
         <p>
-          All sessions are available for remote (and on-site) participants in a <a
+          All sessions are streamed and recorded in a single <a
           href="https://teams.microsoft.com/meet/31866520015118?p=csBmmlcQA1FcGvdSHR">Teams
           meeting</a> (meeting&nbsp;ID:318&nbsp;665&nbsp;200&nbsp;151&nbsp;18,
           passcode:&nbsp;nE9ff3m2).
         </p>
         <Room203BSchedule />
+        <p>
+          See also the <Link href="/2026/finland/patient-access#schedule">schedule for Room 203
+          A</Link> on the Patient Access track page!
+        </p>
+
       </section>
       <section id="authoring">
         <a href="#authoring"><h2>Authoring, Publishing, and Sharing Clinical Knowledge</h2></a>

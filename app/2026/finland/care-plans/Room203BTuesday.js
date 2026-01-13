@@ -1,10 +1,11 @@
 
-export default function Room203ATuesday() {
+export default function Room203BTuesday() {
   return (
     <>
       <tr>
         <th><time dateTime="2026-02-19T09:00:00+02:00">9:00</time></th>
         <td>
+          <h3>A new HID for Care Plans</h3>
         </td>
       </tr>
       <tr className="break">
@@ -14,6 +15,10 @@ export default function Room203ATuesday() {
       <tr>
         <th><time dateTime="2026-02-19T10:00:00+02:00">10:00</time></th>
         <td>
+          <h3>FHIR Standards for Care Plans</h3>
+          <p>
+            Introduction of relevant FHIR resources and implementation guides.
+          </p>
         </td>
       </tr>
       <tr>

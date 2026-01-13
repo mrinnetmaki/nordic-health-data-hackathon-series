@@ -327,7 +327,8 @@ function FinnishHealthDataHackathon() {
         </p>
         <p>
           The results will be collected and published gradually on this website. See the <Link
-          href="./finland/results">Results</Link> page.
+          href="./finland/results">Results</Link> page. There are already some initial results
+          published, presenting some tools and libraries related to the topics of the tracks.
         </p>
       </section>
       <section id="participate">

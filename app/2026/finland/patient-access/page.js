@@ -60,12 +60,16 @@ function PatientAccessTrack() {
       <section id="schedule">
         <a href="#schedule"><h2>Schedule for Room 203 A</h2></a>
         <p>
-          All sessions are available for remote (and on-site) participants in a <a
+          All sessions are streamed and recorded in a single <a
           href="https://teams.microsoft.com/meet/38701114103679?p=vRGCOPjGb2huhmbGBG">Teams
           meeting</a> (meeting&nbsp;ID:&nbsp;387&nbsp;011&nbsp;141&nbsp;036&nbsp;79,
           passcode:&nbsp;Ed7a6FB2).
         </p>
         <Room203ASchedule />
+        <p>
+          See also the <Link href="/2026/finland/care-plans#schedule">schedule for Room 203
+          B</Link> on the Care Plans track page!
+        </p>
       </section>
       <section id="smart">
         <a href="#smart"><h2>Finnish SMART App Launch</h2></a>

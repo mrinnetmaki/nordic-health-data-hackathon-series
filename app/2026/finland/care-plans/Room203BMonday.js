@@ -73,30 +73,22 @@ export default function Room203BMonday() {
         <td>
         </td>
       </tr>
-      <tr>
+      <tr className="elsewhere">
         <th><time dateTime="2026-02-19T17:00:00+02:00">17:00</time></th>
-        <td>
-        </td>
+        <td rowSpan={3}>(Radical Health Festival Plenary: One Health)</td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T17:30:00+02:00">17:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T18:00:00+02:00">18:00</time></th>
-        <td>
-        </td>
       </tr>
-      <tr>
+      <tr className="elsewhere">
         <th><time dateTime="2026-02-19T18:30:00+02:00">18:30</time></th>
-        <td>
-        </td>
+        <td rowSpan={2}>(Opening Reception)</td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T19:00:00+02:00">19:00</time></th>
-        <td>
-        </td>
       </tr>
     </>
   );
