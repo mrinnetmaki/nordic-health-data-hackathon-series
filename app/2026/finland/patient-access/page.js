@@ -1,27 +1,42 @@
 import Link from "next/link";
 
 import FinnishHealthDataHackathonHeader from "../header";
-import Room203Monday from "./Room203Monday";
+import Room203AMonday from "./Room203AMonday";
+import Room203ATuesday from "./Room203ATuesday";
 
 export const metadata = {
   title: "Patient Access track of the Finnish Health Data Hackathon",
   description: "The description of the track focused on patient access to data at the Finnish edition of the Nordic Health Data Hackathon.",
 };
 
-export function Room203Schedule() {
+export function Room203ASchedule() {
   return (
-    <table id="schedule-room-203" className="schedule">
-      <caption>Monday</caption>
-      <thead>
-        <tr>
-          <th scope="col">Time</th>
-          <th scope="col">Event</th>
-        </tr>
-      </thead>
-      <tbody>
-        <Room203Monday />
-      </tbody>
-    </table>
+    <>
+      <table id="schedule-room-203" className="schedule">
+        <caption>Monday</caption>
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <Room203AMonday />
+        </tbody>
+      </table>
+      <table id="schedule-room-203" className="schedule">
+        <caption>Tuesday</caption>
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <Room203ATuesday />
+        </tbody>
+      </table>
+    </>
   );
 }
 
@@ -43,7 +58,14 @@ function PatientAccessTrack() {
         this track!
       </p>
       <section id="schedule">
-        <Room203Schedule />
+        <a href="#schedule"><h2>Schedule for Room 203 A</h2></a>
+        <p>
+          All sessions are available for remote (and on-site) participants in a <a
+          href="https://teams.microsoft.com/meet/38701114103679?p=vRGCOPjGb2huhmbGBG">Teams
+          meeting</a> (meeting&nbsp;ID:&nbsp;387&nbsp;011&nbsp;141&nbsp;036&nbsp;79,
+          passcode:&nbsp;Ed7a6FB2).
+        </p>
+        <Room203ASchedule />
       </section>
       <section id="smart">
         <a href="#smart"><h2>Finnish SMART App Launch</h2></a>

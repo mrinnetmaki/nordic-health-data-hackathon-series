@@ -288,6 +288,15 @@ function FinnishHealthDataHackathon() {
         </section>
       </section>
       <section id="schedule">
+        <a href="#schedule"><h2>Schedule</h2></a>
+        <p>
+          The schedule for Room 203 A is available on the <a
+          href="/hackathon/2026/finland/patient-access#schedule">Patient Access track</a> page.
+        </p>
+        <p>
+          The schedule for Room 203 B is available on the <a
+          href="/hackathon/2026/finland/care-plans#schedule">Care Plans track</a> page.
+        </p>
       </section>
       <section id="results">
         <a href="#results"><h2>Results</h2></a>

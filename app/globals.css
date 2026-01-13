@@ -331,17 +331,39 @@ dt {
   margin-top: 0.5em;
 }
 
+table.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+table.schedule th, table.schedule td {
+  padding: 0.5em;
+  border: 1px solid var(--color-blue);
+}
+
+
 table.schedule th, table.schedule td {
   vertical-align: top;
 }
 
 table.schedule h3 {
-  margin-top: 0;
+  margin: 0;
 }
+
+table.schedule p {
+  margin: 0;
+}
+
 
 table.schedule tr.break td {
   font-weight: bolder;
 }
+
+table.schedule tr.elsewhere td {
+  font-style: italic;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -439,4 +461,14 @@ table.schedule tr.break td {
   picture.icon img {
     height: 10em;
   }
+  table.schedule {
+    display: inline-block;
+    max-width: calc(50% - 1em);
+    vertical-align: top;
+  }
+  table.schedule + table.schedule {
+    margin-left: 1em;
+  }
+
+
 }

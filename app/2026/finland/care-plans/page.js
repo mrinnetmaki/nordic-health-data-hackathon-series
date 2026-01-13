@@ -1,10 +1,45 @@
 import Link from "next/link";
+
 import FinnishHealthDataHackathonHeader from "../header";
+import Room203BMonday from "./Room203BMonday";
+import Room203BTuesday from "./Room203BTuesday";
+
 
 export const metadata = {
   title: "Care Plans and Clinical Reasoning track of the Finnish Health Data Hackathon",
   description: "The description of the track focused on care plans and clinical reasoning at the Finnish edition of the Nordic Health Data Hackathon.",
 };
+
+export function Room203BSchedule() {
+  return (
+    <>
+      <table id="schedule-room-203" className="schedule">
+        <caption>Monday</caption>
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <Room203BMonday />
+        </tbody>
+      </table>
+      <table id="schedule-room-203" className="schedule">
+        <caption>Tuesday</caption>
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <Room203BTuesday />
+        </tbody>
+      </table>
+    </>
+  );
+}
 
 function CarePlanTrack() {
   return (
@@ -31,6 +66,16 @@ function CarePlanTrack() {
         The following are examples of the kinds of things we <em>could</em> work on. Feel free to
         bring additional topics that interest you!
       </p>
+      <section id="schedule">
+        <a href="#schedule"><h2>Schedule for Room 203 B</h2></a>
+        <p>
+          All sessions are available for remote (and on-site) participants in a <a
+          href="https://teams.microsoft.com/meet/31866520015118?p=csBmmlcQA1FcGvdSHR">Teams
+          meeting</a> (meeting&nbsp;ID:318&nbsp;665&nbsp;200&nbsp;151&nbsp;18,
+          passcode:&nbsp;nE9ff3m2).
+        </p>
+        <Room203BSchedule />
+      </section>
       <section id="authoring">
         <a href="#authoring"><h2>Authoring, Publishing, and Sharing Clinical Knowledge</h2></a>
         <p>
