@@ -2,6 +2,13 @@ import Link from "next/link";
 
 import FinnishHealthDataHackathonHeader from "./header";
 
+export const metadata = {
+  title: {
+    default: 'Finnish Health Data Hackathon',
+  },
+  description: 'The Finnish edition of the Nordic Health Data Hackathon.',
+};
+
 function FinnishHealthDataHackathon() {
   return (
     <main id="fi" className="finland">
@@ -113,7 +120,7 @@ function FinnishHealthDataHackathon() {
           available technologies.
         </p>
         <p>The recordings and presentations of the webinars are listed below.</p>
-        <ul id="schedule">
+        <ul id="webinar-schedule">
           <li>
             <h4>General intro to the hackathon</h4>
             <time dateTime="2025-12-10T17:00:00+02:00">
@@ -279,6 +286,8 @@ function FinnishHealthDataHackathon() {
             track organizers.
           </p>
         </section>
+      </section>
+      <section id="schedule">
       </section>
       <section id="results">
         <a href="#results"><h2>Results</h2></a>

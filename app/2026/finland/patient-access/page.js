@@ -1,10 +1,29 @@
 import Link from "next/link";
+
 import FinnishHealthDataHackathonHeader from "../header";
+import Room203Monday from "./Room203Monday";
 
 export const metadata = {
   title: "Patient Access track of the Finnish Health Data Hackathon",
   description: "The description of the track focused on patient access to data at the Finnish edition of the Nordic Health Data Hackathon.",
 };
+
+export function Room203Schedule() {
+  return (
+    <table id="schedule-room-203" className="schedule">
+      <caption>Monday</caption>
+      <thead>
+        <tr>
+          <th scope="col">Time</th>
+          <th scope="col">Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <Room203Monday />
+      </tbody>
+    </table>
+  );
+}
 
 function PatientAccessTrack() {
   return (
@@ -22,7 +41,10 @@ function PatientAccessTrack() {
           process.env.NEXT_PUBLIC_BASE_PATH
         }/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar inrocuding
         this track!
-      </p>      
+      </p>
+      <section id="schedule">
+        <Room203Schedule />
+      </section>
       <section id="smart">
         <a href="#smart"><h2>Finnish SMART App Launch</h2></a>
         <p>

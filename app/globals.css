@@ -331,6 +331,18 @@ dt {
   margin-top: 0.5em;
 }
 
+table.schedule th, table.schedule td {
+  vertical-align: top;
+}
+
+table.schedule h3 {
+  margin-top: 0;
+}
+
+table.schedule tr.break td {
+  font-weight: bolder;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
