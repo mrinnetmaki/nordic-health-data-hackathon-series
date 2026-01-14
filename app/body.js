@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Body({ children }) {
   const pathname = usePathname();
   return (
-    <body className={pathname === '/2026' ?'' : 'finland' }>
+    <body className={pathname === '/2026' ? '' : 'finland' }>
       {children}
       <footer>
         <nav>

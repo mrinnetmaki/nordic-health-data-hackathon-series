@@ -1,9 +1,9 @@
-import Link from "next/link";
-import FinnishHealthDataHackathonHeader from "../header";
+import Link from 'next/link';
+import FinnishHealthDataHackathonHeader from '../header';
 
 export const metadata = {
-  title: "Results of the Finnish Health Data Hackathon",
-  description: "The key results from the hackathon.",
+  title: 'Results of the Finnish Health Data Hackathon',
+  description: 'The key results from the hackathon.',
 };
 
 function Results() {
@@ -25,7 +25,7 @@ function Results() {
       </section>
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
-      </picture>      
+      </picture>
     </main >
   );
 }

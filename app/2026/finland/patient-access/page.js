@@ -1,12 +1,12 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import FinnishHealthDataHackathonHeader from "../header";
-import Room203AMonday from "./Room203AMonday";
-import Room203ATuesday from "./Room203ATuesday";
+import FinnishHealthDataHackathonHeader from '../header';
+import Room203AMonday from './Room203AMonday';
+import Room203ATuesday from './Room203ATuesday';
 
 export const metadata = {
-  title: "Patient Access track of the Finnish Health Data Hackathon",
-  description: "The description of the track focused on patient access to data at the Finnish edition of the Nordic Health Data Hackathon.",
+  title: 'Patient Access track of the Finnish Health Data Hackathon',
+  description: 'The description of the track focused on patient access to data at the Finnish edition of the Nordic Health Data Hackathon.',
 };
 
 export function Room203ASchedule() {
@@ -51,10 +51,10 @@ function PatientAccessTrack() {
       <p>
         View the <a href="https://www.youtube.com/watch?v=ePGVvzYA9tk">recording</a> or download
         the presentation (<a href={`${
-          process.env.NEXT_PUBLIC_BASE_PATH
-        }/PatientAccessTrack-FinnishHealthDataHackathon.pptx`}>PowerPoint</a>, <a href={`${
-          process.env.NEXT_PUBLIC_BASE_PATH
-        }/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar inrocuding
+        process.env.NEXT_PUBLIC_BASE_PATH
+      }/PatientAccessTrack-FinnishHealthDataHackathon.pptx`}>PowerPoint</a>, <a href={`${
+        process.env.NEXT_PUBLIC_BASE_PATH
+      }/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar inrocuding
         this track!
       </p>
       <section id="schedule">
@@ -111,8 +111,8 @@ function PatientAccessTrack() {
         <p>
           View the <a href="https://www.youtube.com/watch?v=3GZRHARVwoQ">recording</a> and download
           the presentation (<a href={`${
-            process.env.NEXT_PUBLIC_BASE_PATH
-          }/GettingStartedWithEpicIntegrations.pdf`}>PDF</a>) of the webinar focusing this topic!
+          process.env.NEXT_PUBLIC_BASE_PATH
+        }/GettingStartedWithEpicIntegrations.pdf`}>PDF</a>) of the webinar focusing this topic!
         </p>
         <section id="helsinki-challenge" className="highlight light">
           <a href="#helsinki-challenge"><h3>Hackathon Challenge by the City of Helsinki</h3></a>
@@ -270,8 +270,8 @@ function PatientAccessTrack() {
         <p>
           View the <a href="https://www.youtube.com/watch?v=NoZW1nK0yAk">recording</a> and download
           the presentation (<a href={`${
-            process.env.NEXT_PUBLIC_BASE_PATH
-          }/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pptx`}>PowerPoint</a>, <a href={
+          process.env.NEXT_PUBLIC_BASE_PATH
+        }/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pptx`}>PowerPoint</a>, <a href={
           `${
             process.env.NEXT_PUBLIC_BASE_PATH
           }/IntroToTheWalletsAndNCPs-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar
@@ -310,7 +310,7 @@ function PatientAccessTrack() {
       </section>
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
-      </picture>      
+      </picture>
     </main >
   );
 }

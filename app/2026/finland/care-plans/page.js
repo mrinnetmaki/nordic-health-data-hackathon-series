@@ -1,13 +1,12 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import FinnishHealthDataHackathonHeader from "../header";
-import Room203BMonday from "./Room203BMonday";
-import Room203BTuesday from "./Room203BTuesday";
-
+import FinnishHealthDataHackathonHeader from '../header';
+import Room203BMonday from './Room203BMonday';
+import Room203BTuesday from './Room203BTuesday';
 
 export const metadata = {
-  title: "Care Plans and Clinical Reasoning track of the Finnish Health Data Hackathon",
-  description: "The description of the track focused on care plans and clinical reasoning at the Finnish edition of the Nordic Health Data Hackathon.",
+  title: 'Care Plans and Clinical Reasoning track of the Finnish Health Data Hackathon',
+  description: 'The description of the track focused on care plans and clinical reasoning at the Finnish edition of the Nordic Health Data Hackathon.',
 };
 
 export function Room203BSchedule() {
@@ -377,7 +376,7 @@ function CarePlanTrack() {
       </section>
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
-      </picture>      
+      </picture>
     </main>
   );
 }

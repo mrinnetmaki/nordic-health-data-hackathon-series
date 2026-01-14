@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import FinnishHealthDataHackathonHeader from "./header";
+import FinnishHealthDataHackathonHeader from './header';
 
 export const metadata = {
   title: {
@@ -359,7 +359,7 @@ function FinnishHealthDataHackathon() {
               src={`${process.env.NEXT_PUBLIC_BASE_PATH}/radical_logo_2026_black-768x127.webp`}
               alt="Radical Health Festival Helsinki 2026"
             />
-          </picture>      
+          </picture>
           <h3>Attend the Radical Health Festival!</h3>
           <p>
             Registered participants of the hackathon are also entitled to a discount for the
@@ -396,7 +396,7 @@ function FinnishHealthDataHackathon() {
       </section>
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
-      </picture>      
+      </picture>
     </main>
   );
 }

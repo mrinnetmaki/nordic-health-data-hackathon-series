@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Nordic Health Data Hackathons',
-  description: "A series of health data hackathons in the Nordics",
+  description: 'A series of health data hackathons in the Nordics',
 };
 
 function HomeHeader() {
@@ -159,7 +159,7 @@ function Home() {
         </ul>
         <p>
           and made possible by dozens of volunteers!
-        </p>        
+        </p>
       </section>
     </main>
   );

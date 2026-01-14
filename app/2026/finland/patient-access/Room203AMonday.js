@@ -1,4 +1,3 @@
-
 export default function Room203AMonday() {
   return (
     <>

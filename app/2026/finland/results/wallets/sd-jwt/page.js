@@ -1,9 +1,9 @@
-import Link from "next/link";
-import FinnishHealthDataHackathonHeader from "../../../header";
+import Link from 'next/link';
+import FinnishHealthDataHackathonHeader from '../../../header';
 
 export const metadata = {
-  title: "Results of SD-JWT exploration at the Finnish Health Data Hackathon",
-  description: "Results around SD-JWT at the Wallets & NCPs topic of the Patient Access track of the Finnish Health Data Hackathon.",
+  title: 'Results of SD-JWT exploration at the Finnish Health Data Hackathon',
+  description: 'Results around SD-JWT at the Wallets & NCPs topic of the Patient Access track of the Finnish Health Data Hackathon.',
 };
 
 function SdjwtResults() {
@@ -151,7 +151,6 @@ What do we want to disclose?
 - Is there value in disclosing separate pieces of information from the IPS?
 - Should the end result always be formatted as an IPS doc, perhaps with data just missing?
 
-
 (On SD-JWT in general):
 For instance learning credentials:
 An institution might grant me a credential for each of the courses I have passed, in one bundle. I can then choose which ones to present to someone, or someone can just ask whether I have passed a certain course.
@@ -187,7 +186,7 @@ Allergies and intolerances
             Is there a need to keep them clearly presented? An application can ask for a named credential, the wallet can provide it.
           </p>
           <p>
-            The real use case: I have my patient summary, I don't want to share all of it. I either want to share only a very small portion of it, or I want to share a full summary, but exclude a single detail, or a few. 
+            The real use case: I have my patient summary, I don't want to share all of it. I either want to share only a very small portion of it, or I want to share a full summary, but exclude a single detail, or a few.
           </p>
           <p>
             It seems an IPS app is better suited for making this kind of selections.
@@ -201,7 +200,6 @@ If it’s the healthcare organization who’s issuing the IPS, they don’t want
 If it’s an app used by the patient, is it more natural to make the selection in the IPS app or in the wallet?
 
           </p>
-
 
         </section>
         <section id="displaying">
@@ -243,7 +241,6 @@ Diagnosis?
 Allergies and intolerances
 - When filling in participation forms? With AI?
 
-
 Healthcare institutions could consider offering IPS documents in this format.
 If they would, we would use them.
 
@@ -255,7 +252,7 @@ Not sure whether it makes sense to populate the wallets with this kind of inform
 The entire IPS, exported from the IPS app, could be stored to the wallet. So that it could be shared from there?
           </p>
           <p>
-But there are other mechanisms too. IS wallet a winning one?            
+But there are other mechanisms too. IS wallet a winning one?
           </p>
           <p>
             We shall see. At least we have tried it out. We have some code and some learnings ready if there will be a use case.
@@ -281,7 +278,7 @@ But there are other mechanisms too. IS wallet a winning one?
 
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
-      </picture>      
+      </picture>
     </main >
   );
 }

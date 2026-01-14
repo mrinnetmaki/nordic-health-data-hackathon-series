@@ -6,7 +6,7 @@ export const metadata = {
   title: {
     default: 'Nordic Health Data Hackathons',
   },
-}
+};
 
 export default function RootLayout({ children }) {
   return (

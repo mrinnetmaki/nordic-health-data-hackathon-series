@@ -1,9 +1,9 @@
-import Link from "next/link";
-import FinnishHealthDataHackathonHeader from "../../header";
+import Link from 'next/link';
+import FinnishHealthDataHackathonHeader from '../../header';
 
 export const metadata = {
-  title: "Results of Patient Access track of the Finnish Health Data Hackathon",
-  description: "Results of the Patient Access track of the Finnish Health Data Hackathon.",
+  title: 'Results of Patient Access track of the Finnish Health Data Hackathon',
+  description: 'Results of the Patient Access track of the Finnish Health Data Hackathon.',
 };
 
 function CarePlanResults() {
@@ -44,10 +44,10 @@ function CarePlanResults() {
           Note that these are just some of the related presentations and only from the latest
           edition of DevDays. There are many more available from previous years.
         </p>
-      </section>      
+      </section>
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
-      </picture>      
+      </picture>
     </main >
   );
 }
