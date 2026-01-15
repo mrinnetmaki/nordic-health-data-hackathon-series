@@ -124,8 +124,8 @@ function PatientAccessTrack() {
           </picture>
           <p>City of Helsinki presents a challenge to hackathon participants.</p>
           <p className="ingress">
-            <strong>Using Your Own Health Data</strong> - Using structured health information shared through
-            Maisa/MyChart in an application that processes health data independently
+            <strong>Using Your Own Health Data</strong> - Using structured health information
+            shared through Maisa/MyChart in an application that processes health data independently
           </p>
           <p>
             The main aim of the challenge is to find examples of apps that would integrate with the
@@ -149,9 +149,9 @@ function PatientAccessTrack() {
             </dd>
             <dt>Ease of use</dt>
             <dd>
-              The application is easy to use. Usability means, e.g., technical simplicity, suitability
-              for the purpose, and clear language in the application. The customer does not need
-              healthcare professional's support to use the application.
+              The application is easy to use. Usability means, e.g., technical simplicity,
+              suitability for the purpose, and clear language in the application. The customer does
+              not need healthcare professional&apos;s support to use the application.
             </dd>
             <dt>Engagement</dt>
             <dd>

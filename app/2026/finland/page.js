@@ -377,13 +377,14 @@ function FinnishHealthDataHackathon() {
           </ul>
           <p>
             Get your festival tickets at <a
-            href="https://radicalhealthfestival.messukeskus.com/tickets/">Radical Health Festival's
-            ticket store!</a>
+            href="https://radicalhealthfestival.messukeskus.com/tickets/">Radical Health
+            Festival&apos;s ticket store!</a>
           </p>
         </section>
         <h3>Any Questions?</h3>
         <p>
-          Please don't hesitate to contact Heidi Hakala, the FHIR Ambassador of HL7 Finland, at <a
+          Please don&apos;t hesitate to contact Heidi Hakala, the FHIR Ambassador of HL7 Finland,
+          at <a
           href="mailto:heidi.hakala@productivityleap.com">heidi.hakala@productivityleap.com</a>!
         </p>
         <p>Also, the discussion is open at the <a

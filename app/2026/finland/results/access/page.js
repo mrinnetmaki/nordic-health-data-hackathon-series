@@ -93,7 +93,7 @@ function PatientAccessResults() {
           </li>
           <li>
             There are some useful app examples on <a href="https://github.com/Oy-Apotti-Ab"
-            >Apotti's GitHub repo</a>.
+            >Apotti&apos;s GitHub repo</a>.
           </li>
           <li>
             Another open-source example of SMART App Launch and communicating with Epic is <a

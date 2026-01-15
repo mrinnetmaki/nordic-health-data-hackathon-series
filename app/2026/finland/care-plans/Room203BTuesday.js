@@ -4,7 +4,7 @@ export default function Room203BTuesday() {
       <tr>
         <th><time dateTime="2026-02-19T09:00:00+02:00">9:00</time></th>
         <td>
-          <h3>A new HID for Care Plans</h3>
+          <h3>A new HID for Care Plans in the EHDS</h3>
         </td>
       </tr>
       <tr className="break">
@@ -14,9 +14,12 @@ export default function Room203BTuesday() {
       <tr>
         <th><time dateTime="2026-02-19T10:00:00+02:00">10:00</time></th>
         <td>
-          <h3>FHIR Standards for Care Plans</h3>
+          <h3>Group work</h3>
           <p>
-            Introduction of relevant FHIR resources and implementation guides.
+            Care Plans.
+          </p>
+          <p>
+            Computable Care Guidelines.
           </p>
         </td>
       </tr>
@@ -39,21 +42,26 @@ export default function Room203BTuesday() {
         <th><time dateTime="2026-02-19T12:00:00+02:00">12:00</time></th>
         <td>Lunch</td>
       </tr>
+      <tr className="elsewhere">
+        <th><time dateTime="2026-02-19T13:00:00+02:00">13:00</time></th>
+        <td rowSpan={5}>
+          (<a
+          href="https://radicalhealthfestival.messukeskus.com/programme/partner-programmes/#1300-1500-towards-personalized-care-plans-as-a-priority-health-data-category-in-the-ehds-room-204"
+          >Towards Personalized Care plans as a priority health data category in the EHDS</a>, in
+          room 204)
+        </td>
+      </tr>
       <tr>
         <th><time dateTime="2026-02-19T13:00:00+02:00">13:00</time></th>
-        <td></td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T13:30:00+02:00">13:30</time></th>
-        <td></td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T14:00:00+02:00">14:00</time></th>
-        <td></td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T14:30:00+02:00">14:30</time></th>
-        <td></td>
       </tr>
       <tr className="break">
         <th><time dateTime="2026-02-19T15:00:00+02:00">15:00</time></th>

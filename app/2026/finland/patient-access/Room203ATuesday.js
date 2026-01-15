@@ -22,13 +22,13 @@ export default function Room203ATuesday() {
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T11:00:00+02:00">11:00</time></th>
-        <td>
+        <td rowSpan={2}>
+          <h3>City of Helsinki Track Demos</h3>
+          <p>Presentations from the City of Helsinki track.</p>
         </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T11:30:00+02:00">11:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr className="break">
         <th><time dateTime="2026-02-19T12:00:00+02:00">12:00</time></th>
@@ -66,13 +66,13 @@ export default function Room203ATuesday() {
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T16:30:00+02:00">16:30</time></th>
-        <td rowSpan={2}>
-          <h3>City of Helsinki Track Demos</h3>
-          <p>Presentations from the City of Helsinki track.</p>
+        <td>
         </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T17:00:00+02:00">17:00</time></th>
+        <td>
+        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T17:30:00+02:00">17:30</time></th>

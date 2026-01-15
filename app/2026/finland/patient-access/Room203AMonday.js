@@ -20,28 +20,42 @@ export default function Room203AMonday() {
         <th><time dateTime="2026-02-19T10:00:00+02:00">10:00</time></th>
         <td>
           <h3>City of Helsinki Challenge</h3>
-          <p>Introduction to Hackathon Challenge by the City of Helsinki. There are prizes available on this track!</p>
+          <p>
+            Introduction to Hackathon Challenge by the City of Helsinki. There are prizes available
+            on this track!
+          </p>
         </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T10:30:00+02:00">10:30</time></th>
         <td>
           <h3>SMART App Launch</h3>
-          <p>How to get started with the SMART on FHIR specification. The specification, available open-source libraries, available on-site support</p>
+          <p>
+            How to get started with the SMART on FHIR specification. The specification, available
+            open-source libraries, available on-site support
+          </p>
         </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T11:00:00+02:00">11:00</time></th>
         <td>
           <h3>Digital Identity Wallets</h3>
-          <p>Key concepts behind the EUDI Wallet initiative, a game-changer for different domains, including digital health. Technical aspects as well as first emerging use cases, with a specific focus on the upcoming regulatory deadlines defined by the EU</p>
+          <p>
+            Key concepts behind the EUDI Wallet initiative, a game-changer for different domains,
+            including digital health. Technical aspects as well as first emerging use cases, with a
+            specific focus on the upcoming regulatory deadlines defined by the EU
+          </p>
         </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T11:30:00+02:00">11:30</time></th>
         <td>
           <h3>Gazelle and Continuous Testing Session for the EHDS Demonstration</h3>
-          <p>The Gazelle Test Bed and the Continuous Testing Session for EHDS, including its purpose and a demonstration. A helpful session to support testing activities during the hackathon.</p>
+          <p>
+            The Gazelle Test Bed and the Continuous Testing Session for EHDS, including its purpose
+            and a demonstration. A helpful session to support testing activities during the
+            hackathon.
+          </p>
         </td>
       </tr>
       <tr className="break">
