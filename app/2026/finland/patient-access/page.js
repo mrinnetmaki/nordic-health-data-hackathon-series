@@ -57,6 +57,10 @@ function PatientAccessTrack() {
       }/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar inrocuding
         this track!
       </p>
+      <p className="highlight">
+        See some available information and tools on the <Link href="/2026/finland/results/access"
+        >Results</Link> page!
+      </p>
       <section id="schedule">
         <a href="#schedule"><h2>Schedule for Room 203 A</h2></a>
         <p>

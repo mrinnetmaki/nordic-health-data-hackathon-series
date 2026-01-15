@@ -65,6 +65,19 @@ function CarePlanTrack() {
         The following are examples of the kinds of things we <em>could</em> work on. Feel free to
         bring additional topics that interest you!
       </p>
+      <p>
+        View the <a href="https://www.youtube.com/watch?v=HiZ2c-b39eA">recording</a> or download
+        the presentation (<a href={`${
+        process.env.NEXT_PUBLIC_BASE_PATH
+      }/CarePlanTrackOrientation-FinnishHealthDataHackathon.pptx`}>PowerPoint</a>, <a href={`${
+        process.env.NEXT_PUBLIC_BASE_PATH
+      }/CarePlanTrackOrientation-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar inrocuding
+        this track!
+      </p>
+      <p className="highlight">
+        See some available information and tools on the <Link
+        href="/2026/finland/results/careplans">Results</Link> page!
+      </p>
       <section id="schedule">
         <a href="#schedule"><h2>Schedule for Room 203 B</h2></a>
         <p>
@@ -78,7 +91,6 @@ function CarePlanTrack() {
           See also the <Link href="/2026/finland/patient-access#schedule">schedule for Room 203
           A</Link> on the Patient Access track page!
         </p>
-
       </section>
       <section id="authoring">
         <a href="#authoring"><h2>Authoring, Publishing, and Sharing Clinical Knowledge</h2></a>
