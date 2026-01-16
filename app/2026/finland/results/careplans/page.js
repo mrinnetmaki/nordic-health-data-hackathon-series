@@ -44,6 +44,19 @@ function CarePlanResults() {
           edition of DevDays. There are many more available from previous years.
         </p>
       </section>
+      <section id="tools">
+        <a href="tools"><h2>Open-source implmentations</h2></a>
+        <p>
+          Useful tools and libraries for the track include:
+        </p>
+        <ul>
+          <li>
+            <a href="https://cql-fhir-tester.vercel.app/">CQL FHIR Tester</a>, a web-based CQL
+            Playground - Author and execute CQL directly in the browser (no plugins or servers) on
+            the FHIR data - cool for learning
+          </li>
+        </ul>
+        </section>
       <picture>
         <img src={`${process.env.NEXT_PUBLIC_BASE_PATH}/hl7-finland.svg`} alt="HL7 Finland" />
       </picture>
