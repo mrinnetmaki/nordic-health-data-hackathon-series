@@ -58,40 +58,28 @@ export default function Room203BTuesday() {
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T15:00:00+02:00">15:00</time></th>
-        <td>
-        </td>
+        <td rowSpan={8}>Time for hacking and collaboration</td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T15:30:00+02:00">15:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T16:00:00+02:00">16:00</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T16:30:00+02:00">16:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T17:00:00+02:00">17:00</time></th>
-        <td></td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T17:30:00+02:00">17:30</time></th>
-        <td></td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T18:00:00+02:00">18:00</time></th>
-        <td></td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T18:30:00+02:00">18:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr className="elsewhere">
         <th><time dateTime="2026-02-19T19:00:00+02:00">19:00</time></th>
