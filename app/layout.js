@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Body from './body';
 import './globals.css';
 
@@ -22,3 +24,7 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+RootLayout.propTypes = {
+  children: React.Node,
+};

@@ -2,6 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import React from 'react';
 
 export default function Body({ children }) {
   const pathname = usePathname();
@@ -24,3 +25,7 @@ export default function Body({ children }) {
     </body>
   );
 }
+
+Body.propTypes = {
+  children: React.Node,
+};
