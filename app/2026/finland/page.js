@@ -252,7 +252,7 @@ function FinnishHealthDataHackathon() {
           </p>
           <p>
             See the <a
-            href="https://radicalhealthfestival.messukeskus.com/en/visit/how-to-get-here/">arrival
+            href="https://www.messukeskus.com/en/for-visitors/how-to-find-us/">arrival
             instructions</a> on Messukeskus website. Use the <em>entrance for meeting guests</em>.
           </p>
           <p>
