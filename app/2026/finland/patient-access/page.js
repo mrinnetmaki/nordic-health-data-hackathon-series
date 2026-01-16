@@ -54,7 +54,7 @@ function PatientAccessTrack() {
         process.env.NEXT_PUBLIC_BASE_PATH
       }/PatientAccessTrack-FinnishHealthDataHackathon.pptx`}>PowerPoint</a>, <a href={`${
         process.env.NEXT_PUBLIC_BASE_PATH
-      }/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar inrocuding
+      }/PatientAccessTrack-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar introcuding
         this track!
       </p>
       <p className="highlight">

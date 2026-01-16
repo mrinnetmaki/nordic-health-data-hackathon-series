@@ -71,7 +71,7 @@ function CarePlanTrack() {
         process.env.NEXT_PUBLIC_BASE_PATH
       }/CarePlanTrackOrientation-FinnishHealthDataHackathon.pptx`}>PowerPoint</a>, <a href={`${
         process.env.NEXT_PUBLIC_BASE_PATH
-      }/CarePlanTrackOrientation-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar inrocuding
+      }/CarePlanTrackOrientation-FinnishHealthDataHackathon.pdf`}>PDF</a>) of the webinar introcuding
         this track!
       </p>
       <p className="highlight">
