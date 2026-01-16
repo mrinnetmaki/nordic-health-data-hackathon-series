@@ -387,9 +387,7 @@ function FinnishHealthDataHackathon() {
           at <a
           href="mailto:heidi.hakala@productivityleap.com">heidi.hakala@productivityleap.com</a>!
         </p>
-        <p>Also, the discussion is open at the <a
-        href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Finnish.20Health.20Data.20Hackathon/with/563748443"
-        >Finnish Health Data Hackathon topic</a> on the dedicated <a
+        <p className="highlight">Also, the discussion is open at the <a
         href="https://chat.fhir.org/#narrow/channel/557578-Finnish-Health-Data-Hackathon">#Finnish
         Health Data Hackathon</a> channel at the <a href="https://chat.fhir.org/"
         >chat.fhir.org</a> FHIR chat!

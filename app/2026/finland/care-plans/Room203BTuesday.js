@@ -7,13 +7,9 @@ export default function Room203BTuesday() {
           <h3>A new HID for Care Plans in the EHDS</h3>
         </td>
       </tr>
-      <tr className="break">
-        <th><time dateTime="2026-02-19T09:30:00+02:00">9:30</time></th>
-        <td>Coffee</td>
-      </tr>
       <tr>
-        <th><time dateTime="2026-02-19T10:00:00+02:00">10:00</time></th>
-        <td>
+        <th><time dateTime="2026-02-19T09:30:00+02:00">9:30</time></th>
+        <td rowSpan={5}>
           <h3>Group work</h3>
           <p>
             Care Plans.
@@ -24,19 +20,16 @@ export default function Room203BTuesday() {
         </td>
       </tr>
       <tr>
+        <th><time dateTime="2026-02-19T10:00:00+02:00">10:00</time></th>
+      </tr>
+      <tr>
         <th><time dateTime="2026-02-19T10:30:00+02:00">10:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T11:00:00+02:00">11:00</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T11:30:00+02:00">11:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr className="break">
         <th><time dateTime="2026-02-19T12:00:00+02:00">12:00</time></th>
@@ -45,7 +38,7 @@ export default function Room203BTuesday() {
       <tr className="elsewhere">
         <th><time dateTime="2026-02-19T13:00:00+02:00">13:00</time></th>
         <td rowSpan={5}>
-          (<a
+          (Workshop: <a
           href="https://radicalhealthfestival.messukeskus.com/programme/partner-programmes/#1300-1500-towards-personalized-care-plans-as-a-priority-health-data-category-in-the-ehds-room-204"
           >Towards Personalized Care plans as a priority health data category in the EHDS</a>, in
           room 204)
@@ -63,9 +56,10 @@ export default function Room203BTuesday() {
       <tr>
         <th><time dateTime="2026-02-19T14:30:00+02:00">14:30</time></th>
       </tr>
-      <tr className="break">
+      <tr>
         <th><time dateTime="2026-02-19T15:00:00+02:00">15:00</time></th>
-        <td>Coffee</td>
+        <td>
+        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T15:30:00+02:00">15:30</time></th>

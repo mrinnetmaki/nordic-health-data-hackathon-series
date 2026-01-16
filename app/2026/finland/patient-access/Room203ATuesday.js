@@ -3,29 +3,27 @@ export default function Room203ATuesday() {
     <>
       <tr>
         <th><time dateTime="2026-02-19T09:00:00+02:00">9:00</time></th>
-        <td>
+        <td rowSpan={2}>
+          <h3>Hands-on demos and testing with Wallets</h3>
+          <p>Continue the session from Monday</p>
         </td>
       </tr>
-      <tr className="break">
+      <tr>
         <th><time dateTime="2026-02-19T09:30:00+02:00">9:30</time></th>
-        <td>Coffee</td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T10:00:00+02:00">10:00</time></th>
-        <td>
+        <td rowSpan={2}>
+          <h3>City of Helsinki Track Demos</h3>
+          <p>Presentations from the City of Helsinki track</p>
         </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T10:30:00+02:00">10:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T11:00:00+02:00">11:00</time></th>
-        <td rowSpan={2}>
-          <h3>City of Helsinki Track Demos</h3>
-          <p>Presentations from the City of Helsinki track.</p>
-        </td>
+        <td rowSpan={2}>Time for hacking and collaboration</td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T11:30:00+02:00">11:30</time></th>
@@ -36,51 +34,37 @@ export default function Room203ATuesday() {
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T13:00:00+02:00">13:00</time></th>
-        <td></td>
+        <td rowSpan={11}>Time for hacking and collaboration</td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T13:30:00+02:00">13:30</time></th>
-        <td></td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T14:00:00+02:00">14:00</time></th>
-        <td></td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T14:30:00+02:00">14:30</time></th>
-        <td></td>
       </tr>
-      <tr className="break">
+      <tr>
         <th><time dateTime="2026-02-19T15:00:00+02:00">15:00</time></th>
-        <td>Coffee</td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T15:30:00+02:00">15:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T16:00:00+02:00">16:00</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T16:30:00+02:00">16:30</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T17:00:00+02:00">17:00</time></th>
-        <td>
-        </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T17:30:00+02:00">17:30</time></th>
-        <td></td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T18:00:00+02:00">18:00</time></th>
-        <td></td>
       </tr>
       <tr className="elsewhere">
         <th><time dateTime="2026-02-19T18:30:00+02:00">18:30</time></th>

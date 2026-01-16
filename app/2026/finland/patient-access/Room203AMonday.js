@@ -66,6 +66,11 @@ export default function Room203AMonday() {
         <th><time dateTime="2026-02-19T13:00:00+02:00">13:00</time></th>
         <td rowSpan={2}>
           <h3>Hands-on demos and testing with Wallets</h3>
+          <p>
+            This is a hands-on session showing how the Wallet functions in real-life scenarios,
+            along with a practical introduction to defining new credentials and the technical
+            requirements for enabling them in the Wallet
+          </p>
         </td>
       </tr>
       <tr>
@@ -75,6 +80,11 @@ export default function Room203AMonday() {
         <th><time dateTime="2026-02-19T14:00:00+02:00">14:00</time></th>
         <td rowSpan={2}>
           <h3>Discussion on wallet related use cases in EU projects</h3>
+          <p>
+            This session discusses use cases that are shared between EHDS impleemntation projects
+            like <a href="https://myhealthmyhands.eu/">MyHealth@MyHands</a> and <a
+            href="https://xshare-project.eu/">xShare</a>.
+          </p>
         </td>
       </tr>
       <tr>
@@ -87,13 +97,22 @@ export default function Room203AMonday() {
       <tr>
         <th><time dateTime="2026-02-19T15:30:00+02:00">15:30</time></th>
         <td>
-          <h3>Euridice</h3>
+          <h3>IHE Plugathons and EURIDICE</h3>
+          <p>
+            An overview of IHE Plugathons and the EURIDICE initiative, showing how collaborative,
+            hands-on testing helps turn EHDS requirements into implementable interoperability
+            specifications
+          </p>
         </td>
       </tr>
       <tr>
         <th><time dateTime="2026-02-19T16:00:00+02:00">16:00</time></th>
         <td>
           <h3>Medical Records and Wallets</h3>
+          <p>
+            A session discussing different use cases for medical records in both wallets and
+            personal health record (PHR) implementations.
+          </p>
         </td>
       </tr>
       <tr>

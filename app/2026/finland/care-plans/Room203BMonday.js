@@ -46,7 +46,10 @@ export default function Room203BMonday() {
         <th><time dateTime="2026-02-19T14:00:00+02:00">14:00</time></th>
         <td rowSpan={2}>
           <h3>Hands on: Care Plans and LLMs</h3>
-          <p>Using Large Language Models to work with SMART guidelines and create care plan definitions.</p>
+          <p>
+            Using Large Language Models to work with SMART guidelines and create care plan
+            definitions.
+          </p>
         </td>
       </tr>
       <tr>
