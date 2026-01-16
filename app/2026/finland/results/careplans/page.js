@@ -1,8 +1,8 @@
 import FinnishHealthDataHackathonHeader from '../../header';
 
 export const metadata = {
-  title: 'Results of Patient Access track of the Finnish Health Data Hackathon',
-  description: 'Results of the Patient Access track of the Finnish Health Data Hackathon.',
+  title: 'Results of Care Plans and Clinical Reasoning track of the Finnish Health Data Hackathon',
+  description: 'Results of the Care Plans and Clinical Reasoning track of the Finnish Health Data Hackathon.',
 };
 
 function CarePlanResults() {
