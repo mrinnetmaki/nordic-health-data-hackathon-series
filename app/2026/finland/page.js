@@ -251,6 +251,12 @@ function FinnishHealthDataHackathon() {
             See Messukeskus on <a href="https://maps.app.goo.gl/iqGTG8xRGKxhHCGEA">Google Maps</a>!
           </p>
           <p>
+            There is a direct train connection (24 minutes) from the airport to the venue (Pasila).
+            A single train ticket (zones ABC) costs 4,50 €. You can purchase a ticket from vending
+            machines at the station, or use the <a
+            href="https://www.hsl.fi/en/tickets-and-fares/hsl-app">HSL app</a>.
+          </p>
+          <p>
             See the <a
             href="https://www.messukeskus.com/en/for-visitors/how-to-find-us/">arrival
             instructions</a> on Messukeskus website. Use the <em>entrance for meeting guests</em>.
