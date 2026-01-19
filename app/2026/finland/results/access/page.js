@@ -11,7 +11,7 @@ function PatientAccessResults() {
     <main className="results">
       <h1>Results of the Patient Access Track</h1>
       <section id="info">
-        <a href="info"><h2>Information and Tutorials</h2></a>
+        <a href="#info"><h2>Information and Tutorials</h2></a>
         <h3>FHIR DevDays videos and presentations</h3>
         <ul>
           <li>
@@ -82,7 +82,7 @@ function PatientAccessResults() {
         </p>
       </section>
       <section id="tools">
-        <a href="tools"><h2>Open-source implmentations</h2></a>
+        <a href="#tools"><h2>Open-source implmentations</h2></a>
         <p>
           Useful tools and libraries for the track include:
         </p>
@@ -109,7 +109,7 @@ function PatientAccessResults() {
         </ul>
       </section>
       <section id="wallets">
-        <a href=""><h2>Wallets</h2></a>
+        <a href="#wallets"><h2>Wallets</h2></a>
         <p>
           See also the <Link href="./wallets">results of the wallets topic</Link> on a separate
           page.
