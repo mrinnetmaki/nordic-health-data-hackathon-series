@@ -14,10 +14,7 @@ export default function FinnishHealthDataHackathonHeader() {
         <li className="home"><Link href="/2026/finland/">Finnish Health Data Hackathon</Link></li>
         <li><Link href="/2026/finland/#tracks">Tracks</Link></li>
         <li><Link href="/2026/finland/#webinars">Webinars</Link></li>
-        <li><Link href="/2026/finland/#practicalities">Practicalities</Link></li>
-        <li><Link href="/2026/finland/#schedule">Schedule</Link></li>
-        <li><Link href="/2026/finland/#results">Results</Link></li>
-        <li><Link href="/2026/finland/#participate">Participate!</Link></li>
+        <li><Link href="/2026/finland/results">Results</Link></li>
       </nav>
     </header>
   );

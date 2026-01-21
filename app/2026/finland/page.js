@@ -293,17 +293,6 @@ function FinnishHealthDataHackathon() {
           </p>
         </section>
       </section>
-      <section id="schedule">
-        <a href="#schedule"><h2>Schedule</h2></a>
-        <p>
-          The schedule for Room 203 A is available on the <a
-          href="/hackathon/2026/finland/patient-access#schedule">Patient Access track</a> page.
-        </p>
-        <p>
-          The schedule for Room 203 B is available on the <a
-          href="/hackathon/2026/finland/care-plans#schedule">Care Plans track</a> page.
-        </p>
-      </section>
       <section id="results">
         <a href="#results"><h2>Results</h2></a>
         <p>
@@ -322,7 +311,8 @@ function FinnishHealthDataHackathon() {
           href="">Radical Health Festival</a> and the <a
           href="https://laakaripaivat.messukeskus.com/en/">Finnish Medical Convention</a> (<a
           href="https://laakaripaivat.fi/"><i lang="fi">Lääkäripäivät</i></a>) on <time
-          dateTime="2026-01-21">Wednesday, January 21, 2026</time>.
+          dateTime="2026-01-21T16:00:00+02:00">Wednesday, January 21, 2026 at 16:00</time> in room
+          101C.
         </p>
         <p>
           There is also an excellent opportunity for hackathon participants to demonstrate their
@@ -332,7 +322,7 @@ function FinnishHealthDataHackathon() {
           the Festival and the Finnish Medical Convention.
         </p>
         <p>
-          The results will be collected and published gradually on this website. See the <Link
+          The results are collected and published gradually on this website. See the <Link
           href="./finland/results">Results</Link> page. There are already some initial results
           published, presenting some tools and libraries related to the topics of the tracks.
         </p>
