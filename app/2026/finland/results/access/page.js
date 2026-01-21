@@ -165,7 +165,8 @@ function PatientAccessResults() {
           The app makes it possible to follow the illness more systematically.
         </p>
         <p>
-          The recording of the demo session will be published soon.
+          The recording of the demo session can be found on the <a
+          href="https://youtu.be/9QXqXvd_VN8?si=Nx-fqOYD98NHRg2N&t=4034">session recording</a>.
         </p>
       </section>
       <picture>

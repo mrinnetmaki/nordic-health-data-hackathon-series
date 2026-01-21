@@ -20,7 +20,9 @@ function Results() {
         </p>
         <p>
           All presentations and most workshop discussions taking place at the hackathon were
-          recorded.
+          recorded. See the <a
+          href="https://youtube.com/playlist?list=PLWpB848PNB3XV3dOD0cl8bZNLf9FGJjZE&si=1bLKNDVisti4f6en"
+          >YouTube Playlist</a>!
         </p>
       </section>
       <section id="key-results">
