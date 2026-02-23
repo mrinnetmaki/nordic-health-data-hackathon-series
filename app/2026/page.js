@@ -51,10 +51,10 @@ function Home() {
       </section>
       <section id="events">
         <a href="#events"><h2>Sched&shy;ule</h2></a>
-        <article id="finland" className="highlight">
+        <article id="finland">
           <a href="#finland"><h3>Finland, Radical Health Festival</h3></a>
           <p>
-            The hackathon on the first quarter takes place in Helsinki, Finland, connected to both
+            The hackathon on the first quarter took place in Helsinki, Finland, connected to both
             the <a href="https://radicalhealthfestival.messukeskus.com/">Radical Health
             Festival</a> and the <a href="https://laakaripaivat.messukeskus.com/en/">Finnish
             Medical Convention</a> (<a href="https://laakaripaivat.fi/"><i lang="fi"
@@ -63,19 +63,24 @@ function Home() {
             >30th Anniversary Symposium of HL7 Finland</a>.
           </p>
           <p>
-            The focus is on patient access to data and on care plans and computable care
+            The focus was on patient access to data and on care plans and computable care
             guidelines.
           </p>
           <p>See the <Link href="/2026/finland">event page</Link> for detailed information!</p>
         </article>
-        <article id="sweden">
+        <article id="sweden" className="highlight">
           <a href="#sweden"><h3>Sweden, Vitalis</h3></a>
           <p>
             On second quarter the hackathon takes place in Gothenburg, Sweden, connected to the <a
             href="https://vitalis.nu/">Vitalis</a> conference.
           </p>
-          <p>The focus is on national base profiles and on terminology.</p>
+          <p>The date has been confirmed to be Friday, May 8. Mark your calendar!</p>
+          <p>
+            See the <a
+            href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Swedish.20Health.20Data.20Hackathon.20-.20Call.20For.20Proposals/with/575395533"
+            >Call for Proposals</a> on the Zulip chat!</p>
           {/*
+          <p>The focus is on national base profiles and on terminology.</p>
           <section id="base-profiles">
             <a href="#base-profiles"><h4>Base Profiles</h4></a>
             <p>
