@@ -78,27 +78,12 @@ function Home() {
           <p>
             See the <a
             href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Swedish.20Health.20Data.20Hackathon.20-.20Call.20For.20Proposals/with/575395533"
-            >Call for Proposals</a> on the Zulip chat!</p>
-          {/*
-          <p>The focus is on national base profiles and on terminology.</p>
-          <section id="base-profiles">
-            <a href="#base-profiles"><h4>Base Profiles</h4></a>
-            <p>
-              Denmark, Finland, Norway, and Sweden have published their national FHIR base profile
-              specifications. There is some overlap in the specifications and partly diverging
-              approaches that could be harmonized.
-            </p>
-            <p>
-              There is a need to ensure national base profile specifications are aligned with the
-              FHIR implementation guides published by HL7 Europe and IHE Europe for the
-              implementation of the European Health Data Space EHDS.
-            </p>
-          </section>
-          <section id="terminology">
-            <a href="#terminology"><h4>Terminology</h4></a>
-            <p>The terminology track will continue from the Norwegian event.</p>
-          </section>
-          */}
+            >Call for Proposals</a> on the Zulip chat!
+          </p>
+          <p>
+            See the <a href="https://hl7.se/fhir/vitalis-hackathon-2026/">event page</a> for
+            detailed information!
+          </p>
         </article>
         <article id="denmark">
           <a href="#denmark"><h3>Denmark</h3></a>
