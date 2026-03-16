@@ -74,15 +74,15 @@ function Home() {
             On second quarter the hackathon takes place in Gothenburg, Sweden, connected to the <a
             href="https://vitalis.nu/">Vitalis</a> conference.
           </p>
-          <p>The date has been confirmed to be Friday, May 8. Mark your calendar!</p>
+          <p>The event is organized right after Vitalis, on Friday, May 8.</p>
           <p>
             See the <a
             href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Swedish.20Health.20Data.20Hackathon.20-.20Call.20For.20Proposals/with/575395533"
-            >Call for Proposals</a> on the Zulip chat!
+            >Call for Proposals</a> on the Zulip chat.
           </p>
-          <p>
+          <p className="call-to-action">
             See the <a href="https://hl7.se/fhir/vitalis-hackathon-2026/">event page</a> for
-            detailed information!
+            detailed information and sign up!
           </p>
         </article>
         <article id="denmark">

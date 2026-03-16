@@ -223,7 +223,6 @@ picture.icon.large img {
   margin-bottom: 2em;
 }
 
-
 article, article > section {
   padding-top: 2em;
 }
@@ -279,6 +278,11 @@ article.highlight {
   border-color: red;
   padding: 2em;
   margin: 2em 0;
+}
+
+p.call-to-action {
+  margin-top: 2em;
+  font-size: 125%;
 }
 
 section > a:first-child, article > a:first-child {
