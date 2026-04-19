@@ -96,7 +96,7 @@ function Home() {
           </p>
           <p>
             The hackathon may be connected to the <a
-            href="https://2025.e-sundhedsobservatoriet.dk/">Danish E-Health Observatory</a> event.
+            href="https://2026.e-sundhedsobservatoriet.dk/">Danish E-Health Observatory</a> event.
           </p>
         </article>
         <article id="norway">
