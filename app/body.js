@@ -7,7 +7,7 @@ import React from 'react';
 export default function Body({ children }) {
   const pathname = usePathname();
   return (
-    <body className={pathname === '/2026' ? '' : 'finland' }>
+    <body className={pathname === '/2026/' ? '' : 'finland' }>
       {children}
       <footer>
         <nav>
