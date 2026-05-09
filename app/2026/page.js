@@ -68,34 +68,39 @@ function Home() {
           </p>
           <p>See the <Link href="/2026/finland">event page</Link> for detailed information!</p>
         </article>
-        <article id="sweden" className="highlight">
+        <article id="sweden">
           <a href="#sweden"><h3>Sweden, Vitalis</h3></a>
           <p>
-            On second quarter the hackathon takes place in Gothenburg, Sweden, connected to the <a
+            On second quarter the hackathon took place in Gothenburg, Sweden, connected to the <a
             href="https://vitalis.nu/">Vitalis</a> conference.
           </p>
-          <p>The event is organized right after Vitalis, on Friday, May 8.</p>
-          <p>
-            See the <a
-            href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Swedish.20Health.20Data.20Hackathon.20-.20Call.20For.20Proposals/with/575395533"
-            >Call for Proposals</a> on the Zulip chat.
-          </p>
+          <p>The event was organized right after Vitalis, on Friday, May 8.</p>
           <p className="call-to-action">
             See the <a href="https://hl7.se/fhir/vitalis-hackathon-2026/">event page</a> for
-            detailed information and sign up!
+            detailed information and results!
           </p>
         </article>
-        <article id="denmark">
+        <article id="denmark" className="highlight">
           <a href="#denmark"><h3>Denmark</h3></a>
           <p>
             On the third quarter we go to Denmark. The details of the hackathon are still to be
             determined.
           </p>
           <p>
-            Proposed focus areas are patient summaries, and perhaps other EHDS priority categories.
+            Proposed focus areas are:
+          </p>
+          <ul>
+            <li>Care plans and clinical reasoning</li>
+            <li>Remote monitoring solutions</li>
+            <li>Patient summaries, and perhaps other EHDS priority categories.</li>
+          </ul>
+          <p>
+            Please feel free to suggest other topics and to discuss these in more detail on the <a
+            href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Danish.20Health.20Data.20Hackathon.20-.20Call.20For.20Proposals"
+            >#nordics</a> channel of the FHIR chat!
           </p>
           <p>
-            The hackathon may be connected to the <a
+            The hackathon is organized in connection with the <a
             href="https://2026.e-sundhedsobservatoriet.dk/">Danish E-Health Observatory</a> event.
           </p>
         </article>
