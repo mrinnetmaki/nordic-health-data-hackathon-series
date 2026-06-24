@@ -1,4 +1,4 @@
-import FinnishHealthDataHackathonHeader from '../../../header';
+import FinnishHealthDataHackathonHeader from '../../../../header';
 
 export const metadata = {
   title: 'Results of SD-JWT exploration at the Finnish Health Data Hackathon',

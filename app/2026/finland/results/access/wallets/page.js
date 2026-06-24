@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import FinnishHealthDataHackathonHeader from '../../header';
+import FinnishHealthDataHackathonHeader from '../../../header';
 
 export const metadata = {
   title: 'Results of Wallet topic at the Finnish Health Data Hackathon',
@@ -12,7 +12,7 @@ function WalletResults() {
       <h1>Results</h1>
       <section>
         <p>
-          See the <Link href="./wallets/sd-jwt">page specific to SD-JWT</Link>.
+          See the <Link href="./sd-jwt">page specific to SD-JWT</Link>.
         </p>
       </section>
       <picture>
