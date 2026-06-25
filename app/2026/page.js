@@ -81,23 +81,14 @@ function Home() {
           </p>
         </article>
         <article id="denmark" className="highlight">
-          <a href="#denmark"><h3>Denmark</h3></a>
+          <a href="#denmark"><h3>Denmark, E-Health Observatory</h3></a>
           <p>
-            On the third quarter we go to Denmark. The details of the hackathon are still to be
-            determined.
+            On the third quarter we go to Denmark on October 6th. The details of the hackathon can be found on the <a
+            href="https://hl7.dk/fhir/hackathons/index.html">event page</a>.
           </p>
           <p>
-            Proposed focus areas are:
-          </p>
-          <ul>
-            <li>Care plans and clinical reasoning</li>
-            <li>Remote monitoring solutions</li>
-            <li>Patient summaries, and perhaps other EHDS priority categories.</li>
-          </ul>
-          <p>
-            Please feel free to suggest other topics and to discuss these in more detail on the <a
-            href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Danish.20Health.20Data.20Hackathon.20-.20Call.20For.20Proposals"
-            >#nordics</a> channel of the FHIR chat!
+            The focus areas are agentic patient access and telemedicine, and the last track will be announced in August, but is open for proposals on the <a href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Danish.20Health.20Data.20Hackathon.20-.20Call.20For.20Proposals"
+            >#nordics</a> channel of the FHIR chat.
           </p>
           <p>
             The hackathon is organized in connection with the <a
