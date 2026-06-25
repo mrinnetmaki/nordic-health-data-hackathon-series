@@ -62,9 +62,9 @@ function Results() {
           See the separate pages for the results of the tracks:
         </p>
         <ul>
-          <li><Link href="./results/access">Results of the Patient Access</Link></li>
+          <li><Link href="./access">Results of the Patient Access</Link></li>
           <li>
-            <Link href="./results/careplans">
+            <Link href="./careplans">
               Results of the Care Plans and Clinical Reasoning
             </Link>
           </li>
