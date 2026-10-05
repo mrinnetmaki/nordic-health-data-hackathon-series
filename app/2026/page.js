@@ -83,30 +83,30 @@ function Home() {
         <article id="denmark" className="highlight">
           <a href="#denmark"><h3>Denmark, E-Health Observatory</h3></a>
           <p>
-            On the third quarter we go to Denmark on October 6th. The details of the hackathon can be found on the <a
-            href="https://hl7.dk/fhir/hackathons/index.html">event page</a>.
+            On the third quarter we visited Denmark on October 6th. The focus areas were agentic
+            patient access, telemedicine, and personal health data space.
           </p>
           <p>
-            The focus areas are agentic patient access and telemedicine, and the last track will be announced in August, but is open for proposals on the <a href="https://chat.fhir.org/#narrow/channel/194447-nordics/topic/Danish.20Health.20Data.20Hackathon.20-.20Call.20For.20Proposals"
-            >#nordics</a> channel of the FHIR chat.
-          </p>
-          <p>
-            The hackathon is organized in connection with the <a
+            The hackathon was organized in connection with the <a
             href="https://2026.e-sundhedsobservatoriet.dk/">Danish E-Health Observatory</a> event.
+          </p>
+          <p className="call-to-action">
+            See the <a href="https://hl7.dk/fhir/hackathons/index.html">event page</a> for
+            detailed information and results!
           </p>
         </article>
         <article id="norway">
           <a href="#norway"><h3>Norway, EHiN</h3></a>
           <p>
-            On fourth quarter we return to Norway, where the hackathon will be organised as a side
+            On fourth quarter we return to Norway, where the series started in 2025 with the <a
+            href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html"
+            >Norwegian FHIR Hackathon 2025</a>. The hackathon will again be organised as a side
             event of the <a href="https://ehin.no/">EHiN conference</a>.
           </p>
-          <p>
-            See also the details and results of the first ever event of the hackathon series that
-            took place as an official side event of the <a href="https://ehin.no/2025/">EHiN
-            conference 2025</a> on the separate web site for <a
-            href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html"
-            >Norwegian FHIR Hackathon 2025</a>!
+          <p className="call-to-action">
+            See the <a
+            href="https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/index.html"
+            >event page</a> for detailed information!
           </p>
         </article>
       </section>
