@@ -80,7 +80,7 @@ function Home() {
             detailed information and results!
           </p>
         </article>
-        <article id="denmark" className="highlight">
+        <article id="denmark">
           <a href="#denmark"><h3>Denmark, E-Health Observatory</h3></a>
           <p>
             On the third quarter we visited Denmark on October 6th. The focus areas were agentic
@@ -95,7 +95,7 @@ function Home() {
             detailed information and results!
           </p>
         </article>
-        <article id="norway">
+        <article id="norway" className="highlight">
           <a href="#norway"><h3>Norway, EHiN</h3></a>
           <p>
             On fourth quarter we return to Norway, where the series started in 2025 with the <a
