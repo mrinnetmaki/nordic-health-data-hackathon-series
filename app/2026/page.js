@@ -66,7 +66,9 @@ function Home() {
             The focus was on patient access to data and on care plans and computable care
             guidelines.
           </p>
-          <p>See the <Link href="/2026/finland">event page</Link> for detailed information!</p>
+          <p className="call-to-action">
+            See the <Link href="/2026/finland">event page</Link> for detailed information!
+          </p>
         </article>
         <article id="sweden">
           <a href="#sweden"><h3>Sweden, Vitalis</h3></a>
@@ -95,10 +97,10 @@ function Home() {
             detailed information and results!
           </p>
         </article>
-        <article id="norway" className="highlight">
+        <article id="norway">
           <a href="#norway"><h3>Norway, EHiN</h3></a>
           <p>
-            On fourth quarter we return to Norway, where the series started in 2025 with the <a
+            On fourth quarter we returned to Norway, where the series started in 2025 with the <a
             href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html"
             >Norwegian FHIR Hackathon 2025</a>. The hackathon will again be organised as a side
             event of the <a href="https://ehin.no/">EHiN conference</a>.
@@ -106,9 +108,20 @@ function Home() {
           <p className="call-to-action">
             See the <a
             href="https://hl7norway.github.io/Norwegian-FHIR-Hackathon-2026/currentbuild/index.html"
-            >event page</a> for detailed information!
+            >event page</a> for detailed information and results!
           </p>
         </article>
+      </section>
+      <section id="future">
+        <a href="#future"><h2>Nordic Health Data Hackathons in 2027</h2></a>
+        <p>Preparations for the continuation of the series are currently underway.</p>
+        <p>
+          The Radical Health Festival Helsinki will not happen in 2027, so we're looking for the
+          venue and the event to tie the Finnish event on first quarter to.
+        </p>
+        <p>
+          The second event in 2027 will take place in May, in connection with the <a
+          href="https://vitalis.nu/">Vitalis</a> event.</p>
       </section>
       <section id="organizers">
         <a href="#organizers"><h2>Organizers</h2></a>
